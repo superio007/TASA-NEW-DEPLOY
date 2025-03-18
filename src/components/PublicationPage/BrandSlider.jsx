@@ -67,7 +67,7 @@ const BrandSlider = () => {
             {[...brands.brandLogos, ...brands.brandLogos].map(
               (brand, index) => (
                 <div className={styles.slide} key={index}>
-                  <img src={brand.src} alt={brand.alt} />
+                  <img loading="lazy" src={brand.src} alt={brand.alt} />
                 </div>
               )
             )}

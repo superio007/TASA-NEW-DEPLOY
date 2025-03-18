@@ -112,6 +112,7 @@ With 40sqm of space, it was challenging to fit our ambitious requirements that i
               <div className={styles.LeftSuperParent}>
                 <div className={styles.LeftParent}>
                   <img
+                    loading="lazy"
                     className={styles.LeftImage}
                     src={item.ArticalBack}
                     alt=""
@@ -120,7 +121,12 @@ With 40sqm of space, it was challenging to fit our ambitious requirements that i
                     className={`${styles.LeftChild} md:px-10 p-8 md:py-10 bg-white`}
                   >
                     <div className="flex w-full justify-start items-center">
-                      <img src={item.ArticleLogo} alt="" className="h-[60px]" />
+                      <img
+                        loading="lazy"
+                        src={item.ArticleLogo}
+                        alt=""
+                        className="h-[60px]"
+                      />
                     </div>
                     <a
                       href={item.ArticleLink}
@@ -166,7 +172,12 @@ With 40sqm of space, it was challenging to fit our ambitious requirements that i
             <div key={index} className="flex flex-col items-center p-4">
               <div className={`w-full bg-white`}>
                 <div className="flex w-full justify-start items-center p-4">
-                  <img src={item.ArticleLogo} alt="" className="h-[60px]" />
+                  <img
+                    loading="lazy"
+                    src={item.ArticleLogo}
+                    alt=""
+                    className="h-[60px]"
+                  />
                 </div>
                 <a
                   href={item.ArticleLink}
@@ -187,6 +198,7 @@ With 40sqm of space, it was challenging to fit our ambitious requirements that i
               </div>
               <div className="w-full bg-white p-4">
                 <img
+                  loading="lazy"
                   className={`${styles.LeftImage}`}
                   src={item.ArticalBack}
                   alt=""

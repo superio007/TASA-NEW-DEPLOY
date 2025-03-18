@@ -1,6 +1,6 @@
 import project3 from "./assets/project3.avif";
 import styles from "./css/FeaturedProject.module.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { MdOutlineArrowRight } from "react-icons/md";
 const Project = () => {
   return (
@@ -28,7 +28,7 @@ const Project = () => {
               competitors. Make your company stand out and show your visitors
               who you are.
             </p>
-            <NavLink>
+            <Link to={"/projects/Villa-Kochi"}>
               <div className="flex items-center hover:text-[#8E8E8E] hover:cursor-pointer">
                 <span className="text-sm">View Project</span>
                 <MdOutlineArrowRight
@@ -38,10 +38,15 @@ const Project = () => {
                   }}
                 />
               </div>
-            </NavLink>
+            </Link>
           </div>
           <div>
-            <img className={`${styles.project3Img}`} src={project3} alt="" />
+            <img
+              loading="lazy"
+              className={`${styles.project3Img}`}
+              src={project3}
+              alt=""
+            />
           </div>
         </div>
       </div>

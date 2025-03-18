@@ -22,7 +22,7 @@ const FeaturedProject = () => {
             <div className="flex flex-col items-center">
               <div className={styles.LeftSuperParent}>
                 <div className={styles.LeftParent}>
-                  <img src={Left} alt="" />
+                  <img loading="lazy" src={Left} alt="" />
                   <div className={`${styles.LeftChild} p-12 bg-white`}>
                     <p className="text-sm pb-3 font-medium">811</p>
                     <div className="border-t-1 border-black w-[70px]"></div>
@@ -31,7 +31,7 @@ const FeaturedProject = () => {
                       reclaimed Teak Wood salvaged from demolished structures of
                       Old Bombay built during the British Era.
                     </p>
-                    <Link>
+                    <Link to={"/projects/811"}>
                       <div className="flex items-center hover:text-[#8E8E8E] hover:cursor-pointer">
                         <span className="text-sm">View Project</span>
                         <MdOutlineArrowRight
@@ -49,7 +49,7 @@ const FeaturedProject = () => {
             <div className="flex flex-col items-center">
               <div className={styles.RightSuperParent}>
                 <div className={styles.RightParent}>
-                  <img src={Right} alt="" />
+                  <img loading="lazy" src={Right} alt="" />
                   <div className={`${styles.RightChild} p-12 bg-white`}>
                     <p className="text-sm pb-3 font-medium">601 Sakura Home</p>
                     <div className="border-t-1 border-black w-[70px]"></div>
@@ -59,7 +59,7 @@ const FeaturedProject = () => {
                       testament to the fusion of design innovation and the
                       pursuit of tranquillity.
                     </p>
-                    <Link>
+                    <Link to={"/projects/601-Sakura-Home"}>
                       <div className="flex items-center hover:text-[#8E8E8E] hover:cursor-pointer">
                         <span className="text-sm">View Project</span>
                         <MdOutlineArrowRight

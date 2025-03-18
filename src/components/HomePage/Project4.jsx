@@ -1,6 +1,6 @@
 import Project4 from "./assets/project4.avif";
 import styles from "./css/FeaturedProject.module.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { MdOutlineArrowRight } from "react-icons/md";
 const Project = () => {
   return (
@@ -8,7 +8,12 @@ const Project = () => {
       <div className="container mx-auto pt-7 md:pb-32 pb-16 p-4 xl:px-35">
         {/* Project 4 */}
         <div className="relative">
-          <img className={styles.Project4Img} src={Project4} alt="Project 5" />
+          <img
+            loading="lazy"
+            className={styles.Project4Img}
+            src={Project4}
+            alt="Project 5"
+          />
           <div className="flex justify-end items-center">
             <div className={`${styles.Project4} bg-white px-12 py-18`}>
               <p className="text-sm pb-3 font-medium">Amber Lake Resort</p>
@@ -30,7 +35,7 @@ const Project = () => {
                 different from your competitors. Make your company stand out and
                 show your visitors who you are.
               </p>
-              <NavLink>
+              <Link to={"/projects/Amber-Lake-Resort"}>
                 <div className="flex items-center hover:text-[#8E8E8E] hover:cursor-pointer">
                   <span className="text-sm">View Project</span>
                   <MdOutlineArrowRight
@@ -40,7 +45,7 @@ const Project = () => {
                     }}
                   />
                 </div>
-              </NavLink>
+              </Link>
             </div>
           </div>
         </div>

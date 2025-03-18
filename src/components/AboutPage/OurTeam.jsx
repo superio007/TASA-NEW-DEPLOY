@@ -31,7 +31,11 @@ const OurTeam = () => {
                 />
               </div>
               <div className={`${styles.LeftChild} flex items-center`}>
-                <img src={TanzeemHeadshot} alt="TanzeemHeadshot" />
+                <img
+                  loading="lazy"
+                  src={TanzeemHeadshot}
+                  alt="TanzeemHeadshot"
+                />
               </div>
             </div>
           </div>
@@ -56,7 +60,7 @@ const OurTeam = () => {
                 />
               </div>
               <div className={`${styles.LeftChild} flex items-center`}>
-                <img src={KshitijPatil} alt="" />
+                <img loading="lazy" src={KshitijPatil} alt="" />
               </div>
             </div>
           </div>
