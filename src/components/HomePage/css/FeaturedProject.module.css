@@ -1,0 +1,122 @@
+.LeftSuperParent {
+  width: 486px;
+  height: 580px;
+}
+.RightSuperParent {
+  width: 486px;
+  height: 580px;
+}
+.LeftParent {
+  position: relative;
+}
+.RightParent {
+  position: relative;
+}
+.RightParent :global(img) {
+  position: relative;
+  top: 0;
+  object-fit: cover;
+  width: 486px;
+  height: 480px;
+}
+.LeftParent :global(img) {
+  position: relative;
+  bottom: -100px;
+  object-fit: cover;
+  width: 486px;
+  height: 480px;
+}
+.RightParent {
+  position: relative;
+  width: 486px;
+  height: 580px;
+}
+.LeftChild {
+  width: 400px;
+  /* height: 250px; */
+  position: absolute;
+  top: 0;
+  transform: translate(10%, 0%);
+}
+.RightChild {
+  width: 400px;
+  /* height: 250px; */
+  position: absolute;
+  bottom: 0;
+  transform: translate(10%, 0%);
+}
+.Project5 {
+  width: 628px;
+}
+.Project4Img {
+  position: relative;
+  right: -50%;
+}
+.Project4 {
+  position: absolute;
+  width: 750px;
+  left: 10%;
+  bottom: -10%;
+}
+.project3 {
+  width: 674px;
+  position: relative;
+  right: -33%;
+}
+.project3Img {
+  position: absolute;
+  bottom: -50%;
+  left:9%;
+}
+@media screen and (max-width: 769px) {
+  .RightSuperParent {
+    width: auto;
+  }
+  .LeftSuperParent {
+    width: auto;
+  }
+  .LeftParent {
+    width: auto;
+  }
+  .RightParent {
+    width: auto;
+  }
+  .LeftChild {
+    width: auto;
+    transform: none;
+  }
+  .RightChild {
+    width: auto;
+    transform: none;
+  }
+  .RightParent :global(img) {
+    width: auto;
+  }
+  .LeftParent :global(img) {
+    width: auto;
+  }
+  .Project5 {
+    width: auto;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .project3{
+    width: auto;
+    padding: 40px 20px;
+    right: 0;
+  }
+  .project3Img{
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+  .Project4Img {
+    right: 0;
+  }
+  .Project4 {
+    width: auto;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+}

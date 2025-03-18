@@ -1,0 +1,45 @@
+.contactBack {
+  /* background: url("./src/assets/ContactBack.avif"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.parent {
+  position: relative;
+  width: 980px;
+  height: 650px;
+}
+.child {
+  width: 362px;
+  height: 532px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(16%, -50%);
+}
+/* for samsung */
+@media screen and (max-width: 331px) {
+  .child{
+    width: auto;
+  }
+}
+@media (max-width: 769px) {
+  .child {
+    position: relative;
+    transform: none;
+    top: 0;
+    left: 0;
+  }
+}
+@media (max-width: 1280px) {
+  .child .innerChild{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .parent {
+    width: auto;
+    height: auto;
+  }
+}

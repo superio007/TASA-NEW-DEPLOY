@@ -1,0 +1,12 @@
+.bg{
+    background: url("https://res.cloudinary.com/do3xm1yzb/image/upload/v1742286272/s0sr0cr984rvcjabmg2u.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+@media screen and (max-width: 331px) {
+    .bg :global(h1){
+        font-size: 45px;
+    }
+}

@@ -1,0 +1,19 @@
+.bg {
+    background: url("https://github.com/superio007/TASA/blob/453bf042a9153af172675c8efaa38597d860e9f9/src/components/PublicationPage/assets/HeroSectionBack.avif?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+@media screen and (max-width: 1280px) {
+    .bg :global(h1) {
+        font-size: 45px;
+        text-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 331px) {
+    .bg :global(h1) {
+        font-size: 25px;
+    }
+}

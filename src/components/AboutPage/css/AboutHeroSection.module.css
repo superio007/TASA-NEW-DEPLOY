@@ -1,0 +1,28 @@
+.bg {
+    background: url("https://res.cloudinary.com/do3xm1yzb/image/upload/v1742286772/axj0oktbx61leudydrhx.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.parent {
+    position: relative;
+    height: 100vh;
+}
+
+.child {
+    position: absolute;
+    width: 554px;
+    bottom: 0;
+    right: 10%;
+}
+
+@media screen and (max-width: 769px) {
+    .child {
+        position: absolute;
+        width: auto;
+        bottom: -14%;
+        right: 0;
+    }
+}

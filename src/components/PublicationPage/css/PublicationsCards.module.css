@@ -1,0 +1,80 @@
+.LeftSuperParent {
+    width: 1000px;
+    height: 580px;
+}
+
+.LeftParent {
+    position: relative;
+}
+
+.LeftParent .LeftImage {
+    position: relative;
+    bottom: -100px;
+    width: 100%;
+    height: 480px;
+}
+
+.LeftChild {
+    width: 708px;
+    /* height: 250px; */
+    position: absolute;
+    top: 0;
+    transform: translate(10%, 0%);
+}
+
+.RightChild {
+    width: 225px;
+    /* height: 400px; */
+    position: absolute;
+    bottom: -40%;
+    right: -8%;
+    transform: translate(10%, 0%);
+}
+
+@media screen and (max-width: 1280px) {
+    .LeftSuperParent {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+    .LeftParent .LeftImage {
+        object-fit: contain;
+        height: 621px;
+    }
+    .LeftChild {
+        transform: none;
+        width: auto;
+        height: auto;
+    }
+
+    .RightChild {
+        width: auto;
+        height: auto;
+        position: absolute;
+        bottom: -21%;
+        transform: none;
+        right: 0;
+    }
+}
+
+
+@media screen and (max-width: 331px) {
+    .LeftSuperParent {
+        width: auto;
+    }
+
+    .LeftParent {
+        width: auto;
+    }
+
+    .LeftChild {
+        width: auto;
+        transform: none;
+    }
+
+    .LeftParent :global(img) {
+        width: auto;
+    }
+}

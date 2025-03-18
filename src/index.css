@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 300; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+#mobile-menu .active {
+  border-bottom: 2px solid black;
+}
+.active {
+  /* background-color: #007fff; */
+  /* color: white; */
+  /* border-radius: 24px; */
+  padding: 4px 12px;
+  border-top: 2px solid black;
+}

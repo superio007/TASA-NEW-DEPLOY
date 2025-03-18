@@ -1,0 +1,43 @@
+.OurTeamContainer {
+    padding: 96px 20rem;
+}
+
+.LeftParent {
+    position: relative;
+    border: 2px solid #000000;
+    width: 340px;
+    padding: 18px 38px;
+    text-align: start;
+}
+
+.LeftChild {
+    position: absolute;
+    right: -14%;
+    bottom: -35%;
+}
+
+.LeftChild :global(img) {
+    width: 180px;
+}
+
+@media screen and (max-width: 769px) {
+    .OurTeamContainer {
+        padding: 8rem 1rem 8rem 1rem;
+    }
+
+    .LeftParent {
+        width: 100%;
+    }
+
+    .LeftChild {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .LeftChild {
+        position: relative;
+        margin-top: 12px;
+        justify-content: center;
+    }
+}

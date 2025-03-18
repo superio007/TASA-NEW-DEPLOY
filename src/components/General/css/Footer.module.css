@@ -1,0 +1,22 @@
+.logo {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+
+.sublogo {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    margin-top: -10px;
+}
+.social{
+    font-size: 20px;
+    color: #ffffff;  
+}
