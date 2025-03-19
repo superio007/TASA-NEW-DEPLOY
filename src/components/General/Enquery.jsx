@@ -33,7 +33,7 @@ const ProposalForm = () => {
           <span className="text-[#e9ebea]">Build Your</span> Dream Project
         </h2>
         <p className="text-center mb-5 text-sm">
-          How our expertise can meet your needs
+          Crafting Spaces That Fit Your Aspirations
         </p>
 
         <form onSubmit={handleSubmit(onSubmit)} className="w-full">

@@ -1,0 +1,34 @@
+.fromDiv{
+    position: sticky;
+    z-index: 9999;
+    bottom: 0;
+    width: 100%;
+    padding: 1.5rem 0;
+}
+nav .fromDiv{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+@media screen and (max-width: 1280px) {
+    .fromDiv{
+        display: none;
+        padding: 0;
+    }
+    nav .fromDiv{
+        display: block;
+    }
+}
+
+.NonFromDiv{
+    position: relative;
+    z-index: 9999;
+    bottom: 0;
+    width: 100%;
+    padding: 1.5rem 0;
+}
+@media screen and (max-width: 769px) {
+    .NonFromDiv{
+        padding: 1.5rem ;
+    }
+}

@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../components/General/Navbar";
 import React, { useEffect, useState } from "react";
 import Footer from "../components/General/Footer";
+import StickyFrom from "../components/General/StickyFrom";
 import {
   GoogleReCaptchaProvider,
   useGoogleReCaptcha,
@@ -44,6 +45,7 @@ const MainLayout = () => {
         <RecaptchaToken /> {/* Placed at top level */}
         <Navbar />
         <Outlet />
+        <StickyFrom />
         <Footer />
       </GoogleReCaptchaProvider>
     </>

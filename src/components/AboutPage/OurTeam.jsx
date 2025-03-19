@@ -9,7 +9,9 @@ const OurTeam = () => {
     <>
       <div className="bg-white">
         <div className={`${styles.OurTeamContainer} container mx-auto`}>
-          <h2 className="text-center text-2xl pb-24 font-bold">Our Team.</h2>
+          <h2 className="text-center text-2xl pb-24 font-bold">
+            The Visionaries Shaping Spaces
+          </h2>
           <div className="flex md:p-0 p-4 flex-col gap-24 md:items-start items-center">
             <div className={`${styles.LeftParent} flex px-12 pb-24 flex-col`}>
               <p className="text-lg pb-3 font-normal">Tanzeem Sarguroh</p>

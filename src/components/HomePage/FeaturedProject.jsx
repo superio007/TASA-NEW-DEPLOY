@@ -14,7 +14,7 @@ const FeaturedProject = () => {
         <div className="container mx-auto pt-14 p-4 xl:px-80">
           <div className="pt-8 pb-16">
             <h2 className="text-2xl text-center font-bold ">
-              Our Featured Projects.
+              Our Portfolio of Excellence
             </h2>
           </div>
           {/* Project 1 & 2 */}
