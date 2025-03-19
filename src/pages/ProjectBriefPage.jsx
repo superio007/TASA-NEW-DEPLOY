@@ -142,7 +142,9 @@ const ProjectBrief = () => {
   const [currentIndex, setCurrentIndex] = useState(null);
   const [showNext, setShowNext] = useState(false);
   const [showPrev, setShowPrev] = useState(false);
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [currentIndex]);
   useEffect(() => {
     const index = projects.findIndex((project) => project.name === ProjectName);
 
@@ -213,19 +215,20 @@ const ProjectBrief = () => {
 
         {project.ytEmbeded && (
           <div className="pt-18 bg-[#e9ebeb]">
-          <div className="container flex justify-center mx-auto p-4 xl:px-80">
-            <iframe
-              width="560"
-              height="315"
-              src={project.ytEmbeded}
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+            <div className="container flex justify-center mx-auto p-4 xl:px-80">
+              <iframe
+                width="560"
+                height="315"
+                src={project.ytEmbeded}
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
           </div>
-        </div>)}
+        )}
         {/* Navigation */}
         <div className="container mx-auto p-4 pt-16 xl:px-80">
           <div className="flex justify-between items-center">
