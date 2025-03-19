@@ -1,4 +1,4 @@
-import project3 from "./assets/project3.avif";
+import project3 from "./assets/VillaKochil.png";
 import styles from "./css/FeaturedProject.module.css";
 import { Link } from "react-router-dom";
 import { MdOutlineArrowRight } from "react-icons/md";

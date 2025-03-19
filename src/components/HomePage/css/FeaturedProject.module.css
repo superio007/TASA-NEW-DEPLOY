@@ -51,22 +51,26 @@
 .Project4Img {
   position: relative;
   right: -50%;
+  width: 48rem;
+  object-fit: contain;
 }
 .Project4 {
   position: absolute;
   width: 750px;
   left: 10%;
-  bottom: -10%;
+  bottom: -22%;
 }
 .project3 {
   width: 674px;
   position: relative;
   right: -33%;
+  z-index: 9;
 }
 .project3Img {
   position: absolute;
   bottom: -50%;
   left:9%;
+  width: 40rem;
 }
 @media screen and (max-width: 769px) {
   .RightSuperParent {
