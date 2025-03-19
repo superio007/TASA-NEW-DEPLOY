@@ -28,7 +28,7 @@ const ProposalForm = () => {
 
   return (
     <>
-      <div className="bg-white flex flex-col items-center justify-center py-10 px-5 max-w-md mx-auto rounded-lg shadow-lg">
+      <div className="bg-white flex flex-col items-center justify-center py-10 px-5 max-w-md mx-auto shadow-lg">
         <h2 className="text-xl font-bold uppercase text-center">
           <span className="text-[#e9ebea]">Build Your</span> Dream Project
         </h2>
@@ -43,7 +43,7 @@ const ProposalForm = () => {
             {...register("FullName", {
               required: "Full Name is required",
             })}
-            className="w-full rounded-md p-2 mb-3 outline-none text-black"
+            className="w-full p-2 mb-3 outline-none text-black"
           />
           {errors.FullName && (
             <span className="text-red-500">{errors.FullName.message}</span>
@@ -57,7 +57,7 @@ const ProposalForm = () => {
               maxLength: 10,
               minLength: 10,
             })}
-            className="w-full rounded-md p-2 mb-3 outline-none text-black"
+            className="w-full  p-2 mb-3 outline-none text-black"
           />
           {(errors.Phone?.type === "maxLength" ||
             errors.Phone?.type === "minLength") && (
@@ -71,7 +71,7 @@ const ProposalForm = () => {
             placeholder="Type message here..."
             rows={4}
             {...register("message")}
-            className="w-full rounded-md p-2 mb-3 outline-none text-black resize-none"
+            className="w-full p-2 mb-3 outline-none text-black resize-none"
           ></textarea>
 
           <div className="flex flex-col xl:flex-row">

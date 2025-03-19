@@ -59,7 +59,7 @@ const StickyFrom = () => {
                   message: "Enter a valid 10-digit phone number",
                 },
               })}
-              className={`w-full bg-gray-100 bg-opacity-50 rounded border ${
+              className={`w-full bg-gray-100 bg-opacity-50 border ${
                 errors.PhoneNumber ? "border-red-500" : "border-gray-300"
               } focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out`}
             />
@@ -83,7 +83,7 @@ const StickyFrom = () => {
                   message: "Enter a valid email address",
                 },
               })}
-              className={`w-full bg-gray-100 bg-opacity-50 rounded border ${
+              className={`w-full bg-gray-100 bg-opacity-50  border ${
                 errors.email ? "border-red-500" : "border-gray-300"
               } focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out`}
             />
@@ -98,7 +98,7 @@ const StickyFrom = () => {
           <div className="w-full xl:w-auto flex items-center">
             <button
               type="submit"
-              className="text-white w-full xl:w-[180px] bg-[#007fff] border-0 py-3 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg flex justify-center items-center"
+              className="text-white w-full xl:w-[180px] bg-[#000] border-0 py-3 px-8 focus:outline-none  text-lg flex justify-center items-center"
               disabled={isSubmitting || loading}
             >
               {loading ? (
@@ -158,7 +158,7 @@ const StickyFrom = () => {
                   message: "Enter a valid 10-digit phone number",
                 },
               })}
-              className={`w-full bg-gray-100 bg-opacity-50 rounded border ${
+              className={`w-full bg-gray-100 bg-opacity-50 border ${
                 errors.PhoneNumber ? "border-red-500" : "border-gray-300"
               } focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none  py-2 px-3 leading-8 transition-colors duration-200 ease-in-out`}
             />
@@ -182,7 +182,7 @@ const StickyFrom = () => {
                   message: "Enter a valid email address",
                 },
               })}
-              className={`w-full bg-gray-100 bg-opacity-50 rounded border ${
+              className={`w-full bg-gray-100 bg-opacity-50 border ${
                 errors.email ? "border-red-500" : "border-gray-300"
               } focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none  py-2 px-3 leading-8 transition-colors duration-200 ease-in-out`}
             />

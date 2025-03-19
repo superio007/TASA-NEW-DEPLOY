@@ -9,9 +9,9 @@ const HeroSection = () => {
         >
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1
-              className={`title-font text-4xl ${styles.LandHeroheading} uppercase xl:text-7xl mb-4 font-medium`}
+              className={`title-font text-4xl ${styles.LandHeroheading} uppercase xl:text-7xl mb-4 font-light`}
             >
-              TASA in the <br /> news
+              TASA in the news
             </h1>
             <p className={`mb-8 leading-relaxed ${styles.LandHerosubheading}`}>
               We are humbled to be covered by multiple distinguished publication

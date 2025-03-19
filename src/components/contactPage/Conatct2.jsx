@@ -24,7 +24,7 @@ const Contact2 = () => {
   return (
     <section className="text-gray-600 body-font relative">
       <div className="container md:px-40 p-4 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex flex-col md:gap-0 gap-10 md:flex-row items-end justify-start relative">
+        <div className="lg:w-2/3 md:w-1/2 bg-gray-300  overflow-hidden sm:mr-10 p-10 flex flex-col md:gap-0 gap-10 md:flex-row items-end justify-start relative">
           <iframe
             width="100%"
             height="100%"
@@ -38,7 +38,7 @@ const Contact2 = () => {
             scrolling="no"
             allowFullScreen
           ></iframe>
-          <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+          <div className="bg-white relative flex flex-wrap py-6  shadow-md">
             <div className="lg:w-1/2 px-6">
               {/* <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                 ADDRESS
@@ -89,7 +89,7 @@ const Contact2 = () => {
                 type="text"
                 id="name"
                 {...register("name", { required: "Name is required" })}
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full bg-white  border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
               {errors.name && (
                 <p className="text-red-500 text-xs mt-1">
@@ -115,7 +115,7 @@ const Contact2 = () => {
                     message: "Enter a valid email address",
                   },
                 })}
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full bg-white  border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
               {errors.email && (
                 <p className="text-red-500 text-xs mt-1">
@@ -134,7 +134,7 @@ const Contact2 = () => {
               <textarea
                 id="message"
                 {...register("message", { required: "Message is required" })}
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                className="w-full bg-white  border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
               {errors.message && (
                 <p className="text-red-500 text-xs mt-1">

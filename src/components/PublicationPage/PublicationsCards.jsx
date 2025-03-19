@@ -27,7 +27,7 @@ function PublicationsCards() {
       ArticleTitle:
         "Tasa Designs has created a workspace in India that balances form, function and simplicity.",
       ArticalBack:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742290902/DazeenBack_yn1fak.jpg",
+        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742392717/KTS_2491-HDR_unhfby.jpg",
       ArticleLink: "https://www.dezeen.com/awards/2022/longlists/811/",
       ArticleDescription: `The project is a 40 square metre space designed with a Japandi aesthetic to align with objectives of minimalism and practical sustainability.
 An open layout was adopted for working with natural elements and best use of daylight, and was constructed with materials including 100-year-old reclaimed teak wood salvaged from demolished structures of Old Bombay built during the British Era.`,
@@ -38,7 +38,7 @@ An open layout was adopted for working with natural elements and best use of day
       ArticleTitle:
         "Three Contemporary Workspaces In India That Champion Colour And Texture",
       ArticalBack:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742290895/TASAAR_krxsut.jpg",
+        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742392717/811-TD-06_qb97rq.jpg",
       ArticleLink:
         "https://www.designpataki.com/three-contemporary-workspaces-in-india-that-champion-colour-and-texture/",
       ArticleDescription: `As work-life boundaries have gotten fuzzier, it has led to an increase in expectations for comfort and flexibility in the workplace. “Flexibility is key for employee retention, productivity, and quality of life – one size doesn’t fit all – and hybrid work environments that encourage both the digital and the physical workplace are in demand, and designers are adapting to seamlessly move between the two!”, said Cindy Allen, Editor-in-Chief at Interior Design Magazine. The outcome is chic, contemporary and clean, with the right amount of cosy across the realm of office design.”`,
@@ -49,7 +49,7 @@ An open layout was adopted for working with natural elements and best use of day
       ArticleTitle:
         "Channel your energy in the Year of the Wood Snake to create calming spaces",
       ArticalBack:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742290895/TASAAR_krxsut.jpg",
+        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742392717/811-TD-15_oskha6.jpg",
       ArticleLink:
         "https://www.thehindu.com/life-and-style/homes-and-gardens/channel-your-energy-in-the-year-of-the-wood-snake-to-create-calming-spaces/article69104467.ece",
       ArticleDescription: `The mystical serpent of the Chinese zodiac slithers into 2025, bringing a transformative Year of the Wood Snake that promises more strategic moves than a chess grandmaster’s playbook.
@@ -61,7 +61,7 @@ Rooted in a 60-year cyclical calendar combining 12 zodiac animals and five eleme
       ArticleTitle:
         "AD Small Spaces: 5 compact offices that prove limited space is never a constraint",
       ArticalBack:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742290895/TASAAR_krxsut.jpg",
+        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742392718/KTS_2387-HDR_mcmxla.jpg",
       ArticleLink:
         "https://www.architecturaldigest.in/story/ad-small-spaces-5-compact-offices-that-prove-limited-space-is-never-a-constraint/",
       ArticleDescription: `Designing small spaces in an efficient yet aesthetically pleasing style may seem like a daunting task, but not for the designers of these projects. In this collection of compact offices taken from the AD archives, the designers put their best foot forward to showcase unique design styles and maximise the functionality of a small space.`,

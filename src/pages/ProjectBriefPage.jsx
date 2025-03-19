@@ -204,7 +204,7 @@ const ProjectBrief = () => {
                   src={image}
                   alt={project.name}
                   loading="lazy"
-                  className="w-full h-auto object-cover rounded-lg shadow-md"
+                  className="w-full h-auto object-cover  shadow-md"
                 />
               ))}
             </div>
