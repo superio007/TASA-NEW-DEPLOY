@@ -3,6 +3,12 @@ import styles from "./css/FeaturedProject.module.css";
 import { MdOutlineArrowRight } from "react-icons/md";
 import { Link } from "react-router-dom";
 const Project = () => {
+  function truncateText(text, limit = 200) {
+    if (text.length > limit) {
+      return text.substring(0, limit) + "...";
+    }
+    return text;
+  }
   return (
     <>
       <div className="container mx-auto pt-7 pb-16 p-4 xl:px-65">
@@ -14,9 +20,10 @@ const Project = () => {
               <p className="text-sm pb-3 font-medium">Sailor’s Abode</p>
               <div className="border-t-1 border-black w-[70px]"></div>
               <p className="font-light py-3 text-sm">
-                I'm a paragraph. Click here to add your own text and edit me.
-                It’s easy. Just click “Edit Text” or double click me to add your
-                own content and make changes to the font..
+                {truncateText(
+                  "Sailor’s Abode is a 3BHK apartment designed for a family of 4. The design is inspired by the Japanese culture of minimalism and the use of natural materials.",
+                  200
+                )}
               </p>
               <Link to={"/projects/Sailor’s-Abode"}>
                 <div className="flex items-center hover:text-[#8E8E8E] hover:cursor-pointer">

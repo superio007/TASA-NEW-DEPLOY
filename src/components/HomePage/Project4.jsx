@@ -3,6 +3,12 @@ import styles from "./css/FeaturedProject.module.css";
 import { Link } from "react-router-dom";
 import { MdOutlineArrowRight } from "react-icons/md";
 const Project = () => {
+  function truncateText(text, limit = 200) {
+    if (text.length > limit) {
+      return text.substring(0, limit) + "...";
+    }
+    return text;
+  }
   return (
     <>
       <div className="container mx-auto pt-7 md:pb-32 pb-16 p-4 xl:px-35">
@@ -19,21 +25,10 @@ const Project = () => {
               <p className="text-sm pb-3 font-medium">Amber Lake Resort</p>
               <div className="border-t-1 border-black w-[70px]"></div>
               <p className="font-light py-3 text-sm">
-                I'm a paragraph. Click here to add your own text and edit me.
-                It’s easy. Just click “Edit Text” or double click me to add your
-                own content and make changes to the font. Feel free to drag and
-                drop me anywhere you like on your page. I’m a great place for
-                you to tell a story and let your users know a little more about
-                you. ​
-              </p>
-              <p className="font-light py-3 text-sm">
-                This is a great space to write long text about your company and
-                your services. You can use this space to go into a little more
-                detail about your company. Talk about your team and what
-                services you provide. Tell your visitors the story of how you
-                came up with the idea for your business and what makes you
-                different from your competitors. Make your company stand out and
-                show your visitors who you are.
+                {truncateText(
+                  "Amber Lake Resort is a 3BHK apartment designed for a family of 4. The design is inspired by the Japanese culture of minimalism and the use of natural materials.",
+                  200
+                )}
               </p>
               <Link to={"/projects/Amber-Lake-Resort"}>
                 <div className="flex items-center hover:text-[#8E8E8E] hover:cursor-pointer">

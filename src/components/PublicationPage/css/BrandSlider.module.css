@@ -81,11 +81,13 @@
   }
 
   .headingContent {
+    left: 28px;
     flex-direction: row;
     justify-content: center;
   }
 
   .stars {
+    display: none;
     margin-bottom: 0;
   }
 
@@ -99,7 +101,7 @@
   }
 }
 @media (max-width:404px){
-  .headingText{
+  /* .headingText{
     margin-top: -18px;
-  }
+  } */
 }

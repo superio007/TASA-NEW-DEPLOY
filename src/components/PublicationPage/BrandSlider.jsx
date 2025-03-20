@@ -54,7 +54,7 @@ const BrandSlider = () => {
       <div className={styles.brandSliderContainer}>
         <div className={styles.headingContent}>
           <span className={styles.headingText}>{brands.title}</span>
-          <div className={styles.stars}>
+          <div className={`${styles.stars}`}>
             {[...Array(5)].map((_, i) => (
               <FaStar key={i} className={styles.starIcon} />
             ))}

@@ -2,6 +2,7 @@ import { NavLink , Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import styles from "./css/Navbar.module.css";
+import StickyFrom from "./StickyFrom"
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   useEffect(() => {
@@ -22,7 +23,7 @@ const Navbar = () => {
         <div className="container mx-auto p-4 xl:px-0 2xl:px-80">
           <div className="flex justify-between items-center">
             <div className="flex flex-col">
-              <Link to={"/"}>
+              <Link to={"/"} onClick={() => setIsMenuOpen(false)}>
                 <span className={styles.logo}>TASA</span>
                 <span className={styles.sublogo}>designs</span>
               </Link>
@@ -101,27 +102,30 @@ const Navbar = () => {
           isMenuOpen ? "block" : "hidden"
         } p-4 bg-white xl:px-10 flex flex-col justify-between min-h-screen`}
       >
-        <div className="flex flex-col justify-center text-center gap-6">
-          <NavLink to={"/publications"} onClick={() => setIsMenuOpen(false)}>
-            <p className="  hover:rounded-none p-2 rounded-2xl uppercase">
-              Publications
-            </p>
-          </NavLink>
-          <NavLink to={"/projects"} onClick={() => setIsMenuOpen(false)}>
-            <p className="  hover:rounded-none p-2 rounded-2xl uppercase">
-              Projects
-            </p>
-          </NavLink>
-          <NavLink to={"/about"} onClick={() => setIsMenuOpen(false)}>
-            <p className="  hover:rounded-none p-2 rounded-2xl uppercase">
-              Our Story
-            </p>
-          </NavLink>
-          <NavLink to={"/contact"} onClick={() => setIsMenuOpen(false)}>
-            <p className="  hover:rounded-none p-2 rounded-2xl uppercase">
-              Contact
-            </p>
-          </NavLink>
+        <div className="flex flex-col gap-4">
+          <div className="flex flex-col justify-center text-center gap-6">
+            <NavLink to={"/publications"} onClick={() => setIsMenuOpen(false)}>
+              <p className="  hover:rounded-none p-2 rounded-2xl uppercase">
+                Publications
+              </p>
+            </NavLink>
+            <NavLink to={"/projects"} onClick={() => setIsMenuOpen(false)}>
+              <p className="  hover:rounded-none p-2 rounded-2xl uppercase">
+                Projects
+              </p>
+            </NavLink>
+            <NavLink to={"/about"} onClick={() => setIsMenuOpen(false)}>
+              <p className="  hover:rounded-none p-2 rounded-2xl uppercase">
+                Our Story
+              </p>
+            </NavLink>
+            <NavLink to={"/contact"} onClick={() => setIsMenuOpen(false)}>
+              <p className="  hover:rounded-none p-2 rounded-2xl uppercase">
+                Contact
+              </p>
+            </NavLink>
+          </div>
+          <StickyFrom />
         </div>
       </div>
     </>

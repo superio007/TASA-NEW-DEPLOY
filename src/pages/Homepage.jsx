@@ -9,13 +9,13 @@ const HomePage = () => {
     <>
       <ParallaxProvider>
         <HeroSection />
+        <div className=" w-full p-4 ">
+          <BrandSlider />
+        </div>
+        <FeaturedProject />
+        {/* <Contact /> */}
+        <Contact2 />
       </ParallaxProvider>
-      <div className=" w-full p-4 ">
-        <BrandSlider />
-      </div>
-      <FeaturedProject />
-      {/* <Contact /> */}
-      <Contact2 />
     </>
   );
 };

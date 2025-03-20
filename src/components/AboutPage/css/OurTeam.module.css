@@ -22,22 +22,25 @@
 
 @media screen and (max-width: 769px) {
     .OurTeamContainer {
-        padding: 8rem 1rem 8rem 1rem;
+        padding: 8rem 1rem 1rem 1rem;
     }
+
+    /* .LeftChild :global(img) {
+        width: auto;
+    } */
 
     .LeftParent {
         width: 100%;
+        border: none;
     }
 
     .LeftChild {
+        display: flex;
+        justify-content: left;
+        position: relative;
+        margin-top: 12px;
         right: 0;
     }
 }
 
-@media screen and (max-width: 391px) {
-    .LeftChild {
-        position: relative;
-        margin-top: 12px;
-        justify-content: center;
-    }
-}
+@media screen and (max-width: 391px) {}
