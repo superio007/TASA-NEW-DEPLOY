@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa"; // Import star icons
 import styles from "./css/BrandSlider.module.css"; // Import CSS
 
 const brands = {
-  title: "As Seen On",
+  title: "As seen on",
   brandLogos: [
     {
       src: "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742290895/architecturalDigest_dcsbuf.png",

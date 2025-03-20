@@ -14,7 +14,7 @@ const Project = () => {
       <div className="hidden md:block container mx-auto md:pb-60 pb-16 pt-36 p-4 xl:px-35">
         <div className="relative">
           <div
-            className={`${styles.project3} md:bg-[transparent] bg-white md:border-black md:border-2 py-10 px-34`}
+            className={`${styles.project3}  bg-white  py-10 px-12`}
           >
             <p className="text-sm pb-3 font-medium">Villa Kochi</p>
             <div className="border-t-1 border-black w-[70px]"></div>

@@ -93,8 +93,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="md:hidden container mx-auto p-4 2xl:px-80">
-          <div className="flex justify-between items-center">
-            <div className="flex flex-col">
+          <div className="flex justify-center items-center">
+            <div className="flex flex-col justify-center">
               <Link to={"/"} onClick={() => setCurrentIndex(!currentIndex)}>
                 <span className={styles.logo}>TASA</span>
                 <span className={styles.sublogo}>designs</span>

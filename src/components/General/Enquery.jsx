@@ -29,8 +29,8 @@ const ProposalForm = () => {
   return (
     <>
       <div className="bg-white flex flex-col items-center justify-center py-10 px-5 max-w-md mx-auto shadow-lg">
-        <h2 className="text-xl font-bold uppercase text-center">
-          <span className="text-[#e9ebea]">Build Your</span> Dream Project
+        <h2 className="text-xl text-black font-medium uppercase text-center">
+          Build Your Dream Project
         </h2>
         <p className="text-center mb-5 text-sm">
           Crafting Spaces That Fit Your Aspirations
@@ -77,7 +77,7 @@ const ProposalForm = () => {
           <div className="flex flex-col xl:flex-row">
             <button
               type="submit"
-              className="bg-[#000000] text-white py-2 px-5 hover:cursor-pointer uppercase font-bold transition duration-300"
+              className="bg-[#000000] text-white py-2 px-5 hover:cursor-pointer uppercase  transition duration-300"
             >
               Get Your Free Proposal
             </button>

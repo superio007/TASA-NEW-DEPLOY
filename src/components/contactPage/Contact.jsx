@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="bg-white">
         <div className="container mx-auto pt-14 pb-32 p-4 xl:px-80">
           <div className="p-8">
-            <h1 className="font-bold text-2xl xl:text-4xl text-center">Stay In Touch</h1>
+            <h1 className=" text-2xl xl:text-4xl text-center">Stay In Touch</h1>
           </div>
           <div className={``}>
             <div className={`${styles.parent} w-[980px] relative  h-[650px]`}>
@@ -20,7 +20,7 @@ const Contact = () => {
               <div className={`${styles.child} bg-white z-10 px-14 py-16`}>
                 <div className={styles.innerChild}>
                   <div className="pb-4">
-                    <p className="text-xl text-black font-bold">TASA</p>
+                    <p className="text-xl text-black ">TASA</p>
                   </div>
                   <div className="border-t-2 border-black w-[80px]"></div>
                   <div className="">

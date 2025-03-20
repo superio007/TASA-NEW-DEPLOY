@@ -19,7 +19,7 @@ const OurTeam = () => {
               <div>
                 <p className="text-lg pb-3 font-normal">Tanzeem Sarguroh</p>
                 <div className="border-t-1 border-black w-[45px]"></div>
-                <p className=" pt-3 text-sm">Partner</p>
+                <p className=" pt-3 text-sm">Principle Architect</p>
                 <p className="text-sm pt-[2px] font-light">
                   {" "}
                   <a href="mailto:info@tasaarchitects.com">

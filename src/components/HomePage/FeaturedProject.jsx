@@ -85,16 +85,12 @@ const FeaturedProject = () => {
             <div className="flex flex-col items-center">
               <div>
                 {/* Parallax Image */}
-                <div className="h-[250px] overflow-hidden">
-                  <Parallax translateY={[100, -100]} speed={60}>
-                    <img
-                      loading="lazy"
-                      src={Left}
-                      alt="Project"
-                      className="w-full h-auto"
-                    />
-                  </Parallax>
-                </div>
+                <img
+                  loading="lazy"
+                  src={Left}
+                  alt="Project"
+                  className="w-full h-auto"
+                />
 
                 {/* Project Info */}
                 <div className="p-12 bg-white">
@@ -120,16 +116,12 @@ const FeaturedProject = () => {
               </div>
               <div id="image2" className="mt-14">
                 {/* Image Container */}
-                <div className="h-[250px] overflow-hidden">
-                  <Parallax targetElement={"#image2"} translateY={[100, -100]} speed={40}>
-                    <img
-                      loading="lazy"
-                      src={Right}
-                      alt="Project"
-                      className="w-full h-auto"
-                    />
-                  </Parallax>
-                </div>
+                <img
+                  loading="lazy"
+                  src={Right}
+                  alt="Project"
+                  className="w-full h-auto"
+                />
 
                 {/* Content Container */}
                 <div className="p-12 bg-white">

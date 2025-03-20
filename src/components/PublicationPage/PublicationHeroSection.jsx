@@ -9,7 +9,7 @@ function PublicationHeroSection() {
     // <div className={`${styles.bg}`}>
     //   <Parallax translateY={["-40%", "50%"]}>
     //     <div className="flex justify-center p-4 items-center min-h-[80vh]">
-    //       <h1 className="font-bold text-9xl text-center text-white">Our Appearences</h1>
+    //       <h1 className=" text-9xl text-center text-white">Our Appearences</h1>
     //     </div>
     //   </Parallax>
     // </div>

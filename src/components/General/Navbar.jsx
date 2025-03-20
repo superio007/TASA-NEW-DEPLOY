@@ -102,7 +102,7 @@ const Navbar = () => {
           isMenuOpen ? "block" : "hidden"
         } p-4 bg-white xl:px-10 flex flex-col justify-between min-h-screen`}
       >
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col justify-between gap-10">
           <div className="flex flex-col justify-center text-center gap-6">
             <NavLink to={"/publications"} onClick={() => setIsMenuOpen(false)}>
               <p className="  hover:rounded-none p-2 rounded-2xl uppercase">
@@ -125,7 +125,9 @@ const Navbar = () => {
               </p>
             </NavLink>
           </div>
-          <StickyFrom />
+          <div>
+            <StickyFrom />
+          </div>
         </div>
       </div>
     </>
