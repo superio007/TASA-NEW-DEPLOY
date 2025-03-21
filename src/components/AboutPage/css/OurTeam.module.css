@@ -1,5 +1,5 @@
 .OurTeamContainer {
-    padding: 96px 20rem;
+    padding: 96px 20rem 50px 20rem;
 }
 
 .LeftParent {
@@ -18,6 +18,13 @@
 
 .LeftChild :global(img) {
     width: 180px;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .OurTeamContainer {
+        padding: 4rem 1rem 4rem 1rem;
+    }
 }
 
 @media screen and (max-width: 769px) {
