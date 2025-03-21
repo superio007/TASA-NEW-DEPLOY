@@ -4,91 +4,19 @@ import Left from "./assets/TASAAR.webp";
 import styles from "./css/PublicationsCards.module.css";
 import Logo from "./assets/deZeen.png";
 import { MdOutlineArrowRight } from "react-icons/md";
-function PublicationsCards() {
-  let publication = [
-    {
-      ArticleLogo:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742290895/architecturalDigest_dcsbuf.png",
-      ArticleTitle:
-        "This Mumbai office adapts Japandi design to the Indian context",
-      ArticalBack:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742290895/TASAAR_krxsut.jpg",
-      ArticleLink:
-        "https://www.architecturaldigest.in/story/this-mumbai-office-adapts-japandi-design-to-the-indian-context/",
-      ArticleDescription: `“As an architect, I was looking for a style and strong
-                    foundation that would define my work—serving as an
-                    architectural signature in everything I built,” recalls
-                    Tanzeem Sarguroh, when looking back at how she found a way
-                    to blend Japandi (Japanese-Scandinavian)”`,
-    },
-    {
-      ArticleLogo:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742290894/deZeen_vsex2l.webp",
-      ArticleTitle:
-        "Tasa Designs has created a workspace in India that balances form, function and simplicity.",
-      ArticalBack:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742392717/KTS_2491-HDR_unhfby.jpg",
-      ArticleLink: "https://www.dezeen.com/awards/2022/longlists/811/",
-      ArticleDescription: `The project is a 40 square metre space designed with a Japandi aesthetic to align with objectives of minimalism and practical sustainability.
-An open layout was adopted for working with natural elements and best use of daylight, and was constructed with materials including 100-year-old reclaimed teak wood salvaged from demolished structures of Old Bombay built during the British Era.`,
-    },
-    {
-      ArticleLogo:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742290893/DesignPataki_lyoitu.png",
-      ArticleTitle:
-        "Three Contemporary Workspaces In India That Champion Colour And Texture",
-      ArticalBack:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742392717/811-TD-06_qb97rq.jpg",
-      ArticleLink:
-        "https://www.designpataki.com/three-contemporary-workspaces-in-india-that-champion-colour-and-texture/",
-      ArticleDescription: `As work-life boundaries have gotten fuzzier, it has led to an increase in expectations for comfort and flexibility in the workplace. “Flexibility is key for employee retention, productivity, and quality of life – one size doesn’t fit all – and hybrid work environments that encourage both the digital and the physical workplace are in demand, and designers are adapting to seamlessly move between the two!”, said Cindy Allen, Editor-in-Chief at Interior Design Magazine. The outcome is chic, contemporary and clean, with the right amount of cosy across the realm of office design.”`,
-    },
-    {
-      ArticleLogo:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742290895/thehindu-logo_nckjjl.svg",
-      ArticleTitle:
-        "Channel your energy in the Year of the Wood Snake to create calming spaces",
-      ArticalBack:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742392717/811-TD-15_oskha6.jpg",
-      ArticleLink:
-        "https://www.thehindu.com/life-and-style/homes-and-gardens/channel-your-energy-in-the-year-of-the-wood-snake-to-create-calming-spaces/article69104467.ece",
-      ArticleDescription: `The mystical serpent of the Chinese zodiac slithers into 2025, bringing a transformative Year of the Wood Snake that promises more strategic moves than a chess grandmaster’s playbook.
-Rooted in a 60-year cyclical calendar combining 12 zodiac animals and five elemental forces, the 2025 Yin Wood Snake represents a nuanced dance of wisdom and adaptability. Unlike the rigid Yang Wood Dragon of 2024, this year embodies a ‘small green snake’ capable of calculated, diplomatic maneuvers.`,
-    },
-    {
-      ArticleLogo:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742290895/architecturalDigest_dcsbuf.png",
-      ArticleTitle:
-        "AD Small Spaces: 5 compact offices that prove limited space is never a constraint",
-      ArticalBack:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742392718/KTS_2387-HDR_mcmxla.jpg",
-      ArticleLink:
-        "https://www.architecturaldigest.in/story/ad-small-spaces-5-compact-offices-that-prove-limited-space-is-never-a-constraint/",
-      ArticleDescription: `Designing small spaces in an efficient yet aesthetically pleasing style may seem like a daunting task, but not for the designers of these projects. In this collection of compact offices taken from the AD archives, the designers put their best foot forward to showcase unique design styles and maximise the functionality of a small space.`,
-    },
-    {
-      ArticleLogo:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742290894/rethinking_hbgeia.webp",
-      ArticleTitle: "811 by TASA designs",
-      ArticalBack:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742290894/TAsa2_ljup6b.jpg",
-      ArticleLink:
-        "https://www.re-thinkingthefuture.com/residentail-interior-design/8837-811-by-tasa-designs/",
-      ArticleDescription: `The use of non-natural products is skyrocketing with their innovations and versatility, and the short-term incentives for the end-users to choose natural materials over them are on a steep decline. The reasons may range from inconvenient availability to higher costs.
-With 40sqm of space, it was challenging to fit our ambitious requirements that included a powder bathroom, a pantry, some storage, all the workstations and a meeting room/cabin. Additionally, a lounge area for us to just sit and do nothing, an attempt at bringing some hygge to the space.`,
-    },
-    {
-      ArticleLogo:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742290895/architecturalDigest_dcsbuf.png",
-      ArticleTitle:
-        "5 minimalist workspaces from the AD archives that are “very demure, very mindful”",
-      ArticalBack:
-        "https://res.cloudinary.com/do3xm1yzb/image/upload/v1742290895/TASAAR_krxsut.jpg",
-      ArticleLink:
-        "https://www.architecturaldigest.in/story/5-minimalist-workspaces-from-the-ad-archives-that-are-very-demure-very-mindful/",
-      ArticleDescription: `Warm neutrals, unostentatious details, and timeless elegance—these minimalist workspaces from the AD archives are architectural personifications of the “very demure, very mindful” TikTok phenomenon by beauty influencer Jools Lebron; perfect for those of you who don’t come to work with a green cut-crease.`,
-    },
-  ];
+function PublicationsCards({ apiRes }) {
+  let publication = [];
+  apiRes.map((item) =>
+    publication.push({
+      ArticleLogo: item.PublicationLogo[0].url,
+      ArticleLogoAlt: item.PublicationLogo[0].alternativeText,
+      ArticleTitle: item.Heading,
+      ArticalBack: item.ArticalBackground.url,
+      ArticalAlt: item.ArticalBackground.alternativeText,
+      ArticleLink: item.ArticalLink,
+      ArticleDescription: item.Description,
+    })
+  );
   function truncateText(text, maxLength) {
     if (text.length <= maxLength) return text;
 
@@ -114,7 +42,7 @@ With 40sqm of space, it was challenging to fit our ambitious requirements that i
                     loading="lazy"
                     className={styles.LeftImage}
                     src={item.ArticalBack}
-                    alt=""
+                    alt={item.ArticalAlt || truncateText(item.ArticleTitle, 15)}
                   />
                   <div
                     className={`${styles.LeftChild} md:px-10 p-8 md:py-10 bg-white`}
@@ -123,7 +51,10 @@ With 40sqm of space, it was challenging to fit our ambitious requirements that i
                       <img
                         loading="lazy"
                         src={item.ArticleLogo}
-                        alt=""
+                        alt={
+                          item.ArticleLogoAlt ||
+                          truncateText(item.ArticleTitle, 15)
+                        }
                         className="h-[60px]"
                       />
                     </div>

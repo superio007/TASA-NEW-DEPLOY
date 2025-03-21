@@ -4,7 +4,7 @@ import { Parallax } from "react-scroll-parallax";
 import BrandSlider from "./BrandSlider";
 import HeroSection from "./HeroSection";
 
-function PublicationHeroSection() {
+function PublicationHeroSection({ apiRes, slider }) {
   return (
     // <div className={`${styles.bg}`}>
     //   <Parallax translateY={["-40%", "50%"]}>
@@ -14,10 +14,10 @@ function PublicationHeroSection() {
     //   </Parallax>
     // </div>
     <>
-      <HeroSection />
+      <HeroSection apiRes={apiRes} />
       {/* slider */}
       <div className="bg-white container mx-auto p-4 xl:px-20">
-        <BrandSlider />
+        <BrandSlider apiRes={slider}/>
       </div>
     </>
   );

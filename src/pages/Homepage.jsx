@@ -3,7 +3,6 @@ import HeroSection from "../components/HomePage/HeroSection";
 import { ParallaxProvider } from "react-scroll-parallax";
 import FeaturedProject from "../components/HomePage/FeaturedProject";
 import BrandSlider from "../components/PublicationPage/BrandSlider";
-import { useEffect, useRef } from "react";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import HomeStaticData from "../Data/HomeStaticData.json"
