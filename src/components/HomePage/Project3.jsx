@@ -2,7 +2,7 @@ import project3 from "./assets/VillaKochil.png";
 import styles from "./css/FeaturedProject.module.css";
 import { Link } from "react-router-dom";
 import { MdOutlineArrowRight } from "react-icons/md";
-const Project = () => {
+const Project = ({ apiRes }) => {
   function truncateText(text, limit = 200) {
     if (text.length > limit) {
       return text.substring(0, limit) + "...";
@@ -13,18 +13,19 @@ const Project = () => {
     <>
       <div className="hidden md:block container mx-auto md:pb-60 pb-16 pt-36 p-4 xl:px-35">
         <div className="relative">
-          <div
-            className={`${styles.project3}  bg-white  py-10 px-12`}
-          >
-            <p className="text-sm pb-3 font-medium">Villa Kochi</p>
+          <div className={`${styles.project3}  bg-white  py-10 px-12`}>
+            <p className="text-sm pb-3 font-medium">
+              {apiRes.ProjectName || "Villa Kochi"}
+            </p>
             <div className="border-t-1 border-black w-[70px]"></div>
             <p className="font-light py-3 text-sm">
-              {truncateText(
-                "Villa Kochi is a 3BHK apartment designed for a family of 4. The design is inspired by the Japanese culture of minimalism and the use of natural materials.",
-                200
-              )}
+              {truncateText(apiRes.ProjectDescription, 200) ||
+                truncateText(
+                  "Villa Kochi is a 3BHK apartment designed for a family of 4. The design is inspired by the Japanese culture of minimalism and the use of natural materials.",
+                  200
+                )}
             </p>
-            <Link to={"/projects/Villa-Kochi"}>
+            <Link to={`/projects/${apiRes.ProjectName.split(" ").join("-")}`}>
               <div className="flex items-center hover:text-[#8E8E8E] hover:cursor-pointer">
                 <span className="text-sm">View Project</span>
                 <MdOutlineArrowRight
@@ -40,26 +41,30 @@ const Project = () => {
             <img
               loading="lazy"
               className={`${styles.project3Img}`}
-              src={project3}
-              alt=""
+              src={apiRes.ProfilePicture.url || project3}
+              alt={apiRes.ProfilePicture.alternativeText || "Project 5"}
             />
           </div>
         </div>
       </div>
       <div className="md:hidden container mx-auto pt-7 pb-16 p-4 xl:px-35">
-        <img src={project3} alt="" />
-        <div
-          className={`bg-white p-10 `}
-        >
-          <p className="text-sm pb-3 font-medium">Villa Kochi</p>
+        <img
+          src={apiRes.ProfilePicture.url || project3}
+          alt={apiRes.ProfilePicture.alternativeText || "Project 5"}
+        />
+        <div className={`bg-white p-10 `}>
+          <p className="text-sm pb-3 font-medium">
+            {apiRes.ProjectName || "Villa Kochi"}
+          </p>
           <div className="border-t-1 border-black w-[70px]"></div>
           <p className="font-light py-3 text-sm">
-            {truncateText(
-              "Villa Kochi is a 3BHK apartment designed for a family of 4. The design is inspired by the Japanese culture of minimalism and the use of natural materials.",
-              200
-            )}
+            {truncateText(apiRes.ProjectDescription, 200) ||
+              truncateText(
+                "Villa Kochi is a 3BHK apartment designed for a family of 4. The design is inspired by the Japanese culture of minimalism and the use of natural materials.",
+                200
+              )}
           </p>
-          <Link to={"/projects/Villa-Kochi"}>
+          <Link to={`/projects/${apiRes.ProjectName.split(" ").join("-")}`}>
             <div className="flex items-center hover:text-[#8E8E8E] hover:cursor-pointer">
               <span className="text-sm">View Project</span>
               <MdOutlineArrowRight

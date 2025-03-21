@@ -8,7 +8,7 @@ import Project5 from "./Poject5";
 import Project3 from "./Project3";
 import { Link } from "react-router-dom";
 
-const FeaturedProject = () => {
+const FeaturedProject = ({ apiRes }) => {
   function truncateText(text, limit = 200) {
     if (text.length > limit) {
       return text.substring(0, limit) + "...";
@@ -29,15 +29,18 @@ const FeaturedProject = () => {
                 <div className={styles.LeftParent}>
                   <img loading="lazy" src={Left} alt="" />
                   <div className={`${styles.LeftChild} p-12 bg-white`}>
-                    <p className="text-sm pb-3 font-medium">811</p>
+                    <p className="text-sm pb-3 font-medium">
+                      {apiRes[0].ProjectName || 811}
+                    </p>
                     <div className="border-t-1 border-black w-[70px]"></div>
                     <p className="font-light py-3 text-sm">
-                      {truncateText(
-                        "811 is a 40sqm workspace designed using the 100-year-old reclaimed Teak Wood salvaged from demolished structures of Old Bombay built during the British Era.",
-                        200
-                      )}
+                      {truncateText(apiRes[0].ProjectDescription, 200) ||
+                        truncateText(
+                          "811 is a 40sqm workspace designed using the 100-year-old reclaimed Teak Wood salvaged from demolished structures of Old Bombay built during the British Era.",
+                          200
+                        )}
                     </p>
-                    <Link to={"/projects/811"}>
+                    <Link to={`/projects/${apiRes[0].ProjectName}`}>
                       <div className="flex items-center hover:text-[#8E8E8E] hover:cursor-pointer">
                         <span className="text-sm">View Project</span>
                         <MdOutlineArrowRight
@@ -57,15 +60,20 @@ const FeaturedProject = () => {
                 <div className={styles.RightParent}>
                   <img loading="lazy" src={Right} alt="" />
                   <div className={`${styles.RightChild} p-12 bg-white`}>
-                    <p className="text-sm pb-3 font-medium">601 Sakura Home</p>
+                    <p className="text-sm pb-3 font-medium">{`${apiRes[1].ProjectName}||601 Sakura Home`}</p>
                     <div className="border-t-1 border-black w-[70px]"></div>
                     <p className="font-light py-3 text-sm">
-                      {truncateText(
-                        "601 Sakura Home is a 3BHK apartment designed for a family of 4. The design is inspired by the Japanese culture of minimalism and the use of natural materials.",
-                        200
-                      )}
+                      {truncateText(apiRes[1].ProjectDescription, 200) ||
+                        truncateText(
+                          "601 Sakura Home is a 3BHK apartment designed for a family of 4. The design is inspired by the Japanese culture of minimalism and the use of natural materials.",
+                          200
+                        )}
                     </p>
-                    <Link to={"/projects/601-Sakura-Home"}>
+                    <Link
+                      to={`/projects/${apiRes[1].ProjectName.split(" ").join(
+                        "-"
+                      )}`}
+                    >
                       <div className="flex items-center hover:text-[#8E8E8E] hover:cursor-pointer">
                         <span className="text-sm">View Project</span>
                         <MdOutlineArrowRight
@@ -94,15 +102,18 @@ const FeaturedProject = () => {
 
                 {/* Project Info */}
                 <div className="p-12 bg-white">
-                  <p className="text-sm pb-3 font-medium">811</p>
+                  <p className="text-sm pb-3 font-medium">
+                    {apiRes[0].ProjectName || 811}
+                  </p>
                   <div className="border-t-1 border-black w-[70px]"></div>
                   <p className="font-light py-3 text-sm">
-                    {truncateText(
-                      "811 is a 40sqm workspace designed using the 100-year-old reclaimed Teak Wood salvaged from demolished structures of Old Bombay built during the British Era.",
-                      200
-                    )}
+                    {truncateText(apiRes[0].ProjectDescription, 200) ||
+                      truncateText(
+                        "811 is a 40sqm workspace designed using the 100-year-old reclaimed Teak Wood salvaged from demolished structures of Old Bombay built during the British Era.",
+                        200
+                      )}
                   </p>
-                  <Link to={"/projects/811"}>
+                  <Link to={`/projects/${apiRes[0].ProjectName}`}>
                     <div className="flex items-center hover:text-[#8E8E8E] hover:cursor-pointer">
                       <span className="text-sm">View Project</span>
                       <MdOutlineArrowRight
@@ -125,14 +136,20 @@ const FeaturedProject = () => {
 
                 {/* Content Container */}
                 <div className="p-12 bg-white">
-                  <p className="text-sm pb-3 font-medium">601 Sakura Home</p>
+                  <p className="text-sm pb-3 font-medium">
+                    {apiRes[1].ProjectName || "601 Sakura Home"}
+                  </p>
                   <div className="border-t-1 border-black w-[70px]"></div>
                   <p className="font-light py-3 text-sm">
-                    601 Sakura Home is a 3BHK apartment designed for a family of
+                    {truncateText(apiRes[1].ProjectDescription, 200) ||
+                      truncateText(
+                        `601 Sakura Home is a 3BHK apartment designed for a family of
                     4. The design is inspired by the Japanese culture of
-                    minimalism and the use of natural materials.
+                    minimalism and the use of natural materials.`,
+                        200
+                      )}
                   </p>
-                  <Link to={"/projects/601-Sakura-Home"}>
+                  <Link to={`/projects/${apiRes[1].ProjectName.split(" ").join("-")}`}>
                     <div className="flex items-center hover:text-[#8E8E8E] hover:cursor-pointer">
                       <span className="text-sm">View Project</span>
                       <MdOutlineArrowRight style={{ fontSize: "20px" }} />
@@ -143,9 +160,9 @@ const FeaturedProject = () => {
             </div>
           </div>
         </div>
-        <Project5 />
-        <Project4 />
-        <Project3 />
+        <Project5 apiRes={apiRes[2]} />
+        <Project4 apiRes={apiRes[3]} />
+        <Project3  apiRes={apiRes[4]} />
       </div>
     </>
   );

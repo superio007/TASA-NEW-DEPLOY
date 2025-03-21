@@ -169,7 +169,7 @@ const ProjectBrief = () => {
   return (
     <div className="py-18 bg-[#e9ebeb]">
       <div className="container mx-auto">
-        <div className="bg-white py-20 px-24">
+        <div className="bg-white md:py-20 p-4 md:px-24">
           <h1 className="md:text-4xl py-6 text-center font-medium">
             Project Details
           </h1>
