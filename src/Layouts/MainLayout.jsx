@@ -22,8 +22,6 @@ const RecaptchaToken = () => {
     try {
       const recaptchaToken = await executeRecaptcha("token_request");
       setiscaptchaToken(recaptchaToken);
-      // sessionStorage.setItem("_grecaptcha", recaptchaToken); // ✅ Store in session
-      // console.log("Stored reCAPTCHA Token in sessionStorage:", recaptchaToken);
     } catch (error) {
       console.error("reCAPTCHA Error:", error);
     }

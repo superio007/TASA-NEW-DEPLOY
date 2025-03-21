@@ -102,7 +102,6 @@ With 40sqm of space, it was challenging to fit our ambitious requirements that i
 
     return truncated + "...";
   }
-  // console.log(publication.length)
   return (
     <>
       <div className="bg-[#e9ebeb]">

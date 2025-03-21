@@ -3,6 +3,19 @@ import { useForm } from "react-hook-form";
 // import styles from "./css/NonStickyFrom.module.css";
 import styles from "./css/StickyFrom.module.css";
 import { encryptData, decryptData } from "../utils/cryptoUtils";
+import axios from "axios";
+const postContactForm = async (formattedData) => {
+  const { data } = await axios.post(
+    "https://starfish-app-ca2ju.ondigitalocean.app/api/sticky-forms",
+    formattedData, // Sending formattedData in the request body
+    {
+      headers: {
+        "Content-Type": "application/json", // Ensure JSON content type
+      },
+    }
+  );
+  return data;
+};
 const StickyFrom = () => {
   const [isUserToken, setIsUserToken] = useState(
     !!localStorage.getItem("user-token")
@@ -22,11 +35,17 @@ const StickyFrom = () => {
 
   const onSubmit = async (data) => {
     setLoading(true);
-    console.log("Form Submitted:", data);
     localStorage.setItem("user-token", JSON.stringify(encryptData(data)));
     // Simulate API call
     await new Promise((resolve) => setTimeout(resolve, 2000));
     setIsUserToken(true);
+    const formattedData = {
+      data: {
+        Email: data.email,
+        Phone: data.PhoneNumber,
+      },
+    };
+    postContactForm(formattedData);
     setLoading(false);
     reset();
   };

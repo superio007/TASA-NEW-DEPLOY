@@ -1,7 +1,19 @@
 import { useState } from "react";
 import { set, useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
-
+import axios from "axios";
+const postContactForm = async (formattedData) => {
+  const { data } = await axios.post(
+    "https://starfish-app-ca2ju.ondigitalocean.app/api/enquery-forms",
+    formattedData, // Sending formattedData in the request body
+    {
+      headers: {
+        "Content-Type": "application/json", // Ensure JSON content type
+      },
+    }
+  );
+  return data;
+};
 const ProposalForm = () => {
   const {
     register,
@@ -21,8 +33,15 @@ const ProposalForm = () => {
       )
       .then(() => console.log("Email sent successfully"))
       .catch((error) => alert("Error sending email: " + error.text));
+    const formattedData = {
+      data: {
+        Name: data.FullName,
+        Phone: data.Phone,
+        Message: data.message,
+      },
+    };
+    postContactForm(formattedData);
     reset();
-    console.log(data);
     setIsThanks(true);
   };
 
