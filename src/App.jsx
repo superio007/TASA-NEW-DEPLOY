@@ -6,6 +6,7 @@ import ProjectBrief from "./pages/ProjectBriefPage"
 import Projects from "./pages/ProjectsPage"
 import About from "./pages/AboutPage"
 import Publications from "./pages/PublicationPage"
+import ProjectsContext from "./context/ProjectContext";
 import {
   Route,
   createBrowserRouter,
@@ -22,7 +23,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/publications" element={<Publications />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/projects/:id" element={<ProjectBrief />} />
+        {/* <ProjectsContext.Provider > */}
+          <Route path="/projects/:id" element={<ProjectBrief />} />
+        {/* </ProjectsContext.Provider> */}
         <Route path="*" element={<NotFound />} />
       </Route>
     )

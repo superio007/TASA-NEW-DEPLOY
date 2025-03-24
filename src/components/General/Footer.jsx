@@ -47,19 +47,19 @@ const Footer = () => {
           </div>
           <div className="flex justify-center md:flex-row flex-col items-center md:gap-4 mt-4">
             <Link
-              to={"/publications"}
-              onClick={() => setCurrentIndex(!currentIndex)}
-            >
-              <p className="text-white hover:rounded-none px-1 py-3 rounded-3xl uppercase">
-                Publications
-              </p>
-            </Link>
-            <Link
               to={"/projects"}
               onClick={() => setCurrentIndex(!currentIndex)}
             >
               <p className="text-white hover:rounded-none p-2 rounded-2xl uppercase">
                 Projects
+              </p>
+            </Link>
+            <Link
+              to={"/publications"}
+              onClick={() => setCurrentIndex(!currentIndex)}
+            >
+              <p className="text-white hover:rounded-none px-1 py-3 rounded-3xl uppercase">
+                Publications
               </p>
             </Link>
             <Link to={"/about"} onClick={() => setCurrentIndex(!currentIndex)}>
@@ -101,25 +101,31 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="grid grid-cols-2 items-center mt-4 text-center">
-            <Link
-              to={"/publications"}
-              onClick={() => setCurrentIndex(!currentIndex)}
-            >
-              <p className="text-white hover:rounded-none px-1 py-3 rounded-3xl uppercase">
-                Publications
-              </p>
-            </Link>
+          <div className={`${styles.Menu} flex justify-center items-center`}>
             <Link
               to={"/projects"}
               onClick={() => setCurrentIndex(!currentIndex)}
             >
-              <p className="text-white hover:rounded-none p-2 rounded-2xl uppercase">
+              <p
+                className={`text-white hover:rounded-none p-2 rounded-2xl ${styles.menuItem}`}
+              >
                 Projects
               </p>
             </Link>
+            <Link
+              to={"/publications"}
+              onClick={() => setCurrentIndex(!currentIndex)}
+            >
+              <p
+                className={`text-white hover:rounded-none px-1 py-3 rounded-3xl ${styles.menuItem}`}
+              >
+                Publications
+              </p>
+            </Link>
             <Link to={"/about"} onClick={() => setCurrentIndex(!currentIndex)}>
-              <p className="text-white hover:rounded-none p-2 rounded-2xl uppercase">
+              <p
+                className={`text-white hover:rounded-none p-2 rounded-2xl ${styles.menuItem}`}
+              >
                 Our Story
               </p>
             </Link>
@@ -127,12 +133,14 @@ const Footer = () => {
               to={"/contact"}
               onClick={() => setCurrentIndex(!currentIndex)}
             >
-              <p className="text-white hover:rounded-none p-2 rounded-2xl uppercase">
+              <p
+                className={`text-white hover:rounded-none p-2 rounded-2xl ${styles.menuItem}`}
+              >
                 Contact
               </p>
             </Link>
-            {/* <div className="border-white border-r-2 h-[160px]"></div> */}
           </div>
+
           <div className="flex gap-8 justify-center mt-4">
             <Link
               target="_blank"

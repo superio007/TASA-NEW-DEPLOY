@@ -11,9 +11,11 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 #mobile-menu .active {
   border-bottom: 2px solid black;
 }
+
 .active {
   /* background-color: #007fff; */
   /* color: white; */
@@ -21,3 +23,16 @@
   padding: 4px 12px;
   border-top: 2px solid black;
 }
+
+ /* Move reCAPTCHA v3 badge to the left */
+
+ .grecaptcha-badge {
+   width: 70px !important;
+   overflow: hidden !important;
+   transition: all 0.3s ease !important;
+   left: 1px !important;
+ }
+
+ .grecaptcha-badge:hover {
+   width: 256px !important;
+ }

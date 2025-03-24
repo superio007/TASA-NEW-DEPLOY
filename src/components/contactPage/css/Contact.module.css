@@ -19,7 +19,7 @@
   transform: translate(16%, -50%);
 }
 /* for samsung */
-@media screen and (max-width: 331px) {
+@media screen and (max-width: 362px) {
   .child{
     width: auto;
   }

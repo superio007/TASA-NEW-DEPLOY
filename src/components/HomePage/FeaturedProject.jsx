@@ -3,12 +3,13 @@ import Left from "./assets/811.jpg";
 import styles from "./css/FeaturedProject.module.css";
 import { MdOutlineArrowRight } from "react-icons/md";
 import Project4 from "./Project4";
-import { Parallax } from "react-scroll-parallax";
 import Project5 from "./Poject5";
 import Project3 from "./Project3";
 import { Link } from "react-router-dom";
-
-const FeaturedProject = ({ apiRes }) => {
+import { useContext } from "react";
+import ProjectsContext from "../../context/ProjectContext";
+const FeaturedProject = ({}) => {
+  const apiRes = useContext(ProjectsContext);
   function truncateText(text, limit = 200) {
     if (text.length > limit) {
       return text.substring(0, limit) + "...";
@@ -27,7 +28,11 @@ const FeaturedProject = ({ apiRes }) => {
             <div className="flex flex-col items-center">
               <div className={styles.LeftSuperParent}>
                 <div className={styles.LeftParent}>
-                  <img loading="lazy" src={Left} alt="" />
+                  <img
+                    loading="lazy"
+                    src={apiRes[0].ProfilePicture.url || Left}
+                    alt={apiRes[0].ProfilePicture.alternativeText || "Project"}
+                  />
                   <div className={`${styles.LeftChild} p-12 bg-white`}>
                     <p className="text-sm pb-3 font-medium">
                       {apiRes[0].ProjectName || 811}
@@ -58,7 +63,11 @@ const FeaturedProject = ({ apiRes }) => {
             <div className="flex flex-col items-center">
               <div className={styles.RightSuperParent}>
                 <div className={styles.RightParent}>
-                  <img loading="lazy" src={Right} alt="" />
+                  <img
+                    loading="lazy"
+                    src={apiRes[1].ProfilePicture.url || Right}
+                    alt={apiRes[1].ProfilePicture.alternativeText || "Project"}
+                  />
                   <div className={`${styles.RightChild} p-12 bg-white`}>
                     <p className="text-sm pb-3 font-medium">{`${apiRes[1].ProjectName}||601 Sakura Home`}</p>
                     <div className="border-t-1 border-black w-[70px]"></div>
@@ -92,11 +101,10 @@ const FeaturedProject = ({ apiRes }) => {
           <div className="md:hidden flex flex-col items-center gap-8">
             <div className="flex flex-col items-center">
               <div>
-                {/* Parallax Image */}
                 <img
                   loading="lazy"
-                  src={Left}
-                  alt="Project"
+                  src={apiRes[0].ProfilePicture.url || Left}
+                  alt={apiRes[0].ProfilePicture.alternativeText || "Project"}
                   className="w-full h-auto"
                 />
 
@@ -129,8 +137,8 @@ const FeaturedProject = ({ apiRes }) => {
                 {/* Image Container */}
                 <img
                   loading="lazy"
-                  src={Right}
-                  alt="Project"
+                  src={apiRes[1].ProfilePicture.url || Right}
+                  alt={apiRes[1].ProfilePicture.alternativeText || "Project"}
                   className="w-full h-auto"
                 />
 
@@ -149,7 +157,11 @@ const FeaturedProject = ({ apiRes }) => {
                         200
                       )}
                   </p>
-                  <Link to={`/projects/${apiRes[1].ProjectName.split(" ").join("-")}`}>
+                  <Link
+                    to={`/projects/${apiRes[1].ProjectName.split(" ").join(
+                      "-"
+                    )}`}
+                  >
                     <div className="flex items-center hover:text-[#8E8E8E] hover:cursor-pointer">
                       <span className="text-sm">View Project</span>
                       <MdOutlineArrowRight style={{ fontSize: "20px" }} />
@@ -162,7 +174,7 @@ const FeaturedProject = ({ apiRes }) => {
         </div>
         <Project5 apiRes={apiRes[2]} />
         <Project4 apiRes={apiRes[3]} />
-        <Project3  apiRes={apiRes[4]} />
+        <Project3 apiRes={apiRes[4]} />
       </div>
     </>
   );

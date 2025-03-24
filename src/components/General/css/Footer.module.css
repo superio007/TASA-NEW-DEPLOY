@@ -16,7 +16,23 @@
     letter-spacing: 8px;
     margin-top: -10px;
 }
-.social{
+
+.social {
     font-size: 20px;
-    color: #ffffff;  
+    color: #ffffff;
+}
+
+.Menu {
+    gap: 8px;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 362px) {
+    .Menu {
+        gap: 4px;
+        padding: 0;
+    }
+    .menuItem{
+        font-size: 13px;
+    }
 }

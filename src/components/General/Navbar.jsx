@@ -29,14 +29,14 @@ const Navbar = () => {
               </Link>
             </div>
             <div className="hidden xl:flex flex-row gap-8 items-center">
-              <NavLink to={"/publications"}>
-                <p className="  hover:rounded-none px-1 py-3 rounded-3xl uppercase">
-                  Publications
-                </p>
-              </NavLink>
               <NavLink to={"/projects"}>
                 <p className="  hover:rounded-none p-2 rounded-2xl uppercase">
                   Projects
+                </p>
+              </NavLink>
+              <NavLink to={"/publications"}>
+                <p className="  hover:rounded-none px-1 py-3 rounded-3xl uppercase">
+                  Publications
                 </p>
               </NavLink>
               <NavLink to={"/about"}>
@@ -104,14 +104,14 @@ const Navbar = () => {
       >
         <div className="flex flex-col justify-between gap-10">
           <div className="flex flex-col justify-center text-center gap-6">
-            <NavLink to={"/publications"} onClick={() => setIsMenuOpen(false)}>
-              <p className="  hover:rounded-none p-2 rounded-2xl uppercase">
-                Publications
-              </p>
-            </NavLink>
             <NavLink to={"/projects"} onClick={() => setIsMenuOpen(false)}>
               <p className="  hover:rounded-none p-2 rounded-2xl uppercase">
                 Projects
+              </p>
+            </NavLink>
+            <NavLink to={"/publications"} onClick={() => setIsMenuOpen(false)}>
+              <p className="  hover:rounded-none p-2 rounded-2xl uppercase">
+                Publications
               </p>
             </NavLink>
             <NavLink to={"/about"} onClick={() => setIsMenuOpen(false)}>
