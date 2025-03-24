@@ -19,11 +19,16 @@ const AboutPage = () => {
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? AboutStaticData.data : data || {};
   if (isLoading) return <p>Loading...</p>;
-  return (
+  return apiResponse.about_hero_descriptions ? (
     <>
-      <AboutHeroSection description={apiResponse.about_hero_descriptions} heading={apiResponse.about_hero_section_heading} />
+      <AboutHeroSection
+        description={apiResponse.about_hero_descriptions}
+        heading={apiResponse.about_hero_section_heading}
+      />
       <OurTeam team={apiResponse.our_team} members={apiResponse.team_members} />
     </>
+  ) : (
+    <p>No data available</p>
   );
 };
 

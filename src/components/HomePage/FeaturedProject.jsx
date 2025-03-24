@@ -35,7 +35,7 @@ const FeaturedProject = ({}) => {
                   />
                   <div className={`${styles.LeftChild} p-12 bg-white`}>
                     <p className="text-sm pb-3 font-medium">
-                      {apiRes[0].ProjectName || 811}
+                      {apiRes[0].ProjectName || "811"}
                     </p>
                     <div className="border-t-1 border-black w-[70px]"></div>
                     <p className="font-light py-3 text-sm">
@@ -69,7 +69,7 @@ const FeaturedProject = ({}) => {
                     alt={apiRes[1].ProfilePicture.alternativeText || "Project"}
                   />
                   <div className={`${styles.RightChild} p-12 bg-white`}>
-                    <p className="text-sm pb-3 font-medium">{`${apiRes[1].ProjectName}||601 Sakura Home`}</p>
+                    <p className="text-sm pb-3 font-medium">{apiRes[1].ProjectName|| "601 Sakura Home"}</p>
                     <div className="border-t-1 border-black w-[70px]"></div>
                     <p className="font-light py-3 text-sm">
                       {truncateText(apiRes[1].ProjectDescription, 200) ||
