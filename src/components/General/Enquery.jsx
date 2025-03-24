@@ -14,7 +14,7 @@ const postContactForm = async (formattedData) => {
   );
   return data;
 };
-const ProposalForm = () => {
+const ProposalForm = ({ EnquerySubHeading, EnqueryHeading }) => {
   const {
     register,
     reset,
@@ -49,10 +49,10 @@ const ProposalForm = () => {
     <>
       <div className="bg-white flex flex-col items-center justify-center py-10 px-5 max-w-md mx-auto shadow-lg">
         <h2 className="text-xl text-black font-medium uppercase text-center">
-          Build Your Dream Project
+          {EnqueryHeading}
         </h2>
         <p className="text-center mb-5 text-sm">
-          Crafting Spaces That Fit Your Aspirations
+          {EnquerySubHeading}
         </p>
 
         <form onSubmit={handleSubmit(onSubmit)} className="w-full">

@@ -19,7 +19,7 @@ const ProjectBrief = ({ apiRes }) => {
         url: image.url,
         alt: image.alternativeText,
       })),
-      ytEmbeded: project.ytEmbeded || null,
+      ytEmbeded: project.ProjectYTLink || null,
     }));
   }, []);
   // console.log("formattedProjects", formattedProjects);

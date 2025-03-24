@@ -38,7 +38,7 @@ const usePostContactForm = () => {
     },
   });
 };
-const Contact2 = () => {
+const Contact2 = ({ ContactUsHeading, ContactUsSubHeading }) => {
   const { mutate } = usePostContactForm();
   const {
     register,
@@ -120,11 +120,10 @@ const Contact2 = () => {
         </div>
         <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mb-8 md:mb-0">
           <h2 className="text-gray-900 text-2xl  mb-1 uppercase title-font">
-            Get in Touch
+            {ContactUsHeading}
           </h2>
           <p className="leading-relaxed mb-5 text-gray-600">
-            Let's build something amazing together. Fill out the form below, and
-            I'll get back to you soon!
+            {ContactUsSubHeading}
           </p>
           <form onSubmit={handleSubmit(onSubmit)} className="w-full">
             <div className="relative mb-4">

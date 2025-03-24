@@ -1,6 +1,6 @@
 import EnqueryForm from "../General/Enquery";
 import styles from "./css/HeroSection.module.css";
-const HeroSection = ({ apiRes }) => {
+const HeroSection = ({ apiRes, EnquerySubHeading, EnqueryHeading }) => {
   return (
     <div className="bg-[#ffffff]">
       <section className="body-font container mx-auto p-4 xl:px-0 2xl:px-30">
@@ -24,7 +24,7 @@ const HeroSection = ({ apiRes }) => {
             </p>
           </div>
           <div className="hidden md:block lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <EnqueryForm />
+            <EnqueryForm EnquerySubHeading={EnquerySubHeading} EnqueryHeading={EnqueryHeading}/>
           </div>
         </div>
       </section>

@@ -1,8 +1,11 @@
 import Contact from "../components/contactPage/Contact";
-const ContactPage = () => {
+const ContactPage = ({ ContactUsHeading, ContactUsSubHeading }) => {
   return (
     <>
-      <Contact />
+      <Contact
+        ContactUsHeading={ContactUsHeading}
+        ContactUsSubHeading={ContactUsSubHeading}
+      />
     </>
   );
 };

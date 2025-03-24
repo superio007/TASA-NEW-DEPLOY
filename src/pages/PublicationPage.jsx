@@ -28,6 +28,8 @@ function PublicationPage() {
             <PublicationHeroSection
               apiRes={apiResponse.publication_hero_section}
               slider={apiResponse.publications_slider}
+              EnquerySubHeading={apiResponse.EnquerySubHeading}
+              EnqueryHeading={apiResponse.EnqueryHeading}
             />
           </ParallaxProvider>
           <PublicationsCards apiRes={apiResponse.publications} />

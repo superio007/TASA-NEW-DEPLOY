@@ -54,11 +54,22 @@ function App() {
         }
       >
         <Route path="/" element={<Homepage apiResponse={apiResponse} />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route
+          path="/contact"
+          element={
+            <Contact
+              ContactUsSubHeading={apiResponse.ContactUsSubHeading}
+              ContactUsHeading={apiResponse.ContactUsHeading}
+            />
+          }
+        />
         <Route path="/about" element={<About />} />
         <Route path="/publications" element={<Publications />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/projects/:id" element={<ProjectBrief apiRes={projects} />} />
+        <Route
+          path="/projects/:id"
+          element={<ProjectBrief apiRes={projects} />}
+        />
         <Route path="*" element={<NotFound />} />
       </Route>
     )
