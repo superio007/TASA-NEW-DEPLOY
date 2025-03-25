@@ -19,6 +19,9 @@
 }
 
 @media screen and (max-width: 769px) {
+    .bg{
+        background-position: center;
+    }
     .child {
         position: absolute;
         width: auto;
