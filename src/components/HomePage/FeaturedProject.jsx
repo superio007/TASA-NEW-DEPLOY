@@ -6,10 +6,7 @@ import Project4 from "./Project4";
 import Project5 from "./Poject5";
 import Project3 from "./Project3";
 import { Link } from "react-router-dom";
-import { useContext } from "react";
-import ProjectsContext from "../../context/ProjectContext";
-const FeaturedProject = ({}) => {
-  const apiRes = useContext(ProjectsContext);
+const FeaturedProject = ({ apiRes }) => {
   function truncateText(text, limit = 200) {
     if (text.length > limit) {
       return text.substring(0, limit) + "...";
@@ -69,7 +66,9 @@ const FeaturedProject = ({}) => {
                     alt={apiRes[1].ProfilePicture.alternativeText || "Project"}
                   />
                   <div className={`${styles.RightChild} p-12 bg-white`}>
-                    <p className="text-sm pb-3 font-medium">{apiRes[1].ProjectName|| "601 Sakura Home"}</p>
+                    <p className="text-sm pb-3 font-medium">
+                      {apiRes[1].ProjectName || "601 Sakura Home"}
+                    </p>
                     <div className="border-t-1 border-black w-[70px]"></div>
                     <p className="font-light py-3 text-sm">
                       {truncateText(apiRes[1].ProjectDescription, 200) ||

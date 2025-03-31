@@ -1,0 +1,64 @@
+.brandSliderContainer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.brandSlider {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.sliderTrack {
+    display: flex;
+    gap: 12rem;
+    animation: scroll 10s linear infinite;
+    width: max-content;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide img {
+    height: 60px;
+    max-width: 150px;
+    object-fit: contain;
+    filter: grayscale(20%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.sliderTrack .slide img:hover {
+    scale: 1.5;
+    transition: ease-in-out;
+}
+
+.sliderTrack:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 768px) {
+    .sliderTrack {
+        animation: scroll 30s linear infinite;
+    }
+
+    .slide :global(img) {
+        height: 50px;
+        max-width: 120px;
+    }
+}

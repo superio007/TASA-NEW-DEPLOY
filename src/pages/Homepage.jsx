@@ -6,7 +6,6 @@ import BrandSlider from "../components/PublicationPage/BrandSlider";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import HomeStaticData from "../Data/HomeStaticData.json";
-import ProjectsContext from "../context/ProjectContext";
 const fetchHomepageContent = async (formattedData) => {
   const { data } = await axios.get(
     "https://starfish-app-ca2ju.ondigitalocean.app/api/home-page?populate[home_herosection][populate]=BackgroundImage&populate[projects][populate]=*&populate[publications_slider][populate]=*"
@@ -31,9 +30,7 @@ const HomePage = () => {
           <div className=" w-full p-4 ">
             <BrandSlider apiRes={apiResponse.publications_slider} />
           </div>
-          <ProjectsContext.Provider value={apiResponse.projects}>
-            <FeaturedProject />
-          </ProjectsContext.Provider>
+          <FeaturedProject apiRes={apiResponse.projects} />
           <Contact
             ContactUsSubHeading={apiResponse.ContactUsSubHeading}
             ContactUsHeading={apiResponse.ContactUsHeading}
