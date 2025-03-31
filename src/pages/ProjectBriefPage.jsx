@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, use } from "react";
 import { useParams, NavLink, Link } from "react-router-dom";
 import {
   MdOutlineKeyboardArrowRight,
@@ -69,6 +69,7 @@ const ProjectBrief = () => {
   const [currentIndex, setCurrentIndex] = useState(null);
   const [showNext, setShowNext] = useState(false);
   const [showPrev, setShowPrev] = useState(false);
+  const [showMedia, setshowMedia] = useState(false);
   const [featureImages, setFeatureImages] = useState([]);
 
   useEffect(() => {
@@ -92,6 +93,7 @@ const ProjectBrief = () => {
         currentIndex !== null &&
         projects[currentIndex]?.features?.length > 0
       ) {
+        setshowMedia(true);
         try {
           const featuresImages = await Promise.all(
             projects[currentIndex].features.map((feature) =>
@@ -104,6 +106,7 @@ const ProjectBrief = () => {
         }
       } else {
         setFeatureImages([]);
+        setshowMedia(false);
       }
     };
 
@@ -169,9 +172,11 @@ const ProjectBrief = () => {
             <div className={styles.brandCouterContainer}>
               <div className={styles.brandSliderContainer}>
                 <div className="flex w-full items-center gap-4">
-                  <div className="md:w-[250px]">
-                    <p className="font-normal md:text-2xl">Media Feature:</p>
-                  </div>
+                  {showMedia && (
+                    <div className="md:w-[250px]">
+                      <p className="font-normal md:text-2xl">Media Feature:</p>
+                    </div>
+                  )}
                   <div className={styles.brandSlider}>
                     <div className={styles.sliderTrack}>
                       {featureImages.map((feature, index) => (
@@ -195,9 +200,11 @@ const ProjectBrief = () => {
             </div>
           ) : (
             <div className="py-2 flex flex-wrap items-center gap-4">
-              <div className="md:w-[250px]">
-                <p className="font-medium md:text-2xl">Media Features</p>
-              </div>
+              {showMedia && (
+                <div className="md:w-[250px]">
+                  <p className="font-medium md:text-2xl">Media Features</p>
+                </div>
+              )}
               {featureImages.map((feature, index) => (
                 <Link
                   to={feature.link}
