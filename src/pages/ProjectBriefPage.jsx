@@ -102,7 +102,7 @@ const ProjectBrief = () => {
         } catch (error) {
           console.error("Error fetching feature images:", error);
         }
-      }else{
+      } else {
         setFeatureImages([]);
       }
     };
@@ -168,29 +168,43 @@ const ProjectBrief = () => {
           {featureImages.length > 4 ? (
             <div className={styles.brandCouterContainer}>
               <div className={styles.brandSliderContainer}>
-                <div className={styles.brandSlider}>
-                  <div className={styles.sliderTrack}>
-                    {featureImages.map((feature, index) => (
-                      <Link
-                        to={feature.link}
-                        className={styles.slide}
-                        key={index}
-                      >
-                        <img
-                          loading="lazy"
-                          src={feature.src}
-                          alt={feature.alt}
-                        />
-                      </Link>
-                    ))}
+                <div className="flex w-full items-center gap-4">
+                  <div className="md:w-[250px]">
+                    <p className="font-normal md:text-2xl">Media Feature:</p>
+                  </div>
+                  <div className={styles.brandSlider}>
+                    <div className={styles.sliderTrack}>
+                      {featureImages.map((feature, index) => (
+                        <Link
+                          to={feature.link}
+                          target="_blank"
+                          className={styles.slide}
+                          key={index}
+                        >
+                          <img
+                            loading="lazy"
+                            src={feature.src}
+                            alt={feature.alt}
+                          />
+                        </Link>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           ) : (
-            <div className="py-2 flex flex-wrap gap-2">
+            <div className="py-2 flex flex-wrap items-center gap-4">
+              <div className="md:w-[250px]">
+                <p className="font-medium md:text-2xl">Media Features</p>
+              </div>
               {featureImages.map((feature, index) => (
-                <Link to={feature.link} className={styles.slide} key={index}>
+                <Link
+                  to={feature.link}
+                  target="_blank"
+                  className={styles.slide}
+                  key={index}
+                >
                   <img loading="lazy" src={feature.src} alt={feature.alt} />
                 </Link>
               ))}

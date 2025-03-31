@@ -14,7 +14,7 @@
 
 .sliderTrack {
     display: flex;
-    gap: 12rem;
+    gap: 4rem;
     animation: scroll 10s linear infinite;
     width: max-content;
 }
@@ -29,12 +29,13 @@
     height: 60px;
     max-width: 150px;
     object-fit: contain;
-    filter: grayscale(20%);
+    filter: grayscale(100%);
     transition: transform 0.3s ease-in-out;
 }
 
 .sliderTrack .slide img:hover {
-    scale: 1.5;
+    /* scale: 1.5; */
+    filter: grayscale(0%);
     transition: ease-in-out;
 }
 
