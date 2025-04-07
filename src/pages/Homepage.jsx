@@ -8,7 +8,7 @@ import axios from "axios";
 import HomeStaticData from "../Data/HomeStaticData.json";
 const fetchHomepageContent = async (formattedData) => {
   const { data } = await axios.get(
-    "https://starfish-app-ca2ju.ondigitalocean.app/api/home-page?populate[home_herosection][populate]=BackgroundImage&populate[projects][populate]=*&populate[publications_slider][populate]=*"
+    "http://localhost:1337/api/home-page?populate[home_herosection][populate]=BackgroundImage&populate[projects][populate]=*&populate[publications_slider][populate]=*"
   );
   return data.data;
 };

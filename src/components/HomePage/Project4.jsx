@@ -2,6 +2,7 @@ import Project4 from "../../assets/HomePage/AmberLakeResort.png";
 import styles from "./css/FeaturedProject.module.css";
 import { Link } from "react-router-dom";
 import { MdOutlineArrowRight } from "react-icons/md";
+import { IKImage } from "imagekitio-react";
 const Project = ({ apiRes }) => {
   function truncateText(text, limit = 200) {
     if (text.length > limit) {
@@ -14,10 +15,14 @@ const Project = ({ apiRes }) => {
       <div className="container mx-auto pt-7 md:pb-32 pb-16 p-4 xl:px-35">
         {/* Project 4 */}
         <div className="relative">
-          <img
+          <IKImage
+            urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+            path={apiRes.ProfilePicture.formats.large.url
+              .split("https://ik.imagekit.io/2cdga3aqf/TasaUploads/")
+              .join("/")}
             loading="lazy"
             className={styles.Project4Img}
-            src={apiRes.ProfilePicture.url || Project4}
+            transformation={[{ progressive: true, quality: "auto" }]}
             alt={apiRes.ProfilePicture.alternativeText || "Project 4"}
           />
           <div className="flex justify-end items-center">

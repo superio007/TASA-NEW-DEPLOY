@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "./css/OurTeam.module.css";
 import { MdOutlineArrowRight } from "react-icons/md";
-import TanzeemHeadshot from "../../assets/AboutPage/Ar-Tanzeem-Headshot.png";
-import KshitijPatil from "../../assets/AboutPage/KshitijPatil.jpg";
-
+import { IKImage } from "imagekitio-react";
 const OurTeam = ({ team, members }) => {
   return (
     <>
@@ -39,10 +37,17 @@ const OurTeam = ({ team, members }) => {
                 </div>
               </div>
               <div className={`${styles.LeftChild} flex items-center`}>
-                <img
+
+                <IKImage
+                  urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+                  path={member.TeamPicture?.url
+                    .split("https://ik.imagekit.io/2cdga3aqf/TasaUploads/")
+                    .join("/")}
                   loading="lazy"
-                  src={member.TeamPicture.url}
-                  alt="TanzeemHeadshot"
+                  transformation={[
+                    { progressive: true, quality: "auto", },
+                  ]}
+                  alt={member.Name}
                 />
               </div>
             </div>

@@ -1,11 +1,15 @@
 import styles from "./css/HeroSection.module.css";
 import { Parallax } from "react-scroll-parallax";
+import HomeImage from "../../assets/HomePage/Home.jpg";
 const HeroSection = ({ apiRes }) => {
   return (
     <>
       <div
         className={`${styles.bg}`}
-        style={{ backgroundImage: `url(${apiRes.BackgroundImage.url})` }}
+        // style={{ backgroundImage: `url(${apiRes.BackgroundImage.url})` }}
+        style={{
+          backgroundImage:`url(${HomeImage})`
+        }}
       >
         <Parallax translateY={["-40%", "50%"]}>
           <div className="flex justify-center items-center min-h-[60vh]">

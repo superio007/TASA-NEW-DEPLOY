@@ -20,7 +20,7 @@ import { useState, useEffect } from "react";
 
 const fetchHomepageContent = async () => {
   const { data } = await axios.get(
-    "https://starfish-app-ca2ju.ondigitalocean.app/api/home-page?populate[home_herosection][populate]=BackgroundImage&populate[projects][populate]=*&populate[publications_slider][populate]=*"
+    "http://localhost:1337/api/home-page?populate[home_herosection][populate]=BackgroundImage&populate[projects][populate]=*&populate[publications_slider][populate]=*"
   );
   return data.data;
 };

@@ -2,6 +2,7 @@ import project3 from "../../assets/HomePage/VillaKochil.png";
 import styles from "./css/FeaturedProject.module.css";
 import { Link } from "react-router-dom";
 import { MdOutlineArrowRight } from "react-icons/md";
+import { IKImage } from "imagekitio-react";
 const Project = ({ apiRes }) => {
   function truncateText(text, limit = 200) {
     if (text.length > limit) {
@@ -38,18 +39,27 @@ const Project = ({ apiRes }) => {
             </Link>
           </div>
           <div>
-            <img
+            <IKImage
+              urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+              path={apiRes.ProfilePicture.formats.large.url
+                .split("https://ik.imagekit.io/2cdga3aqf/TasaUploads/")
+                .join("/")}
               loading="lazy"
               className={`${styles.project3Img}`}
-              src={apiRes.ProfilePicture.url || project3}
+              transformation={[{ progressive: true, quality: "auto" }]}
               alt={apiRes.ProfilePicture.alternativeText || "Project 5"}
             />
           </div>
         </div>
       </div>
       <div className="md:hidden container mx-auto pt-7 pb-16 p-4 xl:px-35">
-        <img
-          src={apiRes.ProfilePicture.url || project3}
+        <IKImage
+          urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+          path={apiRes.ProfilePicture.formats.large.url
+            .split("https://ik.imagekit.io/2cdga3aqf/TasaUploads/")
+            .join("/")}
+          loading="lazy"
+          transformation={[{ progressive: true, quality: "auto" }]}
           alt={apiRes.ProfilePicture.alternativeText || "Project 5"}
         />
         <div className={`bg-white p-10 `}>

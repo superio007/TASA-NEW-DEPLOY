@@ -1,8 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import Left from "../../assets/PublicationPage/TASAAR.webp";
 import styles from "./css/PublicationsCards.module.css";
-import Logo from "../../assets/PublicationPage/deZeen.png";
+import { IKImage } from "imagekitio-react";
 import { MdOutlineArrowRight } from "react-icons/md";
 function PublicationsCards({ apiRes }) {
   let publication = [];
@@ -11,7 +9,7 @@ function PublicationsCards({ apiRes }) {
       ArticleLogo: item.PublicationLogo[0].url,
       ArticleLogoAlt: item.PublicationLogo[0].alternativeText,
       ArticleTitle: item.Heading,
-      ArticalBack: item.ArticalBackground.url,
+      ArticalBack: item.ArticalBackground.formats.large.url,
       ArticalAlt: item.ArticalBackground.alternativeText,
       ArticleLink: item.ArticalLink,
       ArticleDescription: item.Description,
@@ -38,24 +36,34 @@ function PublicationsCards({ apiRes }) {
             <div key={index} className="flex pt-18 flex-col items-center">
               <div className={styles.LeftSuperParent}>
                 <div className={styles.LeftParent}>
-                  <img
-                    loading="lazy"
+                  <IKImage
+                    urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+                    path={item.ArticalBack.split(
+                      "https://ik.imagekit.io/2cdga3aqf/TasaUploads/"
+                    ).join("/")}
                     className={styles.LeftImage}
-                    src={item.ArticalBack}
+                    loading="lazy"
+                    transformation={[{ progressive: true, quality: "auto" }]}
                     alt={item.ArticalAlt || truncateText(item.ArticleTitle, 15)}
                   />
                   <div
                     className={`${styles.LeftChild} md:px-10 p-8 md:py-10 bg-white`}
                   >
                     <div className="flex w-full justify-start items-center">
-                      <img
+                      <IKImage
+                        urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+                        path={item.ArticleLogo.split(
+                          "https://ik.imagekit.io/2cdga3aqf/TasaUploads/"
+                        ).join("/")}
                         loading="lazy"
-                        src={item.ArticleLogo}
+                        className="h-[60px]"
+                        transformation={[
+                          { progressive: true, quality: "auto" },
+                        ]}
                         alt={
                           item.ArticleLogoAlt ||
                           truncateText(item.ArticleTitle, 15)
                         }
-                        className="h-[60px]"
                       />
                     </div>
                     <a
@@ -102,11 +110,17 @@ function PublicationsCards({ apiRes }) {
             <div key={index} className="flex flex-col items-center p-4">
               <div className={`w-full bg-white`}>
                 <div className="flex w-full justify-start items-center p-4">
-                  <img
+                  <IKImage
+                    urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+                    path={item.ArticleLogo.split(
+                      "https://ik.imagekit.io/2cdga3aqf/TasaUploads/"
+                    ).join("/")}
                     loading="lazy"
-                    src={item.ArticleLogo}
-                    alt=""
                     className="h-[60px]"
+                    transformation={[{ progressive: true, quality: "auto" }]}
+                    alt={
+                      item.ArticleLogoAlt || truncateText(item.ArticleTitle, 15)
+                    }
                   />
                 </div>
                 <a
@@ -127,11 +141,15 @@ function PublicationsCards({ apiRes }) {
                 </a>
               </div>
               <div className="w-full bg-white p-4">
-                <img
+                <IKImage
+                  urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+                  path={item.ArticalBack.split(
+                    "https://ik.imagekit.io/2cdga3aqf/TasaUploads/"
+                  ).join("/")}
                   loading="lazy"
                   className={`${styles.LeftImage}`}
-                  src={item.ArticalBack}
-                  alt=""
+                  transformation={[{ progressive: true, quality: "auto" }]}
+                  alt={item.ArticalAlt || truncateText(item.ArticleTitle, 15)}
                 />
               </div>
               <div className={`px-10 py-8 bg-white`}>

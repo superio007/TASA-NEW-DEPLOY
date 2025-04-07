@@ -17,6 +17,7 @@
     "crypto-js": "^4.2.0",
     "flowbite": "^3.1.2",
     "framer-motion": "^12.5.0",
+    "imagekitio-react": "^4.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-google-recaptcha-v3": "^1.10.1",

@@ -9,17 +9,18 @@ import { useQuery } from "@tanstack/react-query";
 import ProjectsData from "../Data/ProjectsData.json";
 import { IoCameraOutline } from "react-icons/io5";
 import styles from "../css/ProjectBriefPage.module.css";
+import { IKImage } from "imagekitio-react";
 
 const fetchProjectpageContent = async () => {
   const { data } = await axios.get(
-    "https://starfish-app-ca2ju.ondigitalocean.app/api/projects?populate=*"
+    "http://localhost:1337/api/projects?populate=*"
   );
   return data.data;
 };
 
 async function callFeatureApi(documentedID) {
   try {
-    const apilink = `https://starfish-app-ca2ju.ondigitalocean.app/api/featured-ons/${documentedID}?populate=*`;
+    const apilink = `http://localhost:1337/api/featured-ons/${documentedID}?populate=*`;
     const { data } = await axios.get(apilink);
     let res = {
       src: data.data.ArticalBrandlogo.url,
@@ -42,9 +43,9 @@ const ProjectBrief = () => {
   const [projects, setProjects] = useState([]);
   const { id } = useParams();
   const ProjectName = id.split("-").join(" ");
-
   useEffect(() => {
     if (data && Array.isArray(data)) {
+      console.log("Data fetched:", data);
       let count = 1;
       const mappedProjects = data?.map((project) => ({
         id: count++,
@@ -54,8 +55,8 @@ const ProjectBrief = () => {
         description: project.ProjectDescription,
         images:
           project.ProjectsImages?.map((image) => ({
-            url: image.url,
-            alt: image.alternativeText,
+            url: image.formats.large.url,
+            alt: image.formats.large.name,
           })) || [],
         features: project.featured_ons || [],
         ytEmbeded: project.ProjectYTLink || null,
@@ -186,9 +187,17 @@ const ProjectBrief = () => {
                           className={styles.slide}
                           key={index}
                         >
-                          <img
+                          <IKImage
+                            urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+                            path={feature.src
+                              .split(
+                                "https://ik.imagekit.io/2cdga3aqf/TasaUploads/"
+                              )
+                              .join("/")}
                             loading="lazy"
-                            src={feature.src}
+                            transformation={[
+                              { progressive: true, quality: "auto" },
+                            ]}
                             alt={feature.alt}
                           />
                         </Link>
@@ -212,7 +221,15 @@ const ProjectBrief = () => {
                   className={styles.slide}
                   key={index}
                 >
-                  <img loading="lazy" src={feature.src} alt={feature.alt} />
+                  <IKImage
+                    urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+                    path={feature.src
+                      .split("https://ik.imagekit.io/2cdga3aqf/TasaUploads/")
+                      .join("/")}
+                    loading="lazy"
+                    transformation={[{ progressive: true, quality: "auto" }]}
+                    alt={feature.alt}
+                  />
                 </Link>
               ))}
             </div>
@@ -224,12 +241,16 @@ const ProjectBrief = () => {
           <div className="container mx-auto p-4 xl:px-80">
             <div className="flex flex-col w-full gap-8">
               {project.images.map((image, index) => (
-                <img
+                <IKImage
                   key={index}
-                  src={image.url}
-                  alt={project.name}
+                  urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+                  path={image.url
+                    .split("https://ik.imagekit.io/2cdga3aqf/TasaUploads/")
+                    .join("/")}
                   loading="lazy"
                   className="w-full h-auto object-cover  shadow-md"
+                  transformation={[{ progressive: true, quality: "auto" }]}
+                  alt={project.name}
                 />
               ))}
             </div>

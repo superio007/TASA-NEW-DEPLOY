@@ -1,5 +1,5 @@
 .bg {
-    /* background: url("https://res.cloudinary.com/do3xm1yzb/image/upload/v1742286772/axj0oktbx61leudydrhx.jpg"); */
+    background-image: url('https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_About_2ac82cca62_SQfiBm2Nk.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -19,9 +19,10 @@
 }
 
 @media screen and (max-width: 769px) {
-    .bg{
+    .bg {
         background-position: center;
     }
+
     .child {
         position: absolute;
         width: auto;

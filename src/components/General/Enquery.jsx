@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import axios from "axios";
 const postContactForm = async (formattedData) => {
   const { data } = await axios.post(
-    "https://starfish-app-ca2ju.ondigitalocean.app/api/enquery-forms",
+    "http://localhost:1337/api/enquery-forms",
     formattedData, // Sending formattedData in the request body
     {
       headers: {
@@ -51,9 +51,7 @@ const ProposalForm = ({ EnquerySubHeading, EnqueryHeading }) => {
         <h2 className="text-xl text-black font-medium uppercase text-center">
           {EnqueryHeading}
         </h2>
-        <p className="text-center mb-5 text-sm">
-          {EnquerySubHeading}
-        </p>
+        <p className="text-center mb-5 text-sm">{EnquerySubHeading}</p>
 
         <form onSubmit={handleSubmit(onSubmit)} className="w-full">
           <input

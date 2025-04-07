@@ -1,7 +1,7 @@
 import React from "react";
 import { FaStar } from "react-icons/fa"; // Import star icons
 import styles from "./css/BrandSlider.module.css"; // Import CSS
-
+import { IKImage } from "imagekitio-react";
 let BrandLogos = [];
 const BrandSlider = ({ apiRes }) => {
   apiRes.PublicationsLogos.map((logo) => {
@@ -27,7 +27,15 @@ const BrandSlider = ({ apiRes }) => {
           <div className={styles.sliderTrack}>
             {BrandLogos.map((brand, index) => (
               <div className={styles.slide} key={index}>
-                <img loading="lazy" src={brand.src} alt={brand.alt} />
+                <IKImage
+                  urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+                  path={brand.src
+                    .split("https://ik.imagekit.io/2cdga3aqf/TasaUploads/")
+                    .join("/")}
+                  loading="lazy"
+                  transformation={[{ progressive: true, quality: "auto" }]}
+                  alt={brand.alt}
+                />
               </div>
             ))}
           </div>

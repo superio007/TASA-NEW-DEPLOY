@@ -2,6 +2,7 @@ import Project5 from "../../assets/HomePage/SailorAbode.png";
 import styles from "./css/FeaturedProject.module.css";
 import { MdOutlineArrowRight } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { IKImage } from "imagekitio-react";
 const Project = ({ apiRes }) => {
   function truncateText(text, limit = 200) {
     if (text.length > limit) {
@@ -14,9 +15,13 @@ const Project = ({ apiRes }) => {
       <div className="container mx-auto pt-7 pb-16 p-4 xl:px-65">
         {/* Project 5 */}
         <div>
-          <img
+          <IKImage
+            urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+            path={apiRes.ProfilePicture.formats.large.url
+              .split("https://ik.imagekit.io/2cdga3aqf/TasaUploads/")
+              .join("/")}
             loading="lazy"
-            src={apiRes.ProfilePicture.url || Project5}
+            transformation={[{ progressive: true, quality: "auto" }]}
             alt={apiRes.ProfilePicture.alternativeText || "Project 3"}
           />
           <div className="flex justify-end items-center">

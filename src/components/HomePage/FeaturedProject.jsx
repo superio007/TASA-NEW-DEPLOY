@@ -6,7 +6,9 @@ import Project4 from "./Project4";
 import Project5 from "./Poject5";
 import Project3 from "./Project3";
 import { Link } from "react-router-dom";
+import { IKImage } from "imagekitio-react";
 const FeaturedProject = ({ apiRes }) => {
+  console.log(apiRes);
   function truncateText(text, limit = 200) {
     if (text.length > limit) {
       return text.substring(0, limit) + "...";
@@ -25,9 +27,13 @@ const FeaturedProject = ({ apiRes }) => {
             <div className="flex flex-col items-center">
               <div className={styles.LeftSuperParent}>
                 <div className={styles.LeftParent}>
-                  <img
+                  <IKImage
+                    urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+                    path={apiRes[0].ProfilePicture.formats.large.url
+                      .split("https://ik.imagekit.io/2cdga3aqf/TasaUploads/")
+                      .join("/")}
                     loading="lazy"
-                    src={apiRes[0].ProfilePicture.url || Left}
+                    transformation={[{ progressive: true, quality: "auto" }]}
                     alt={apiRes[0].ProfilePicture.alternativeText || "Project"}
                   />
                   <div className={`${styles.LeftChild} p-12 bg-white`}>
@@ -60,9 +66,13 @@ const FeaturedProject = ({ apiRes }) => {
             <div className="flex flex-col items-center">
               <div className={styles.RightSuperParent}>
                 <div className={styles.RightParent}>
-                  <img
+                  <IKImage
+                    urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+                    path={apiRes[1].ProfilePicture.formats.large.url
+                      .split("https://ik.imagekit.io/2cdga3aqf/TasaUploads/")
+                      .join("/")}
                     loading="lazy"
-                    src={apiRes[1].ProfilePicture.url || Right}
+                    transformation={[{ progressive: true, quality: "auto" }]}
                     alt={apiRes[1].ProfilePicture.alternativeText || "Project"}
                   />
                   <div className={`${styles.RightChild} p-12 bg-white`}>
@@ -100,13 +110,16 @@ const FeaturedProject = ({ apiRes }) => {
           <div className="md:hidden flex flex-col items-center gap-8">
             <div className="flex flex-col items-center">
               <div>
-                <img
+                <IKImage
+                  urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+                  path={apiRes[0].ProfilePicture.formats.large.url
+                    .split("https://ik.imagekit.io/2cdga3aqf/TasaUploads/")
+                    .join("/")}
                   loading="lazy"
-                  src={apiRes[0].ProfilePicture.url || Left}
-                  alt={apiRes[0].ProfilePicture.alternativeText || "Project"}
                   className="w-full h-auto"
+                  transformation={[{ progressive: true, quality: "auto" }]}
+                  alt={apiRes[0].ProfilePicture.alternativeText || "Project"}
                 />
-
                 {/* Project Info */}
                 <div className="p-12 bg-white">
                   <p className="text-sm pb-3 font-medium">
@@ -134,13 +147,16 @@ const FeaturedProject = ({ apiRes }) => {
               </div>
               <div id="image2" className="mt-14">
                 {/* Image Container */}
-                <img
+                <IKImage
+                  urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
+                  path={apiRes[1].ProfilePicture.formats.large.url
+                    .split("https://ik.imagekit.io/2cdga3aqf/TasaUploads/")
+                    .join("/")}
                   loading="lazy"
-                  src={apiRes[1].ProfilePicture.url || Right}
-                  alt={apiRes[1].ProfilePicture.alternativeText || "Project"}
                   className="w-full h-auto"
+                  transformation={[{ progressive: true, quality: "auto" }]}
+                  alt={apiRes[1].ProfilePicture.alternativeText || "Project"}
                 />
-
                 {/* Content Container */}
                 <div className="p-12 bg-white">
                   <p className="text-sm pb-3 font-medium">
