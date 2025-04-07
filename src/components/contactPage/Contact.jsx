@@ -5,7 +5,7 @@ import axios from "axios";
 import Swal from "sweetalert2";
 const postContactForm = async (formattedData) => {
   const { data } = await axios.post(
-    "http://localhost:1337/api/contact-forms",
+    "https://starfish-app-ca2ju.ondigitalocean.app/api/contact-forms",
     formattedData, // Sending formattedData in the request body
     {
       headers: {

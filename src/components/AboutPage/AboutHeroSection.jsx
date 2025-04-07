@@ -7,9 +7,7 @@ const AboutHeroSection = ({ description, heading }) => {
       <div
         className={`${styles.bg}`}
         style={{
-          backgroundImage: `url(${
-            heading.BackgroundImage.formats.large.url || AboutImage
-          })`,
+          backgroundImage: `url(${AboutImage})`,
         }}
       >
         <div className="flex justify-center items-center">

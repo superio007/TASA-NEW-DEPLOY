@@ -13,14 +13,14 @@ import { IKImage } from "imagekitio-react";
 
 const fetchProjectpageContent = async () => {
   const { data } = await axios.get(
-    "http://localhost:1337/api/projects?populate=*"
+    "https://starfish-app-ca2ju.ondigitalocean.app/api/projects?populate=*"
   );
   return data.data;
 };
 
 async function callFeatureApi(documentedID) {
   try {
-    const apilink = `http://localhost:1337/api/featured-ons/${documentedID}?populate=*`;
+    const apilink = `https://starfish-app-ca2ju.ondigitalocean.app/api/featured-ons/${documentedID}?populate=*`;
     const { data } = await axios.get(apilink);
     let res = {
       src: data.data.ArticalBrandlogo.url,

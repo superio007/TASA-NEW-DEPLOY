@@ -7,7 +7,7 @@ import axios from "axios";
 import PublicationsStaticData from "../Data/PublicationsStaticData.json";
 const fetchPublicationspageContent = async (formattedData) => {
   const { data } = await axios.get(
-    "http://localhost:1337/api/publication-page?populate[publication_hero_section][populate]=*&populate[publications_slider][populate]=*&populate[publications][populate]=*"
+    "https://starfish-app-ca2ju.ondigitalocean.app/api/publication-page?populate[publication_hero_section][populate]=*&populate[publications_slider][populate]=*&populate[publications][populate]=*"
   );
   return data.data;
 };
