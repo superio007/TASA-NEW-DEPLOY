@@ -1,8 +1,13 @@
 import { useState, useEffect, use } from "react";
 import { useParams, NavLink, Link } from "react-router-dom";
+import {
+  MdOutlineKeyboardArrowRight,
+  MdOutlineKeyboardArrowLeft,
+} from "react-icons/md";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import ProjectsData from "../Data/ProjectsData.json";
+import { IoCameraOutline } from "react-icons/io5";
 import styles from "../css/ProjectBriefPage.module.css";
 import { IKImage, IKContext } from "imagekitio-react";
 
