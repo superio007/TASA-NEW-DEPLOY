@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Left from "./assets/TASAAR.webp";
+import Left from "../../assets/PublicationPage/TASAAR.webp";
 import styles from "./css/PublicationsCards.module.css";
-import Logo from "./assets/deZeen.png";
+import Logo from "../../assets/PublicationPage/deZeen.png";
 import { MdOutlineArrowRight } from "react-icons/md";
 function PublicationsCards({ apiRes }) {
   let publication = [];

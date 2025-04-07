@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./css/OurTeam.module.css";
 import { MdOutlineArrowRight } from "react-icons/md";
-import TanzeemHeadshot from "./assets/Ar-Tanzeem-Headshot.png";
-import KshitijPatil from "./assets/KshitijPatil.jpg";
+import TanzeemHeadshot from "../../assets/AboutPage/Ar-Tanzeem-Headshot.png";
+import KshitijPatil from "../../assets/AboutPage/KshitijPatil.jpg";
 
 const OurTeam = ({ team, members }) => {
   return (

@@ -1,4 +1,4 @@
-import Project5 from "./assets/SailorAbode.png";
+import Project5 from "../../assets/HomePage/SailorAbode.png";
 import styles from "./css/FeaturedProject.module.css";
 import { MdOutlineArrowRight } from "react-icons/md";
 import { Link } from "react-router-dom";

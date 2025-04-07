@@ -1,5 +1,5 @@
-import Right from "./assets/601SakuraHome.jpg";
-import Left from "./assets/811.jpg";
+import Right from "../../assets/HomePage/601SakuraHome.jpg";
+import Left from "../../assets/HomePage/811.jpg";
 import styles from "./css/FeaturedProject.module.css";
 import { MdOutlineArrowRight } from "react-icons/md";
 import Project4 from "./Project4";
