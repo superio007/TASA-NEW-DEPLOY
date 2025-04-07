@@ -1,5 +1,6 @@
 import { useState, useEffect, use } from "react";
 import { useParams, NavLink, Link } from "react-router-dom";
+import Image from "../components/ProjectBriefPage/Image";
 import {
   MdOutlineKeyboardArrowRight,
   MdOutlineKeyboardArrowLeft,
@@ -9,7 +10,7 @@ import { useQuery } from "@tanstack/react-query";
 import ProjectsData from "../Data/ProjectsData.json";
 import { IoCameraOutline } from "react-icons/io5";
 import styles from "../css/ProjectBriefPage.module.css";
-import { IKImage } from "imagekitio-react";
+import { IKImage, IKContext } from "imagekitio-react";
 
 const fetchProjectpageContent = async () => {
   const { data } = await axios.get(
@@ -72,6 +73,7 @@ const ProjectBrief = () => {
   const [showPrev, setShowPrev] = useState(false);
   const [showMedia, setshowMedia] = useState(false);
   const [featureImages, setFeatureImages] = useState([]);
+  const [change, setChange] = useState("");
 
   useEffect(() => {
     if (projects.length > 0) {
@@ -117,7 +119,7 @@ const ProjectBrief = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [currentIndex]);
-
+  
   if (isLoading) return <p>Loading...</p>;
   if (currentIndex === null)
     return <div className="text-center py-10">Project not found.</div>;
@@ -126,6 +128,7 @@ const ProjectBrief = () => {
   const prevProject = currentIndex > 0 ? projects[currentIndex - 1] : null;
   const nextProject =
     currentIndex < projects.length - 1 ? projects[currentIndex + 1] : null;
+
   return (
     <div className="py-18 bg-[#e9ebeb]">
       <div className="container mx-auto">
@@ -236,26 +239,42 @@ const ProjectBrief = () => {
           )}
         </div>
 
-        {/* Image Gallery */}
-        <div className="pt-18 bg-[#e9ebeb]">
-          <div className="container mx-auto p-4 xl:px-80">
-            <div className="flex flex-col w-full gap-8">
-              {project.images.map((image, index) => (
-                <IKImage
-                  key={index}
-                  urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
-                  path={image.url
-                    .split("https://ik.imagekit.io/2cdga3aqf/TasaUploads/")
-                    .join("/")}
-                  loading="lazy"
-                  className="w-full h-auto object-cover  shadow-md"
-                  transformation={[{ progressive: true, quality: "auto" }]}
-                  alt={project.name}
-                />
-              ))}
+        <IKContext
+          publicKey={import.meta.env.VITE_IMAGEKIT_PUBLIC_KEY}
+          urlEndpoint={import.meta.env.VITE_IMAGEKIT_URL_ENDPOINT}
+          transformationPosition="path"
+        >
+          {/* Image Gallery */}
+          <div className="pt-18 bg-[#e9ebeb]">
+            <div className="container mx-auto p-4 xl:px-80">
+              <div className="flex flex-col w-full gap-8">
+                {project.images.map((image, index) => {
+                  const imagePath = image.url
+                    .split("https://ik.imagekit.io/2cdga3aqf")
+                    .join("/"); // Keep folder structure
+
+                  const cacheBuster =
+                    image.updatedAt || project.updatedAt || Date.now();
+
+                  return (
+                    <IKImage
+                      key={index}
+                      path={imagePath}
+                      loading="lazy"
+                      className="w-full h-auto object-cover shadow-md"
+                      transformation={[
+                        { progressive: true, quality: "auto" },
+                        { width: "auto" }, // Optional dummy transformation
+                        { height: "auto" }, // Optional dummy transformation
+                      ]}
+                      alt={project.name}
+                    />
+                  );
+                })}
+              </div>
             </div>
           </div>
-        </div>
+        </IKContext>
 
         {/* Video Section */}
 
@@ -276,12 +295,13 @@ const ProjectBrief = () => {
           </div>
         )}
 
-        {/* Navigation */}
+        {/* Navigation
         <div className="container mx-auto p-4 pt-16 xl:px-80">
           <div className="flex justify-between items-center">
             {showPrev && prevProject && (
               <NavLink
                 to={`/projects/${prevProject.name.replace(/\s+/g, "-")}`}
+                onclick={() => setChange(!change)}
               >
                 <div className="flex flex-row items-center gap-4 text-gray-700 hover:text-black transition">
                   <MdOutlineKeyboardArrowLeft className="text-2xl" />
@@ -294,13 +314,13 @@ const ProjectBrief = () => {
                 to={`/projects/${nextProject.name.replace(/\s+/g, "-")}`}
               >
                 <div className="flex flex-row items-center gap-4 text-gray-700 hover:text-black transition">
-                  <p className=" text-xl">Next Project</p>
+                  <p className="text-xl">Next Project</p>
                   <MdOutlineKeyboardArrowRight className="text-2xl" />
                 </div>
               </NavLink>
             )}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
