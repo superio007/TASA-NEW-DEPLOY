@@ -118,7 +118,7 @@ const ProjectBrief = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [currentIndex]);
-  
+
   if (isLoading) return <p>Loading...</p>;
   if (currentIndex === null)
     return <div className="text-center py-10">Project not found.</div>;
@@ -238,42 +238,27 @@ const ProjectBrief = () => {
           )}
         </div>
 
-        <IKContext
-          publicKey={import.meta.env.VITE_IMAGEKIT_PUBLIC_KEY}
-          urlEndpoint={import.meta.env.VITE_IMAGEKIT_URL_ENDPOINT}
-          transformationPosition="path"
-        >
-          {/* Image Gallery */}
-          <div className="pt-18 bg-[#e9ebeb]">
-            <div className="container mx-auto p-4 xl:px-80">
-              <div className="flex flex-col w-full gap-8">
-                {project.images.map((image, index) => {
-                  const imagePath = image.url
-                    .split("https://ik.imagekit.io/2cdga3aqf")
-                    .join("/"); // Keep folder structure
-
-                  const cacheBuster =
-                    image.updatedAt || project.updatedAt || Date.now();
-
-                  return (
-                    <IKImage
-                      key={index}
-                      path={imagePath}
-                      loading="lazy"
-                      className="w-full h-auto object-cover shadow-md"
-                      transformation={[
-                        { progressive: true, quality: "auto" },
-                        { width: "auto" }, // Optional dummy transformation
-                        { height: "auto" }, // Optional dummy transformation
-                      ]}
-                      alt={project.name}
-                    />
-                  );
-                })}
-              </div>
+        {/* Image Gallery */}
+        <div className="pt-18 bg-[#e9ebeb]">
+          <div className="container mx-auto p-4 xl:px-80">
+            <div className="flex flex-col w-full gap-8">
+              {project.images.map((image, index) => (
+                <img
+                  src={
+                    import.meta.env.VITE_IMAGEKIT_BASE_URL +
+                    image.url
+                      .split("https://ik.imagekit.io/2cdga3aqf/TasaUploads/")
+                      .join("/")
+                  }
+                  loading="lazy"
+                  className="w-full h-auto object-cover  shadow-md"
+                  key={index}
+                  alt={project.name}
+                />
+              ))}
             </div>
           </div>
-        </IKContext>
+        </div>
 
         {/* Video Section */}
 
@@ -294,7 +279,7 @@ const ProjectBrief = () => {
           </div>
         )}
 
-        {/* Navigation
+        {/* Navigation */}
         <div className="container mx-auto p-4 pt-16 xl:px-80">
           <div className="flex justify-between items-center">
             {showPrev && prevProject && (
@@ -319,7 +304,7 @@ const ProjectBrief = () => {
               </NavLink>
             )}
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
