@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect, useState } from "react";
 import FeaturedProjects from "../components/HomePage/FeaturedProject";
 import { ParallaxProvider } from "react-scroll-parallax";
 import axios from "axios";
@@ -7,19 +7,22 @@ import ProjectsData from "../Data/ProjectsData.json";
 
 const fetchProjectpageContent = async () => {
   const { data } = await axios.get(
-    "https://starfish-app-ca2ju.ondigitalocean.app/api/home-page?populate[home_herosection][populate]=BackgroundImage&populate[projects][populate]=*&populate[publications_slider][populate]=*"
+    "http://akgswo8ccs0kw8kckg8gg4c8.82.25.90.229.sslip.io/api/home-page?populate[home_herosection][populate]=BackgroundImage&populate[projects][populate]=*&populate[publications_slider][populate]=*"
   );
   return data.data;
 };
 
 const ProjectsPage = () => {
+  const [apiResponse, setapiResponse] = useState([]);
   const { data, isLoading, error } = useQuery({
     queryKey: ["Projectspage-content"],
     queryFn: fetchProjectpageContent,
   });
 
   // Use API response if available, otherwise fallback to static data
-  const apiResponse = error ? ProjectsData.data : data;
+  useEffect(() => {
+    setapiResponse(error ? ProjectsData.data : data);
+  }, [data]);
 
   if (isLoading) return <p>Loading...</p>;
 

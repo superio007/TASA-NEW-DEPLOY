@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import axios from "axios";
 const postContactForm = async (formattedData) => {
   const { data } = await axios.post(
-    "https://starfish-app-ca2ju.ondigitalocean.app/api/enquery-forms",
+    "http://akgswo8ccs0kw8kckg8gg4c8.82.25.90.229.sslip.io/api/enquery-forms",
     formattedData, // Sending formattedData in the request body
     {
       headers: {

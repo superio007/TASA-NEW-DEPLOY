@@ -20,19 +20,26 @@ import { useState, useEffect } from "react";
 
 const fetchHomepageContent = async () => {
   const { data } = await axios.get(
-    "https://starfish-app-ca2ju.ondigitalocean.app/api/home-page?populate[home_herosection][populate]=BackgroundImage&populate[projects][populate]=*&populate[publications_slider][populate]=*"
+    "http://akgswo8ccs0kw8kckg8gg4c8.82.25.90.229.sslip.io/api/home-page?populate[home_herosection][populate]=BackgroundImage&populate[projects][populate]=*&populate[publications_slider][populate]=*"
   );
   return data.data;
 };
 
 function App() {
-  const { data, isLoading, error } = useQuery({
-    queryKey: ["homepage-content"],
+  const [apiResponse, setapiResponse] = useState([]);
+  const { data, error } = useQuery({
+    queryKey: ["Apppage-content"],
     queryFn: fetchHomepageContent,
+    staleTime: 1000 * 60 * 60, // 1 hour
+    refetchOnWindowFocus: false,
+    refetchOnReconnect: false,
+    refetchInterval: false,
   });
 
   // Use API data if available; fallback to static data on error
-  const apiResponse = error ? HomeStaticData.data : data || {};
+  useEffect(() => {
+    setapiResponse(error ? HomeStaticData.data : data || {});
+  }, [data]);
 
   // Store projects in state so that context updates when data changes
   const [projects, setProjects] = useState(apiResponse.projects || []);

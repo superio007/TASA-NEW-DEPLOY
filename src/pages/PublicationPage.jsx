@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import { ParallaxProvider } from "react-scroll-parallax";
 import PublicationHeroSection from "../components/PublicationPage/PublicationHeroSection";
 import PublicationsCards from "../components/PublicationPage/PublicationsCards";
@@ -7,19 +7,25 @@ import axios from "axios";
 import PublicationsStaticData from "../Data/PublicationsStaticData.json";
 const fetchPublicationspageContent = async (formattedData) => {
   const { data } = await axios.get(
-    "https://starfish-app-ca2ju.ondigitalocean.app/api/publication-page?populate[publication_hero_section][populate]=*&populate[publications_slider][populate]=*&populate[publications][populate]=*"
+    "http://akgswo8ccs0kw8kckg8gg4c8.82.25.90.229.sslip.io/api/publication-page?populate[publication_hero_section][populate]=*&populate[publications_slider][populate]=*&populate[publications][populate]=*"
   );
   return data.data;
 };
 function PublicationPage() {
+  const [apiResponse, setapiResponse] = useState([]);
   const { data, isLoading, error } = useQuery({
-    queryKey: ["homepage-content"],
+    queryKey: ["publicationspage-content"],
     queryFn: fetchPublicationspageContent,
+    staleTime: 1000 * 60 * 60, // 1 hour
+    refetchOnWindowFocus: false,
+    refetchOnReconnect: false,
+    refetchInterval: false,
   });
 
   // Use API data if available; fallback to static data on error
-  const apiResponse = error ? PublicationsStaticData.data : data || {};
-  console.log(apiResponse);
+  useEffect(() => {
+    setapiResponse(error ? PublicationsStaticData.data : data || {});
+  }, [data]);
   if (isLoading) return <p>Loading...</p>;
   return (
     <>

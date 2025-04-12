@@ -13,14 +13,14 @@ import { IKImage, IKContext } from "imagekitio-react";
 
 const fetchProjectpageContent = async () => {
   const { data } = await axios.get(
-    "https://starfish-app-ca2ju.ondigitalocean.app/api/projects?populate=*"
+    "http://akgswo8ccs0kw8kckg8gg4c8.82.25.90.229.sslip.io/api/projects?populate=*"
   );
   return data.data;
 };
 
 async function callFeatureApi(documentedID) {
   try {
-    const apilink = `https://starfish-app-ca2ju.ondigitalocean.app/api/featured-ons/${documentedID}?populate=*`;
+    const apilink = `http://akgswo8ccs0kw8kckg8gg4c8.82.25.90.229.sslip.io/api/featured-ons/${documentedID}?populate=*`;
     const { data } = await axios.get(apilink);
     let res = {
       src: data.data.ArticalBrandlogo.url,
@@ -36,8 +36,12 @@ async function callFeatureApi(documentedID) {
 
 const ProjectBrief = () => {
   const { data, isLoading, error } = useQuery({
-    queryKey: ["Projectspage-content"],
+    queryKey: ["Projectsbriefpage-content"],
     queryFn: fetchProjectpageContent,
+    staleTime: 1000 * 60 * 60, // 1 hour
+    refetchOnWindowFocus: false,
+    refetchOnReconnect: false,
+    refetchInterval: false,
   });
 
   const [projects, setProjects] = useState([]);
