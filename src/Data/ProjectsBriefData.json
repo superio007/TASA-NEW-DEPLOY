@@ -1,0 +1,4269 @@
+{
+  "data": [
+    {
+      "id": 4,
+      "documentId": "xhbxky1lz79808nhr2myr8bx",
+      "ProjectName": "601 Sakura Home",
+      "ProjectDescription": "Stepping away from the hustle of the city, Sakura Home aims to be a mental switch-off space. The home stands as a testament to the fusion of design innovation and the pursuit of tranquillity. \n\nWhen our client approached us to redesign their home, their pivotal grievance was that despite the available floor space, the house always felt anything but spacious.\n\nWhen we set off to design a more welcoming abode, a couple of internal walls were demolished to usher in the natural light that bathed the entire home with positivity.\n\nWith a rough east-west axis, the living room strategically opens to the south, flooding the space with natural light. We enlarged the windows embracing the south-facing aspect, creating a space where the family can gather, relax, and work in perfect harmony with the surroundings.\n\nWe chose a neutral palette that permeates the interiors, providing a canvas that allows its residents to savour the peaceful aesthetic. The design philosophy focuses on creating focal points within the space, relinquishing superfluous features for a more coherent environment.\n\nStriving for the balance of form, function and simplicity, we adopted an open kitchen layout while working with natural materials and unconfined natural light. We leaned towards the Japandi aesthetic as it matched perfectly with our objectives of minimalism and Practical Sustainability. \n\nNavigating the creation of a Japandi-inspired dwelling, we understood the significant task of steering clear of excessive embellishments. We aimed to hold onto the fundamentals while ensuring a cosy and inviting atmosphere. We opted for a pragmatic approach, taking measured steps in our choice of materials, and acknowledging the lasting transformations that small decisions can engender.\n",
+      "ProjectYTLink": null,
+      "ArchitectName": "Tanzeem Sarguroh",
+      "PhotosBy": "Kuber Shah",
+      "createdAt": "2025-04-07T14:19:41.054Z",
+      "updatedAt": "2025-04-07T14:19:41.054Z",
+      "publishedAt": "2025-04-07T14:19:41.640Z",
+      "ProjectsImages": [
+        {
+          "id": 30,
+          "documentId": "pxhkpxxo4hjc5olxvf5mzhpj",
+          "name": "601-sakura07.jpg",
+          "alternativeText": "601-sakura07",
+          "caption": null,
+          "width": 5504,
+          "height": 8256,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_601_sakura07_c44bda269c_Bujz4IF2ST.jpg",
+              "hash": "large_601_sakura07_c44bda269c",
+              "mime": "image/jpeg",
+              "name": "large_601-sakura07.jpg",
+              "path": null,
+              "size": 60.93,
+              "width": 667,
+              "height": 1000,
+              "sizeInBytes": 60931,
+              "provider_metadata": {
+                "fileId": "67f39147432c476416dbf13e"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_601_sakura07_c44bda269c_TB8G-gCZbr.jpg",
+              "hash": "small_601_sakura07_c44bda269c",
+              "mime": "image/jpeg",
+              "name": "small_601-sakura07.jpg",
+              "path": null,
+              "size": 17.6,
+              "width": 333,
+              "height": 500,
+              "sizeInBytes": 17600,
+              "provider_metadata": {
+                "fileId": "67f39147432c476416dbf22a"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_601_sakura07_c44bda269c_0-e_8pbe5F.jpg",
+              "hash": "medium_601_sakura07_c44bda269c",
+              "mime": "image/jpeg",
+              "name": "medium_601-sakura07.jpg",
+              "path": null,
+              "size": 36.05,
+              "width": 500,
+              "height": 750,
+              "sizeInBytes": 36048,
+              "provider_metadata": {
+                "fileId": "67f39147432c476416dbf364"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_601_sakura07_c44bda269c_WwU77pF-VZ.jpg",
+              "hash": "thumbnail_601_sakura07_c44bda269c",
+              "mime": "image/jpeg",
+              "name": "thumbnail_601-sakura07.jpg",
+              "path": null,
+              "size": 3,
+              "width": 104,
+              "height": 156,
+              "sizeInBytes": 2995,
+              "provider_metadata": {
+                "fileId": "67f39147432c476416dbf052"
+              }
+            }
+          },
+          "hash": "601_sakura07_c44bda269c",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 9909.5,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/601_sakura07_c44bda269c_qbxGF7UCao.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f39150432c476416dc1fd0"
+          },
+          "createdAt": "2025-04-07T14:18:18.330Z",
+          "updatedAt": "2025-04-07T14:18:18.330Z",
+          "publishedAt": "2025-04-07T14:18:18.331Z"
+        },
+        {
+          "id": 29,
+          "documentId": "witq4qdwu9e7ku5c5utqkuxe",
+          "name": "601-sakura06.jpg",
+          "alternativeText": "601-sakura06",
+          "caption": null,
+          "width": 5504,
+          "height": 8256,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_601_sakura06_b42e9d622c_B1w2iCDU1.jpg",
+              "hash": "large_601_sakura06_b42e9d622c",
+              "mime": "image/jpeg",
+              "name": "large_601-sakura06.jpg",
+              "path": null,
+              "size": 80.61,
+              "width": 667,
+              "height": 1000,
+              "sizeInBytes": 80610,
+              "provider_metadata": {
+                "fileId": "67f39149432c476416dbfb50"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_601_sakura06_b42e9d622c_ohVTkiuUo.jpg",
+              "hash": "small_601_sakura06_b42e9d622c",
+              "mime": "image/jpeg",
+              "name": "small_601-sakura06.jpg",
+              "path": null,
+              "size": 24.74,
+              "width": 333,
+              "height": 500,
+              "sizeInBytes": 24742,
+              "provider_metadata": {
+                "fileId": "67f39148432c476416dbf8b3"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_601_sakura06_b42e9d622c_y2W4-5s7E.jpg",
+              "hash": "medium_601_sakura06_b42e9d622c",
+              "mime": "image/jpeg",
+              "name": "medium_601-sakura06.jpg",
+              "path": null,
+              "size": 48.3,
+              "width": 500,
+              "height": 750,
+              "sizeInBytes": 48299,
+              "provider_metadata": {
+                "fileId": "67f39148432c476416dbf8ba"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_601_sakura06_b42e9d622c_2Jlbx-reiB.jpg",
+              "hash": "thumbnail_601_sakura06_b42e9d622c",
+              "mime": "image/jpeg",
+              "name": "thumbnail_601-sakura06.jpg",
+              "path": null,
+              "size": 3.85,
+              "width": 104,
+              "height": 156,
+              "sizeInBytes": 3846,
+              "provider_metadata": {
+                "fileId": "67f39148432c476416dbf67e"
+              }
+            }
+          },
+          "hash": "601_sakura06_b42e9d622c",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 5469.8,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/601_sakura06_b42e9d622c_FTq-_HaIJ.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f3914e432c476416dc1623"
+          },
+          "createdAt": "2025-04-07T14:18:15.576Z",
+          "updatedAt": "2025-04-07T14:18:15.576Z",
+          "publishedAt": "2025-04-07T14:18:15.578Z"
+        },
+        {
+          "id": 28,
+          "documentId": "iaemasyjsssmu6varekemjjb",
+          "name": "601-sakura08.jpg",
+          "alternativeText": "601-sakura08",
+          "caption": null,
+          "width": 5504,
+          "height": 8256,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_601_sakura08_9a1af3537e_lLNX373v_.jpg",
+              "hash": "large_601_sakura08_9a1af3537e",
+              "mime": "image/jpeg",
+              "name": "large_601-sakura08.jpg",
+              "path": null,
+              "size": 72.09,
+              "width": 667,
+              "height": 1000,
+              "sizeInBytes": 72087,
+              "provider_metadata": {
+                "fileId": "67f39131432c476416db7b78"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_601_sakura08_9a1af3537e_GjQLaIothG.jpg",
+              "hash": "small_601_sakura08_9a1af3537e",
+              "mime": "image/jpeg",
+              "name": "small_601-sakura08.jpg",
+              "path": null,
+              "size": 22.02,
+              "width": 333,
+              "height": 500,
+              "sizeInBytes": 22018,
+              "provider_metadata": {
+                "fileId": "67f39132432c476416db809f"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_601_sakura08_9a1af3537e_fcqupoe7G.jpg",
+              "hash": "medium_601_sakura08_9a1af3537e",
+              "mime": "image/jpeg",
+              "name": "medium_601-sakura08.jpg",
+              "path": null,
+              "size": 43.88,
+              "width": 500,
+              "height": 750,
+              "sizeInBytes": 43876,
+              "provider_metadata": {
+                "fileId": "67f39131432c476416db7b42"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_601_sakura08_9a1af3537e_XhQTlhH4X.jpg",
+              "hash": "thumbnail_601_sakura08_9a1af3537e",
+              "mime": "image/jpeg",
+              "name": "thumbnail_601-sakura08.jpg",
+              "path": null,
+              "size": 3.58,
+              "width": 104,
+              "height": 156,
+              "sizeInBytes": 3582,
+              "provider_metadata": {
+                "fileId": "67f39131432c476416db7729"
+              }
+            }
+          },
+          "hash": "601_sakura08_9a1af3537e",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 5316.26,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/601_sakura08_9a1af3537e_iCPI9M3ug.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f3913e432c476416dbc16d"
+          },
+          "createdAt": "2025-04-07T14:18:00.259Z",
+          "updatedAt": "2025-04-07T14:18:00.259Z",
+          "publishedAt": "2025-04-07T14:18:00.259Z"
+        },
+        {
+          "id": 27,
+          "documentId": "plsnrn92y7ve3c8qszje1k78",
+          "name": "601-sakura04.jpg",
+          "alternativeText": "601-sakura04",
+          "caption": null,
+          "width": 5504,
+          "height": 8256,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_601_sakura04_6406dea7eb_TEK5gFql0.jpg",
+              "hash": "large_601_sakura04_6406dea7eb",
+              "mime": "image/jpeg",
+              "name": "large_601-sakura04.jpg",
+              "path": null,
+              "size": 80,
+              "width": 667,
+              "height": 1000,
+              "sizeInBytes": 80000,
+              "provider_metadata": {
+                "fileId": "67f39132432c476416db7d05"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_601_sakura04_6406dea7eb_wBRmyIia8e.jpg",
+              "hash": "small_601_sakura04_6406dea7eb",
+              "mime": "image/jpeg",
+              "name": "small_601-sakura04.jpg",
+              "path": null,
+              "size": 24.67,
+              "width": 333,
+              "height": 500,
+              "sizeInBytes": 24674,
+              "provider_metadata": {
+                "fileId": "67f3912f432c476416db6fca"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_601_sakura04_6406dea7eb_mFamwwUYhf.jpg",
+              "hash": "medium_601_sakura04_6406dea7eb",
+              "mime": "image/jpeg",
+              "name": "medium_601-sakura04.jpg",
+              "path": null,
+              "size": 48.47,
+              "width": 500,
+              "height": 750,
+              "sizeInBytes": 48469,
+              "provider_metadata": {
+                "fileId": "67f3912f432c476416db6f9d"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_601_sakura04_6406dea7eb_Vxhs2G3gi.jpg",
+              "hash": "thumbnail_601_sakura04_6406dea7eb",
+              "mime": "image/jpeg",
+              "name": "thumbnail_601-sakura04.jpg",
+              "path": null,
+              "size": 4.11,
+              "width": 104,
+              "height": 156,
+              "sizeInBytes": 4105,
+              "provider_metadata": {
+                "fileId": "67f3912c432c476416db5bd2"
+              }
+            }
+          },
+          "hash": "601_sakura04_6406dea7eb",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 5666.81,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/601_sakura04_6406dea7eb_jKsTReHW4.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f3913d432c476416dbbc2a"
+          },
+          "createdAt": "2025-04-07T14:17:59.867Z",
+          "updatedAt": "2025-04-07T14:17:59.867Z",
+          "publishedAt": "2025-04-07T14:17:59.867Z"
+        },
+        {
+          "id": 23,
+          "documentId": "mqqii55kl1gzjipyd9c6b8aw",
+          "name": "601-sakura01.jpg",
+          "alternativeText": "601-sakura01",
+          "caption": null,
+          "width": 8320,
+          "height": 5529,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_601_sakura01_72884bb31f_ndvzhDpQY.jpg",
+              "hash": "large_601_sakura01_72884bb31f",
+              "mime": "image/jpeg",
+              "name": "large_601-sakura01.jpg",
+              "path": null,
+              "size": 49.64,
+              "width": 1000,
+              "height": 664,
+              "sizeInBytes": 49638,
+              "provider_metadata": {
+                "fileId": "67f3912f432c476416db6c4c"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_601_sakura01_72884bb31f_G6SaqP7Y2.jpg",
+              "hash": "small_601_sakura01_72884bb31f",
+              "mime": "image/jpeg",
+              "name": "small_601-sakura01.jpg",
+              "path": null,
+              "size": 16.22,
+              "width": 500,
+              "height": 332,
+              "sizeInBytes": 16222,
+              "provider_metadata": {
+                "fileId": "67f3912f432c476416db6d9a"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_601_sakura01_72884bb31f_Z0Pxgos2e.jpg",
+              "hash": "medium_601_sakura01_72884bb31f",
+              "mime": "image/jpeg",
+              "name": "medium_601-sakura01.jpg",
+              "path": null,
+              "size": 30.89,
+              "width": 750,
+              "height": 498,
+              "sizeInBytes": 30885,
+              "provider_metadata": {
+                "fileId": "67f39131432c476416db7ac4"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_601_sakura01_72884bb31f_PSzJfILRoH.jpg",
+              "hash": "thumbnail_601_sakura01_72884bb31f",
+              "mime": "image/jpeg",
+              "name": "thumbnail_601-sakura01.jpg",
+              "path": null,
+              "size": 5.15,
+              "width": 235,
+              "height": 156,
+              "sizeInBytes": 5146,
+              "provider_metadata": {
+                "fileId": "67f3912b432c476416db57fa"
+              }
+            }
+          },
+          "hash": "601_sakura01_72884bb31f",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 3353.38,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/601_sakura01_72884bb31f_05kGOZMR9.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f39135432c476416db8d53"
+          },
+          "createdAt": "2025-04-07T14:17:50.871Z",
+          "updatedAt": "2025-04-07T14:17:50.871Z",
+          "publishedAt": "2025-04-07T14:17:50.872Z"
+        },
+        {
+          "id": 24,
+          "documentId": "ilci63679pd4u67b59otuc09",
+          "name": "601-sakura03.jpg",
+          "alternativeText": "601-sakura03",
+          "caption": null,
+          "width": 8256,
+          "height": 5504,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_601_sakura03_9c1260080c_3l5SIZ23aM.jpg",
+              "hash": "large_601_sakura03_9c1260080c",
+              "mime": "image/jpeg",
+              "name": "large_601-sakura03.jpg",
+              "path": null,
+              "size": 91.9,
+              "width": 1000,
+              "height": 667,
+              "sizeInBytes": 91901,
+              "provider_metadata": {
+                "fileId": "67f3912f432c476416db6dc2"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_601_sakura03_9c1260080c_LhUCl-LNFg.jpg",
+              "hash": "small_601_sakura03_9c1260080c",
+              "mime": "image/jpeg",
+              "name": "small_601-sakura03.jpg",
+              "path": null,
+              "size": 30.12,
+              "width": 500,
+              "height": 333,
+              "sizeInBytes": 30115,
+              "provider_metadata": {
+                "fileId": "67f39132432c476416db7d0e"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_601_sakura03_9c1260080c_k1VR5EMnz.jpg",
+              "hash": "medium_601_sakura03_9c1260080c",
+              "mime": "image/jpeg",
+              "name": "medium_601-sakura03.jpg",
+              "path": null,
+              "size": 56.44,
+              "width": 750,
+              "height": 500,
+              "sizeInBytes": 56435,
+              "provider_metadata": {
+                "fileId": "67f39131432c476416db7aba"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_601_sakura03_9c1260080c_sbxxsolAZp.jpg",
+              "hash": "thumbnail_601_sakura03_9c1260080c",
+              "mime": "image/jpeg",
+              "name": "thumbnail_601-sakura03.jpg",
+              "path": null,
+              "size": 9.22,
+              "width": 234,
+              "height": 156,
+              "sizeInBytes": 9224,
+              "provider_metadata": {
+                "fileId": "67f3912f432c476416db6f20"
+              }
+            }
+          },
+          "hash": "601_sakura03_9c1260080c",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 4602.18,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/601_sakura03_9c1260080c_xoZAazLoC7.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f39137432c476416db9c81"
+          },
+          "createdAt": "2025-04-07T14:17:53.970Z",
+          "updatedAt": "2025-04-07T14:17:53.970Z",
+          "publishedAt": "2025-04-07T14:17:53.971Z"
+        },
+        {
+          "id": 25,
+          "documentId": "jdu7qi4jxipphwwq8qd7obuu",
+          "name": "601-sakura05.jpg",
+          "alternativeText": "601-sakura05",
+          "caption": null,
+          "width": 5521,
+          "height": 8282,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_601_sakura05_4dcaf4ac9b_Sfih4p2i-C.jpg",
+              "hash": "large_601_sakura05_4dcaf4ac9b",
+              "mime": "image/jpeg",
+              "name": "large_601-sakura05.jpg",
+              "path": null,
+              "size": 77.63,
+              "width": 667,
+              "height": 1000,
+              "sizeInBytes": 77628,
+              "provider_metadata": {
+                "fileId": "67f39130432c476416db71fb"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_601_sakura05_4dcaf4ac9b_EN0lumu5e0.jpg",
+              "hash": "small_601_sakura05_4dcaf4ac9b",
+              "mime": "image/jpeg",
+              "name": "small_601-sakura05.jpg",
+              "path": null,
+              "size": 23.91,
+              "width": 333,
+              "height": 500,
+              "sizeInBytes": 23914,
+              "provider_metadata": {
+                "fileId": "67f39130432c476416db711d"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_601_sakura05_4dcaf4ac9b_BvcOFqIi2i.jpg",
+              "hash": "medium_601_sakura05_4dcaf4ac9b",
+              "mime": "image/jpeg",
+              "name": "medium_601-sakura05.jpg",
+              "path": null,
+              "size": 46.98,
+              "width": 500,
+              "height": 750,
+              "sizeInBytes": 46978,
+              "provider_metadata": {
+                "fileId": "67f39130432c476416db7106"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_601_sakura05_4dcaf4ac9b_ABxQkEUBn.jpg",
+              "hash": "thumbnail_601_sakura05_4dcaf4ac9b",
+              "mime": "image/jpeg",
+              "name": "thumbnail_601-sakura05.jpg",
+              "path": null,
+              "size": 3.74,
+              "width": 104,
+              "height": 156,
+              "sizeInBytes": 3741,
+              "provider_metadata": {
+                "fileId": "67f3912f432c476416db7054"
+              }
+            }
+          },
+          "hash": "601_sakura05_4dcaf4ac9b",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 5379.21,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/601_sakura05_4dcaf4ac9b_34Ajg-4vk.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f39138432c476416dba502"
+          },
+          "createdAt": "2025-04-07T14:17:54.013Z",
+          "updatedAt": "2025-04-07T14:17:54.013Z",
+          "publishedAt": "2025-04-07T14:17:54.014Z"
+        },
+        {
+          "id": 26,
+          "documentId": "wjr4y8zojmgvq9h15nk8egqk",
+          "name": "601-sakura02.jpg",
+          "alternativeText": "601-sakura02",
+          "caption": null,
+          "width": 5504,
+          "height": 8256,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_601_sakura02_b82ae1db49_bD-MARphBu.jpg",
+              "hash": "large_601_sakura02_b82ae1db49",
+              "mime": "image/jpeg",
+              "name": "large_601-sakura02.jpg",
+              "path": null,
+              "size": 64.49,
+              "width": 667,
+              "height": 1000,
+              "sizeInBytes": 64492,
+              "provider_metadata": {
+                "fileId": "67f39132432c476416db7fd2"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_601_sakura02_b82ae1db49_HRcMezzggv.jpg",
+              "hash": "small_601_sakura02_b82ae1db49",
+              "mime": "image/jpeg",
+              "name": "small_601-sakura02.jpg",
+              "path": null,
+              "size": 18.49,
+              "width": 333,
+              "height": 500,
+              "sizeInBytes": 18488,
+              "provider_metadata": {
+                "fileId": "67f39132432c476416db7c21"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_601_sakura02_b82ae1db49_eAzLhzeNv.jpg",
+              "hash": "medium_601_sakura02_b82ae1db49",
+              "mime": "image/jpeg",
+              "name": "medium_601-sakura02.jpg",
+              "path": null,
+              "size": 37.58,
+              "width": 500,
+              "height": 750,
+              "sizeInBytes": 37578,
+              "provider_metadata": {
+                "fileId": "67f39131432c476416db7b9a"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_601_sakura02_b82ae1db49_93Hzhnc75Q.jpg",
+              "hash": "thumbnail_601_sakura02_b82ae1db49",
+              "mime": "image/jpeg",
+              "name": "thumbnail_601-sakura02.jpg",
+              "path": null,
+              "size": 3.01,
+              "width": 104,
+              "height": 156,
+              "sizeInBytes": 3014,
+              "provider_metadata": {
+                "fileId": "67f39130432c476416db7407"
+              }
+            }
+          },
+          "hash": "601_sakura02_b82ae1db49",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 5896.24,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/601_sakura02_b82ae1db49_bUMyAHKcq.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f3913e432c476416dbbf93"
+          },
+          "createdAt": "2025-04-07T14:17:59.492Z",
+          "updatedAt": "2025-04-07T14:17:59.492Z",
+          "publishedAt": "2025-04-07T14:17:59.492Z"
+        }
+      ],
+      "ProfilePicture": {
+        "id": 29,
+        "documentId": "witq4qdwu9e7ku5c5utqkuxe",
+        "name": "601-sakura06.jpg",
+        "alternativeText": "601-sakura06",
+        "caption": null,
+        "width": 5504,
+        "height": 8256,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_601_sakura06_b42e9d622c_B1w2iCDU1.jpg",
+            "hash": "large_601_sakura06_b42e9d622c",
+            "mime": "image/jpeg",
+            "name": "large_601-sakura06.jpg",
+            "path": null,
+            "size": 80.61,
+            "width": 667,
+            "height": 1000,
+            "sizeInBytes": 80610,
+            "provider_metadata": {
+              "fileId": "67f39149432c476416dbfb50"
+            }
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_601_sakura06_b42e9d622c_ohVTkiuUo.jpg",
+            "hash": "small_601_sakura06_b42e9d622c",
+            "mime": "image/jpeg",
+            "name": "small_601-sakura06.jpg",
+            "path": null,
+            "size": 24.74,
+            "width": 333,
+            "height": 500,
+            "sizeInBytes": 24742,
+            "provider_metadata": {
+              "fileId": "67f39148432c476416dbf8b3"
+            }
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_601_sakura06_b42e9d622c_y2W4-5s7E.jpg",
+            "hash": "medium_601_sakura06_b42e9d622c",
+            "mime": "image/jpeg",
+            "name": "medium_601-sakura06.jpg",
+            "path": null,
+            "size": 48.3,
+            "width": 500,
+            "height": 750,
+            "sizeInBytes": 48299,
+            "provider_metadata": {
+              "fileId": "67f39148432c476416dbf8ba"
+            }
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_601_sakura06_b42e9d622c_2Jlbx-reiB.jpg",
+            "hash": "thumbnail_601_sakura06_b42e9d622c",
+            "mime": "image/jpeg",
+            "name": "thumbnail_601-sakura06.jpg",
+            "path": null,
+            "size": 3.85,
+            "width": 104,
+            "height": 156,
+            "sizeInBytes": 3846,
+            "provider_metadata": {
+              "fileId": "67f39148432c476416dbf67e"
+            }
+          }
+        },
+        "hash": "601_sakura06_b42e9d622c",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 5469.8,
+        "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/601_sakura06_b42e9d622c_FTq-_HaIJ.jpg",
+        "previewUrl": null,
+        "provider": "strapi-provider-upload-imagekit",
+        "provider_metadata": {
+          "fileId": "67f3914e432c476416dc1623"
+        },
+        "createdAt": "2025-04-07T14:18:15.576Z",
+        "updatedAt": "2025-04-07T14:18:15.576Z",
+        "publishedAt": "2025-04-07T14:18:15.578Z"
+      },
+      "featured_ons": [
+        {
+          "id": 2,
+          "documentId": "nhef7ycz1ytgo49ym8zvwce7",
+          "ArticalLink": "https://www.architectandinteriorsindia.com/projects/uncover-a-slice-of-japan-tucked-away-in-this-1050-sq-ft-thane-home",
+          "createdAt": "2025-04-07T14:40:09.786Z",
+          "updatedAt": "2025-04-07T14:40:09.786Z",
+          "publishedAt": "2025-04-07T14:40:09.911Z"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "documentId": "ifjy2h2dvjgpakj62vz7lp0f",
+      "ProjectName": "Sailor’s Abode",
+      "ProjectDescription": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you. This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are. At Wix we’re passionate about making templates that allow you to build fabulous websites and it’s all thanks to the support and feedback from users like you! Keep up to date with New Releases and what’s Coming Soon in Wixellaneous in Support. Feel free to tell us what you think",
+      "ProjectYTLink": "https://www.youtube.com/embed/OFPe09V7Xao?si=TSenxhgq-cIfhqbp",
+      "ArchitectName": "Tanzeem Sarguroh",
+      "PhotosBy": "Kuber Shah",
+      "createdAt": "2025-04-07T14:24:49.844Z",
+      "updatedAt": "2025-04-07T14:24:49.844Z",
+      "publishedAt": "2025-04-07T14:24:50.008Z",
+      "ProjectsImages": [
+        {
+          "id": 31,
+          "documentId": "lzmsi33ewjno3ompdmailu3e",
+          "name": "videoframe_33818.png",
+          "alternativeText": "Sailor’s Abode6",
+          "caption": null,
+          "width": 1920,
+          "height": 1080,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_33818_b16f646824_BQwr_QQQVa.png",
+              "hash": "large_videoframe_33818_b16f646824",
+              "mime": "image/png",
+              "name": "large_videoframe_33818.png",
+              "path": null,
+              "size": 924.99,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 924989,
+              "provider_metadata": {
+                "fileId": "67f392b5432c476416e41076"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_33818_b16f646824_xzPbmtQI6X.png",
+              "hash": "small_videoframe_33818_b16f646824",
+              "mime": "image/png",
+              "name": "small_videoframe_33818.png",
+              "path": null,
+              "size": 252.44,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 252438,
+              "provider_metadata": {
+                "fileId": "67f392b2432c476416e4074f"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_33818_b16f646824_jTtqvj76G.png",
+              "hash": "medium_videoframe_33818_b16f646824",
+              "mime": "image/png",
+              "name": "medium_videoframe_33818.png",
+              "path": null,
+              "size": 535.18,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 535184,
+              "provider_metadata": {
+                "fileId": "67f392b5432c476416e40e54"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_33818_b16f646824_iHbY6pao2.png",
+              "hash": "thumbnail_videoframe_33818_b16f646824",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_33818.png",
+              "path": null,
+              "size": 70.67,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 70665,
+              "provider_metadata": {
+                "fileId": "67f392b1432c476416e40092"
+              }
+            }
+          },
+          "hash": "videoframe_33818_b16f646824",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 644.39,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_33818_b16f646824__BBgWlsgcZ.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f392b2432c476416e405f4"
+          },
+          "createdAt": "2025-04-07T14:24:14.861Z",
+          "updatedAt": "2025-04-07T14:24:14.861Z",
+          "publishedAt": "2025-04-07T14:24:14.862Z"
+        },
+        {
+          "id": 32,
+          "documentId": "oljrw9i4t0ehqy3j3410zrl0",
+          "name": "videoframe_49521.png",
+          "alternativeText": "Sailor’s Abode5",
+          "caption": null,
+          "width": 1920,
+          "height": 1080,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_49521_e4b61588f5_Ttwe2ea57.png",
+              "hash": "large_videoframe_49521_e4b61588f5",
+              "mime": "image/png",
+              "name": "large_videoframe_49521.png",
+              "path": null,
+              "size": 1001.84,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 1001843,
+              "provider_metadata": {
+                "fileId": "67f392b6432c476416e41489"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_49521_e4b61588f5_O4rVqOC0w0.png",
+              "hash": "small_videoframe_49521_e4b61588f5",
+              "mime": "image/png",
+              "name": "small_videoframe_49521.png",
+              "path": null,
+              "size": 273.05,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 273051,
+              "provider_metadata": {
+                "fileId": "67f392b3432c476416e4091c"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_49521_e4b61588f5_cBalT5FdF9.png",
+              "hash": "medium_videoframe_49521_e4b61588f5",
+              "mime": "image/png",
+              "name": "medium_videoframe_49521.png",
+              "path": null,
+              "size": 582.3,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 582301,
+              "provider_metadata": {
+                "fileId": "67f392b5432c476416e40fa0"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_49521_e4b61588f5_6G7V5yudb.png",
+              "hash": "thumbnail_videoframe_49521_e4b61588f5",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_49521.png",
+              "path": null,
+              "size": 74.57,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 74567,
+              "provider_metadata": {
+                "fileId": "67f392b1432c476416e4007d"
+              }
+            }
+          },
+          "hash": "videoframe_49521_e4b61588f5",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 720.3,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_49521_e4b61588f5_jBQ_rbeTmn.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f392b3432c476416e40a2a"
+          },
+          "createdAt": "2025-04-07T14:24:16.008Z",
+          "updatedAt": "2025-04-07T14:24:16.008Z",
+          "publishedAt": "2025-04-07T14:24:16.008Z"
+        },
+        {
+          "id": 33,
+          "documentId": "xtkfhco2bqpky7vmn0oomig6",
+          "name": "videoframe_62444.png",
+          "alternativeText": "Sailor’s Abode4",
+          "caption": null,
+          "width": 1920,
+          "height": 1080,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_62444_9b5e29bd81_q7Khx_ojO.png",
+              "hash": "large_videoframe_62444_9b5e29bd81",
+              "mime": "image/png",
+              "name": "large_videoframe_62444.png",
+              "path": null,
+              "size": 947.02,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 947022,
+              "provider_metadata": {
+                "fileId": "67f392b6432c476416e4123e"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_62444_9b5e29bd81_4IzWp8a0Gu.png",
+              "hash": "small_videoframe_62444_9b5e29bd81",
+              "mime": "image/png",
+              "name": "small_videoframe_62444.png",
+              "path": null,
+              "size": 259.94,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 259937,
+              "provider_metadata": {
+                "fileId": "67f392b3432c476416e40aa9"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_62444_9b5e29bd81_WgwqBBCX24.png",
+              "hash": "medium_videoframe_62444_9b5e29bd81",
+              "mime": "image/png",
+              "name": "medium_videoframe_62444.png",
+              "path": null,
+              "size": 548.77,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 548768,
+              "provider_metadata": {
+                "fileId": "67f392b6432c476416e41263"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_62444_9b5e29bd81_GfO-dn8GcT.png",
+              "hash": "thumbnail_videoframe_62444_9b5e29bd81",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_62444.png",
+              "path": null,
+              "size": 72.57,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 72569,
+              "provider_metadata": {
+                "fileId": "67f392b1432c476416e4016b"
+              }
+            }
+          },
+          "hash": "videoframe_62444_9b5e29bd81",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 670.19,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_62444_9b5e29bd81_zPOIvuxLQ.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f392b4432c476416e40ae0"
+          },
+          "createdAt": "2025-04-07T14:24:16.303Z",
+          "updatedAt": "2025-04-07T14:24:16.303Z",
+          "publishedAt": "2025-04-07T14:24:16.304Z"
+        },
+        {
+          "id": 34,
+          "documentId": "fagntbk082sj8yihfgklx359",
+          "name": "videoframe_98419.png",
+          "alternativeText": "Sailor’s Abode1",
+          "caption": null,
+          "width": 1920,
+          "height": 1080,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_98419_7d88eec2e7_YvwpLdoUG.png",
+              "hash": "large_videoframe_98419_7d88eec2e7",
+              "mime": "image/png",
+              "name": "large_videoframe_98419.png",
+              "path": null,
+              "size": 1051.41,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 1051410,
+              "provider_metadata": {
+                "fileId": "67f392b8432c476416e417ad"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_98419_7d88eec2e7_MNxmosVloV.png",
+              "hash": "small_videoframe_98419_7d88eec2e7",
+              "mime": "image/png",
+              "name": "small_videoframe_98419.png",
+              "path": null,
+              "size": 282.94,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 282937,
+              "provider_metadata": {
+                "fileId": "67f392b3432c476416e40989"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_98419_7d88eec2e7_ZBGtInPAL.png",
+              "hash": "medium_videoframe_98419_7d88eec2e7",
+              "mime": "image/png",
+              "name": "medium_videoframe_98419.png",
+              "path": null,
+              "size": 607.08,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 607079,
+              "provider_metadata": {
+                "fileId": "67f392b6432c476416e411d7"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_98419_7d88eec2e7_QdoXw7dITr.png",
+              "hash": "thumbnail_videoframe_98419_7d88eec2e7",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_98419.png",
+              "path": null,
+              "size": 76.72,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 76716,
+              "provider_metadata": {
+                "fileId": "67f392b1432c476416e400e7"
+              }
+            }
+          },
+          "hash": "videoframe_98419_7d88eec2e7",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 763.9,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_98419_7d88eec2e7_UM6Eg1Eiu.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f392b5432c476416e40e70"
+          },
+          "createdAt": "2025-04-07T14:24:17.174Z",
+          "updatedAt": "2025-04-07T14:24:17.174Z",
+          "publishedAt": "2025-04-07T14:24:17.174Z"
+        },
+        {
+          "id": 35,
+          "documentId": "z6gzr2qxx3vjlwgjrtfqcbcr",
+          "name": "videoframe_68948.png",
+          "alternativeText": "Sailor’s Abode3",
+          "caption": null,
+          "width": 1920,
+          "height": 1080,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_68948_d3dda8b5b8_yIWsSop1n.png",
+              "hash": "large_videoframe_68948_d3dda8b5b8",
+              "mime": "image/png",
+              "name": "large_videoframe_68948.png",
+              "path": null,
+              "size": 1070.7,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 1070699,
+              "provider_metadata": {
+                "fileId": "67f392b7432c476416e4161a"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_68948_d3dda8b5b8_KemFRkDLfK.png",
+              "hash": "small_videoframe_68948_d3dda8b5b8",
+              "mime": "image/png",
+              "name": "small_videoframe_68948.png",
+              "path": null,
+              "size": 294.92,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 294916,
+              "provider_metadata": {
+                "fileId": "67f392b6432c476416e4123a"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_68948_d3dda8b5b8_Zo5hVsQaZU.png",
+              "hash": "medium_videoframe_68948_d3dda8b5b8",
+              "mime": "image/png",
+              "name": "medium_videoframe_68948.png",
+              "path": null,
+              "size": 624.51,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 624505,
+              "provider_metadata": {
+                "fileId": "67f392b7432c476416e41535"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_68948_d3dda8b5b8_oES-ze9hYp.png",
+              "hash": "thumbnail_videoframe_68948_d3dda8b5b8",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_68948.png",
+              "path": null,
+              "size": 80.32,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 80324,
+              "provider_metadata": {
+                "fileId": "67f392b5432c476416e41014"
+              }
+            }
+          },
+          "hash": "videoframe_68948_d3dda8b5b8",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 804.01,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_68948_d3dda8b5b8_9r1PqcHz2.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f392b8432c476416e4183f"
+          },
+          "createdAt": "2025-04-07T14:24:17.363Z",
+          "updatedAt": "2025-04-07T14:24:17.363Z",
+          "publishedAt": "2025-04-07T14:24:17.364Z"
+        },
+        {
+          "id": 36,
+          "documentId": "ssjcflg59ocu4lv4deyjqis0",
+          "name": "videoframe_83504.png",
+          "alternativeText": "Sailor’s Abode2",
+          "caption": null,
+          "width": 1920,
+          "height": 1080,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_83504_822190719b_Q053mAVAZ_.png",
+              "hash": "large_videoframe_83504_822190719b",
+              "mime": "image/png",
+              "name": "large_videoframe_83504.png",
+              "path": null,
+              "size": 1032.1,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 1032096,
+              "provider_metadata": {
+                "fileId": "67f392b8432c476416e4192a"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_83504_822190719b_0fS7eAXn47.png",
+              "hash": "small_videoframe_83504_822190719b",
+              "mime": "image/png",
+              "name": "small_videoframe_83504.png",
+              "path": null,
+              "size": 280.57,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 280568,
+              "provider_metadata": {
+                "fileId": "67f392b7432c476416e414e8"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_83504_822190719b_3n8hBwP2Za.png",
+              "hash": "medium_videoframe_83504_822190719b",
+              "mime": "image/png",
+              "name": "medium_videoframe_83504.png",
+              "path": null,
+              "size": 601.03,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 601026,
+              "provider_metadata": {
+                "fileId": "67f392b8432c476416e419a1"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_83504_822190719b_Chkte1YZM2.png",
+              "hash": "thumbnail_videoframe_83504_822190719b",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_83504.png",
+              "path": null,
+              "size": 76.03,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 76029,
+              "provider_metadata": {
+                "fileId": "67f392b4432c476416e40c6a"
+              }
+            }
+          },
+          "hash": "videoframe_83504_822190719b",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 807.12,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_83504_822190719b_6Z7Owr3Z1g.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f392b8432c476416e41a1d"
+          },
+          "createdAt": "2025-04-07T14:24:18.256Z",
+          "updatedAt": "2025-04-07T14:24:18.256Z",
+          "publishedAt": "2025-04-07T14:24:18.257Z"
+        },
+        {
+          "id": 37,
+          "documentId": "z8gxt1m39ow387wkiu0anbcn",
+          "name": "videoframe_24904.png",
+          "alternativeText": "Sailor’s Abode7",
+          "caption": null,
+          "width": 1920,
+          "height": 1080,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_24904_a8a4780710_iO5XL0OCF.png",
+              "hash": "large_videoframe_24904_a8a4780710",
+              "mime": "image/png",
+              "name": "large_videoframe_24904.png",
+              "path": null,
+              "size": 1147.11,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 1147113,
+              "provider_metadata": {
+                "fileId": "67f392c0432c476416e45772"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_24904_a8a4780710_eif6iKM3Qc.png",
+              "hash": "small_videoframe_24904_a8a4780710",
+              "mime": "image/png",
+              "name": "small_videoframe_24904.png",
+              "path": null,
+              "size": 312.95,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 312949,
+              "provider_metadata": {
+                "fileId": "67f392bf432c476416e453d0"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_24904_a8a4780710_M3-k7TM4O.png",
+              "hash": "medium_videoframe_24904_a8a4780710",
+              "mime": "image/png",
+              "name": "medium_videoframe_24904.png",
+              "path": null,
+              "size": 666.53,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 666527,
+              "provider_metadata": {
+                "fileId": "67f392bf432c476416e45535"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_24904_a8a4780710_niAL_Ln-a.png",
+              "hash": "thumbnail_videoframe_24904_a8a4780710",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_24904.png",
+              "path": null,
+              "size": 84.84,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 84842,
+              "provider_metadata": {
+                "fileId": "67f392bf432c476416e4521f"
+              }
+            }
+          },
+          "hash": "videoframe_24904_a8a4780710",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 758.13,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_24904_a8a4780710_Em3uiJfkwI.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f392bf432c476416e45345"
+          },
+          "createdAt": "2025-04-07T14:24:25.886Z",
+          "updatedAt": "2025-04-07T14:24:25.886Z",
+          "publishedAt": "2025-04-07T14:24:25.886Z"
+        },
+        {
+          "id": 38,
+          "documentId": "jw7iyqc75x5u5ul6suruv0nw",
+          "name": "videoframe_18067.png",
+          "alternativeText": "Sailor’s Abode8",
+          "caption": null,
+          "width": 1920,
+          "height": 1080,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_18067_fdfe544519_GgsLsg8_0r.png",
+              "hash": "large_videoframe_18067_fdfe544519",
+              "mime": "image/png",
+              "name": "large_videoframe_18067.png",
+              "path": null,
+              "size": 1259.2,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 1259204,
+              "provider_metadata": {
+                "fileId": "67f392c2432c476416e45c4f"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_18067_fdfe544519_bGjcBzW6Xo.png",
+              "hash": "small_videoframe_18067_fdfe544519",
+              "mime": "image/png",
+              "name": "small_videoframe_18067.png",
+              "path": null,
+              "size": 336.31,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 336310,
+              "provider_metadata": {
+                "fileId": "67f392c1432c476416e459af"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_18067_fdfe544519_CMxuTQUmq.png",
+              "hash": "medium_videoframe_18067_fdfe544519",
+              "mime": "image/png",
+              "name": "medium_videoframe_18067.png",
+              "path": null,
+              "size": 726.49,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 726488,
+              "provider_metadata": {
+                "fileId": "67f392c1432c476416e45add"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_18067_fdfe544519_e2z0vVx9Z2.png",
+              "hash": "thumbnail_videoframe_18067_fdfe544519",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_18067.png",
+              "path": null,
+              "size": 88.6,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 88599,
+              "provider_metadata": {
+                "fileId": "67f392c0432c476416e45913"
+              }
+            }
+          },
+          "hash": "videoframe_18067_fdfe544519",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 889.74,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_18067_fdfe544519_Cpwsm3DC1.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f392c1432c476416e4594f"
+          },
+          "createdAt": "2025-04-07T14:24:27.632Z",
+          "updatedAt": "2025-04-07T14:24:27.632Z",
+          "publishedAt": "2025-04-07T14:24:27.633Z"
+        }
+      ],
+      "ProfilePicture": {
+        "id": 38,
+        "documentId": "jw7iyqc75x5u5ul6suruv0nw",
+        "name": "videoframe_18067.png",
+        "alternativeText": "Sailor’s Abode8",
+        "caption": null,
+        "width": 1920,
+        "height": 1080,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_18067_fdfe544519_GgsLsg8_0r.png",
+            "hash": "large_videoframe_18067_fdfe544519",
+            "mime": "image/png",
+            "name": "large_videoframe_18067.png",
+            "path": null,
+            "size": 1259.2,
+            "width": 1000,
+            "height": 563,
+            "sizeInBytes": 1259204,
+            "provider_metadata": {
+              "fileId": "67f392c2432c476416e45c4f"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_18067_fdfe544519_bGjcBzW6Xo.png",
+            "hash": "small_videoframe_18067_fdfe544519",
+            "mime": "image/png",
+            "name": "small_videoframe_18067.png",
+            "path": null,
+            "size": 336.31,
+            "width": 500,
+            "height": 281,
+            "sizeInBytes": 336310,
+            "provider_metadata": {
+              "fileId": "67f392c1432c476416e459af"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_18067_fdfe544519_CMxuTQUmq.png",
+            "hash": "medium_videoframe_18067_fdfe544519",
+            "mime": "image/png",
+            "name": "medium_videoframe_18067.png",
+            "path": null,
+            "size": 726.49,
+            "width": 750,
+            "height": 422,
+            "sizeInBytes": 726488,
+            "provider_metadata": {
+              "fileId": "67f392c1432c476416e45add"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_18067_fdfe544519_e2z0vVx9Z2.png",
+            "hash": "thumbnail_videoframe_18067_fdfe544519",
+            "mime": "image/png",
+            "name": "thumbnail_videoframe_18067.png",
+            "path": null,
+            "size": 88.6,
+            "width": 245,
+            "height": 138,
+            "sizeInBytes": 88599,
+            "provider_metadata": {
+              "fileId": "67f392c0432c476416e45913"
+            }
+          }
+        },
+        "hash": "videoframe_18067_fdfe544519",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 889.74,
+        "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_18067_fdfe544519_Cpwsm3DC1.png",
+        "previewUrl": null,
+        "provider": "strapi-provider-upload-imagekit",
+        "provider_metadata": {
+          "fileId": "67f392c1432c476416e4594f"
+        },
+        "createdAt": "2025-04-07T14:24:27.632Z",
+        "updatedAt": "2025-04-07T14:24:27.632Z",
+        "publishedAt": "2025-04-07T14:24:27.633Z"
+      },
+      "featured_ons": []
+    },
+    {
+      "id": 11,
+      "documentId": "cv1a6h5b3t85a8j1g7wczutg",
+      "ProjectName": "Amber Lake Resort",
+      "ProjectDescription": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you. This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are. At Wix we’re passionate about making templates that allow you to build fabulous websites and it’s all thanks to the support and feedback from users like you! Keep up to date with New Releases and what’s Coming Soon in Wixellaneous in Support. Feel free to tell us what you think",
+      "ProjectYTLink": "https://www.youtube.com/embed/b5ZLaCFgx5M?si=wGoCOYW2_07ek56b",
+      "ArchitectName": "Tanzeem Sarguroh",
+      "PhotosBy": "Kuber Shah",
+      "createdAt": "2025-04-07T14:30:33.628Z",
+      "updatedAt": "2025-04-07T14:31:28.912Z",
+      "publishedAt": "2025-04-07T14:31:29.506Z",
+      "ProjectsImages": [
+        {
+          "id": 39,
+          "documentId": "j5boph2j1we3217u0xh32868",
+          "name": "Amber Lake Resort (5).png",
+          "alternativeText": "Amber Lake Resort (5)",
+          "caption": null,
+          "width": 1280,
+          "height": 586,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_Amber_Lake_Resort_5_8943b3a48a_VPyqEGvOPS.png",
+              "hash": "large_Amber_Lake_Resort_5_8943b3a48a",
+              "mime": "image/png",
+              "name": "large_Amber Lake Resort (5).png",
+              "path": null,
+              "size": 788.93,
+              "width": 1000,
+              "height": 458,
+              "sizeInBytes": 788931,
+              "provider_metadata": {
+                "fileId": "67f3940e432c476416eb9ed1"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_Amber_Lake_Resort_5_8943b3a48a_fQMs1Fg-Li.png",
+              "hash": "small_Amber_Lake_Resort_5_8943b3a48a",
+              "mime": "image/png",
+              "name": "small_Amber Lake Resort (5).png",
+              "path": null,
+              "size": 212.08,
+              "width": 500,
+              "height": 229,
+              "sizeInBytes": 212080,
+              "provider_metadata": {
+                "fileId": "67f3940c432c476416eb9572"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_Amber_Lake_Resort_5_8943b3a48a_6VMcvHtS_.png",
+              "hash": "medium_Amber_Lake_Resort_5_8943b3a48a",
+              "mime": "image/png",
+              "name": "medium_Amber Lake Resort (5).png",
+              "path": null,
+              "size": 450.15,
+              "width": 750,
+              "height": 343,
+              "sizeInBytes": 450146,
+              "provider_metadata": {
+                "fileId": "67f3940d432c476416eb99e2"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Amber_Lake_Resort_5_8943b3a48a_rqjY_5khDy.png",
+              "hash": "thumbnail_Amber_Lake_Resort_5_8943b3a48a",
+              "mime": "image/png",
+              "name": "thumbnail_Amber Lake Resort (5).png",
+              "path": null,
+              "size": 59.77,
+              "width": 245,
+              "height": 112,
+              "sizeInBytes": 59773,
+              "provider_metadata": {
+                "fileId": "67f3940b432c476416eb9013"
+              }
+            }
+          },
+          "hash": "Amber_Lake_Resort_5_8943b3a48a",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 144.7,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Amber_Lake_Resort_5_8943b3a48a_j1fGZ4UiK1.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f3940b432c476416eb9074"
+          },
+          "createdAt": "2025-04-07T14:29:59.650Z",
+          "updatedAt": "2025-04-07T14:29:59.650Z",
+          "publishedAt": "2025-04-07T14:29:59.651Z"
+        },
+        {
+          "id": 40,
+          "documentId": "gam755v4alypbvo5radx0sbz",
+          "name": "Amber Lake Resort (3).png",
+          "alternativeText": "Amber Lake Resort (3)",
+          "caption": null,
+          "width": 1280,
+          "height": 571,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_Amber_Lake_Resort_3_a65ad8b7b5_pmlNyYu_dy.png",
+              "hash": "large_Amber_Lake_Resort_3_a65ad8b7b5",
+              "mime": "image/png",
+              "name": "large_Amber Lake Resort (3).png",
+              "path": null,
+              "size": 626.98,
+              "width": 1000,
+              "height": 446,
+              "sizeInBytes": 626984,
+              "provider_metadata": {
+                "fileId": "67f3940e432c476416eb9f9b"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_Amber_Lake_Resort_3_a65ad8b7b5_FPLEdNpgU.png",
+              "hash": "small_Amber_Lake_Resort_3_a65ad8b7b5",
+              "mime": "image/png",
+              "name": "small_Amber Lake Resort (3).png",
+              "path": null,
+              "size": 160.58,
+              "width": 500,
+              "height": 223,
+              "sizeInBytes": 160581,
+              "provider_metadata": {
+                "fileId": "67f3940c432c476416eb91ef"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_Amber_Lake_Resort_3_a65ad8b7b5_G5kN1TtHjV.png",
+              "hash": "medium_Amber_Lake_Resort_3_a65ad8b7b5",
+              "mime": "image/png",
+              "name": "medium_Amber Lake Resort (3).png",
+              "path": null,
+              "size": 350.3,
+              "width": 750,
+              "height": 335,
+              "sizeInBytes": 350297,
+              "provider_metadata": {
+                "fileId": "67f3940d432c476416eb973b"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Amber_Lake_Resort_3_a65ad8b7b5_vyWh2eZuy.png",
+              "hash": "thumbnail_Amber_Lake_Resort_3_a65ad8b7b5",
+              "mime": "image/png",
+              "name": "thumbnail_Amber Lake Resort (3).png",
+              "path": null,
+              "size": 46.1,
+              "width": 245,
+              "height": 109,
+              "sizeInBytes": 46103,
+              "provider_metadata": {
+                "fileId": "67f3940b432c476416eb87cc"
+              }
+            }
+          },
+          "hash": "Amber_Lake_Resort_3_a65ad8b7b5",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 118.86,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Amber_Lake_Resort_3_a65ad8b7b5_j_LnGIHaPO.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f3940b432c476416eb8def"
+          },
+          "createdAt": "2025-04-07T14:29:59.938Z",
+          "updatedAt": "2025-04-07T14:29:59.938Z",
+          "publishedAt": "2025-04-07T14:29:59.938Z"
+        },
+        {
+          "id": 42,
+          "documentId": "dhxhhzlruy4j6rsmqejz4ols",
+          "name": "Amber Lake Resort (2).png",
+          "alternativeText": "Amber Lake Resort (2)",
+          "caption": null,
+          "width": 1280,
+          "height": 567,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_Amber_Lake_Resort_2_0bdd425b19_SQiXBcfXJf.png",
+              "hash": "large_Amber_Lake_Resort_2_0bdd425b19",
+              "mime": "image/png",
+              "name": "large_Amber Lake Resort (2).png",
+              "path": null,
+              "size": 840.96,
+              "width": 1000,
+              "height": 443,
+              "sizeInBytes": 840957,
+              "provider_metadata": {
+                "fileId": "67f3940e432c476416eba09c"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_Amber_Lake_Resort_2_0bdd425b19_Sq-AdFMlA.png",
+              "hash": "small_Amber_Lake_Resort_2_0bdd425b19",
+              "mime": "image/png",
+              "name": "small_Amber Lake Resort (2).png",
+              "path": null,
+              "size": 217.39,
+              "width": 500,
+              "height": 221,
+              "sizeInBytes": 217390,
+              "provider_metadata": {
+                "fileId": "67f3940c432c476416eb967f"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_Amber_Lake_Resort_2_0bdd425b19_Zjck2dleVy.png",
+              "hash": "medium_Amber_Lake_Resort_2_0bdd425b19",
+              "mime": "image/png",
+              "name": "medium_Amber Lake Resort (2).png",
+              "path": null,
+              "size": 478.47,
+              "width": 750,
+              "height": 332,
+              "sizeInBytes": 478471,
+              "provider_metadata": {
+                "fileId": "67f3940e432c476416eb9e7e"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Amber_Lake_Resort_2_0bdd425b19_qJB3vVMpnC.png",
+              "hash": "thumbnail_Amber_Lake_Resort_2_0bdd425b19",
+              "mime": "image/png",
+              "name": "thumbnail_Amber Lake Resort (2).png",
+              "path": null,
+              "size": 58.09,
+              "width": 245,
+              "height": 109,
+              "sizeInBytes": 58090,
+              "provider_metadata": {
+                "fileId": "67f3940b432c476416eb9004"
+              }
+            }
+          },
+          "hash": "Amber_Lake_Resort_2_0bdd425b19",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 153.1,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Amber_Lake_Resort_2_0bdd425b19_jQzbP0qnMQ.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f3940b432c476416eb9045"
+          },
+          "createdAt": "2025-04-07T14:30:00.247Z",
+          "updatedAt": "2025-04-07T14:30:00.247Z",
+          "publishedAt": "2025-04-07T14:30:00.248Z"
+        },
+        {
+          "id": 41,
+          "documentId": "lnvwqe0tw7te2tl9n63ozrep",
+          "name": "Amber Lake Resort (6).png",
+          "alternativeText": "Amber Lake Resort (6)",
+          "caption": null,
+          "width": 1280,
+          "height": 619,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_Amber_Lake_Resort_6_14f975b59e_X-LTBR1CD.png",
+              "hash": "large_Amber_Lake_Resort_6_14f975b59e",
+              "mime": "image/png",
+              "name": "large_Amber Lake Resort (6).png",
+              "path": null,
+              "size": 761.14,
+              "width": 1000,
+              "height": 484,
+              "sizeInBytes": 761137,
+              "provider_metadata": {
+                "fileId": "67f3940e432c476416eba05d"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_Amber_Lake_Resort_6_14f975b59e_MnD7zDNcC.png",
+              "hash": "small_Amber_Lake_Resort_6_14f975b59e",
+              "mime": "image/png",
+              "name": "small_Amber Lake Resort (6).png",
+              "path": null,
+              "size": 196.76,
+              "width": 500,
+              "height": 242,
+              "sizeInBytes": 196758,
+              "provider_metadata": {
+                "fileId": "67f3940e432c476416eb9c03"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_Amber_Lake_Resort_6_14f975b59e_uozI7sOpeJ.png",
+              "hash": "medium_Amber_Lake_Resort_6_14f975b59e",
+              "mime": "image/png",
+              "name": "medium_Amber Lake Resort (6).png",
+              "path": null,
+              "size": 424.8,
+              "width": 750,
+              "height": 363,
+              "sizeInBytes": 424803,
+              "provider_metadata": {
+                "fileId": "67f3940e432c476416eb9d8e"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Amber_Lake_Resort_6_14f975b59e_jnJw65fwmM.png",
+              "hash": "thumbnail_Amber_Lake_Resort_6_14f975b59e",
+              "mime": "image/png",
+              "name": "thumbnail_Amber Lake Resort (6).png",
+              "path": null,
+              "size": 55.72,
+              "width": 245,
+              "height": 118,
+              "sizeInBytes": 55715,
+              "provider_metadata": {
+                "fileId": "67f3940c432c476416eb93d8"
+              }
+            }
+          },
+          "hash": "Amber_Lake_Resort_6_14f975b59e",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 148.58,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Amber_Lake_Resort_6_14f975b59e_zRgl9kjakA.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f3940c432c476416eb92e2"
+          },
+          "createdAt": "2025-04-07T14:30:00.053Z",
+          "updatedAt": "2025-04-07T14:30:00.053Z",
+          "publishedAt": "2025-04-07T14:30:00.053Z"
+        },
+        {
+          "id": 43,
+          "documentId": "awgfizvcl0czbkj83aen0dhc",
+          "name": "Amber Lake Resort (1).png",
+          "alternativeText": "Amber Lake Resort (1)",
+          "caption": null,
+          "width": 1280,
+          "height": 663,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_Amber_Lake_Resort_1_1a1f11d295_fqkvVA7TWX.png",
+              "hash": "large_Amber_Lake_Resort_1_1a1f11d295",
+              "mime": "image/png",
+              "name": "large_Amber Lake Resort (1).png",
+              "path": null,
+              "size": 848.37,
+              "width": 1000,
+              "height": 518,
+              "sizeInBytes": 848372,
+              "provider_metadata": {
+                "fileId": "67f3940e432c476416eba051"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_Amber_Lake_Resort_1_1a1f11d295_tM7jo2Oykl.png",
+              "hash": "small_Amber_Lake_Resort_1_1a1f11d295",
+              "mime": "image/png",
+              "name": "small_Amber Lake Resort (1).png",
+              "path": null,
+              "size": 226.2,
+              "width": 500,
+              "height": 259,
+              "sizeInBytes": 226199,
+              "provider_metadata": {
+                "fileId": "67f3940d432c476416eb99c5"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_Amber_Lake_Resort_1_1a1f11d295_3q0hyVOr5O.png",
+              "hash": "medium_Amber_Lake_Resort_1_1a1f11d295",
+              "mime": "image/png",
+              "name": "medium_Amber Lake Resort (1).png",
+              "path": null,
+              "size": 486.18,
+              "width": 750,
+              "height": 388,
+              "sizeInBytes": 486179,
+              "provider_metadata": {
+                "fileId": "67f3940e432c476416eb9ed9"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Amber_Lake_Resort_1_1a1f11d295_tx0DLMc5z.png",
+              "hash": "thumbnail_Amber_Lake_Resort_1_1a1f11d295",
+              "mime": "image/png",
+              "name": "thumbnail_Amber Lake Resort (1).png",
+              "path": null,
+              "size": 62.25,
+              "width": 245,
+              "height": 127,
+              "sizeInBytes": 62245,
+              "provider_metadata": {
+                "fileId": "67f3940c432c476416eb940d"
+              }
+            }
+          },
+          "hash": "Amber_Lake_Resort_1_1a1f11d295",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 174.44,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Amber_Lake_Resort_1_1a1f11d295_JwWKjeDCff.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f3940c432c476416eb95d5"
+          },
+          "createdAt": "2025-04-07T14:30:00.376Z",
+          "updatedAt": "2025-04-07T14:30:00.376Z",
+          "publishedAt": "2025-04-07T14:30:00.382Z"
+        },
+        {
+          "id": 44,
+          "documentId": "bg5178hui5zn2efl452qcx61",
+          "name": "Amber Lake Resort (4).png",
+          "alternativeText": "Amber Lake Resort (4)",
+          "caption": null,
+          "width": 1280,
+          "height": 580,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_Amber_Lake_Resort_4_e5dd089f0f_m51t8CCx8E.png",
+              "hash": "large_Amber_Lake_Resort_4_e5dd089f0f",
+              "mime": "image/png",
+              "name": "large_Amber Lake Resort (4).png",
+              "path": null,
+              "size": 623.19,
+              "width": 1000,
+              "height": 453,
+              "sizeInBytes": 623188,
+              "provider_metadata": {
+                "fileId": "67f3940e432c476416eb9ee9"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_Amber_Lake_Resort_4_e5dd089f0f_Sa94rUixb.png",
+              "hash": "small_Amber_Lake_Resort_4_e5dd089f0f",
+              "mime": "image/png",
+              "name": "small_Amber Lake Resort (4).png",
+              "path": null,
+              "size": 165.21,
+              "width": 500,
+              "height": 227,
+              "sizeInBytes": 165210,
+              "provider_metadata": {
+                "fileId": "67f3940c432c476416eb92c0"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_Amber_Lake_Resort_4_e5dd089f0f_XmeQM4Sdc.png",
+              "hash": "medium_Amber_Lake_Resort_4_e5dd089f0f",
+              "mime": "image/png",
+              "name": "medium_Amber Lake Resort (4).png",
+              "path": null,
+              "size": 351.75,
+              "width": 750,
+              "height": 340,
+              "sizeInBytes": 351746,
+              "provider_metadata": {
+                "fileId": "67f3940d432c476416eb9b0c"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Amber_Lake_Resort_4_e5dd089f0f_4E7RDqEsb.png",
+              "hash": "thumbnail_Amber_Lake_Resort_4_e5dd089f0f",
+              "mime": "image/png",
+              "name": "thumbnail_Amber Lake Resort (4).png",
+              "path": null,
+              "size": 47.46,
+              "width": 245,
+              "height": 111,
+              "sizeInBytes": 47463,
+              "provider_metadata": {
+                "fileId": "67f3940b432c476416eb8e4b"
+              }
+            }
+          },
+          "hash": "Amber_Lake_Resort_4_e5dd089f0f",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 132.42,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Amber_Lake_Resort_4_e5dd089f0f_nU9rZhXBoh.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f3940b432c476416eb9010"
+          },
+          "createdAt": "2025-04-07T14:30:00.435Z",
+          "updatedAt": "2025-04-07T14:30:00.435Z",
+          "publishedAt": "2025-04-07T14:30:00.438Z"
+        },
+        {
+          "id": 45,
+          "documentId": "mxj1ifctxw8ndh3hamn97l1r",
+          "name": "Amber Lake Resort (7).png",
+          "alternativeText": "Amber Lake Resort (7)",
+          "caption": null,
+          "width": 1280,
+          "height": 618,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_Amber_Lake_Resort_7_9dd444f873_u04wrmG8re.png",
+              "hash": "large_Amber_Lake_Resort_7_9dd444f873",
+              "mime": "image/png",
+              "name": "large_Amber Lake Resort (7).png",
+              "path": null,
+              "size": 613.72,
+              "width": 1000,
+              "height": 483,
+              "sizeInBytes": 613723,
+              "provider_metadata": {
+                "fileId": "67f39414432c476416ebdb60"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_Amber_Lake_Resort_7_9dd444f873_0H35ALyyMb.png",
+              "hash": "small_Amber_Lake_Resort_7_9dd444f873",
+              "mime": "image/png",
+              "name": "small_Amber Lake Resort (7).png",
+              "path": null,
+              "size": 148.38,
+              "width": 500,
+              "height": 241,
+              "sizeInBytes": 148375,
+              "provider_metadata": {
+                "fileId": "67f39414432c476416ebd808"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_Amber_Lake_Resort_7_9dd444f873_RrFanDYbjn.png",
+              "hash": "medium_Amber_Lake_Resort_7_9dd444f873",
+              "mime": "image/png",
+              "name": "medium_Amber Lake Resort (7).png",
+              "path": null,
+              "size": 331.74,
+              "width": 750,
+              "height": 362,
+              "sizeInBytes": 331742,
+              "provider_metadata": {
+                "fileId": "67f39414432c476416ebd8c7"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Amber_Lake_Resort_7_9dd444f873_fjQ9Y9dXr.png",
+              "hash": "thumbnail_Amber_Lake_Resort_7_9dd444f873",
+              "mime": "image/png",
+              "name": "thumbnail_Amber Lake Resort (7).png",
+              "path": null,
+              "size": 43.17,
+              "width": 245,
+              "height": 118,
+              "sizeInBytes": 43168,
+              "provider_metadata": {
+                "fileId": "67f39413432c476416ebca3e"
+              }
+            }
+          },
+          "hash": "Amber_Lake_Resort_7_9dd444f873",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 99.73,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Amber_Lake_Resort_7_9dd444f873_vCEmJ9oMJ.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f39413432c476416ebccec"
+          },
+          "createdAt": "2025-04-07T14:30:06.155Z",
+          "updatedAt": "2025-04-07T14:30:06.155Z",
+          "publishedAt": "2025-04-07T14:30:06.156Z"
+        },
+        {
+          "id": 46,
+          "documentId": "l234cu1qm67g6seccpkrwb2w",
+          "name": "Amber Lake Resort (8).png",
+          "alternativeText": "Amber Lake Resort (8)",
+          "caption": null,
+          "width": 1280,
+          "height": 647,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_Amber_Lake_Resort_8_5e884d5000_auDlWNeJE7.png",
+              "hash": "large_Amber_Lake_Resort_8_5e884d5000",
+              "mime": "image/png",
+              "name": "large_Amber Lake Resort (8).png",
+              "path": null,
+              "size": 768.7,
+              "width": 1000,
+              "height": 505,
+              "sizeInBytes": 768697,
+              "provider_metadata": {
+                "fileId": "67f39415432c476416ebddff"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_Amber_Lake_Resort_8_5e884d5000_y8F1vx1Uia.png",
+              "hash": "small_Amber_Lake_Resort_8_5e884d5000",
+              "mime": "image/png",
+              "name": "small_Amber Lake Resort (8).png",
+              "path": null,
+              "size": 211.31,
+              "width": 500,
+              "height": 253,
+              "sizeInBytes": 211314,
+              "provider_metadata": {
+                "fileId": "67f39414432c476416ebdaaa"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_Amber_Lake_Resort_8_5e884d5000_lHRLL9ufe.png",
+              "hash": "medium_Amber_Lake_Resort_8_5e884d5000",
+              "mime": "image/png",
+              "name": "medium_Amber Lake Resort (8).png",
+              "path": null,
+              "size": 444.1,
+              "width": 750,
+              "height": 379,
+              "sizeInBytes": 444103,
+              "provider_metadata": {
+                "fileId": "67f39415432c476416ebdcd7"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Amber_Lake_Resort_8_5e884d5000_wzv-UDo_Xb.png",
+              "hash": "thumbnail_Amber_Lake_Resort_8_5e884d5000",
+              "mime": "image/png",
+              "name": "thumbnail_Amber Lake Resort (8).png",
+              "path": null,
+              "size": 61.44,
+              "width": 245,
+              "height": 124,
+              "sizeInBytes": 61439,
+              "provider_metadata": {
+                "fileId": "67f39414432c476416ebd88e"
+              }
+            }
+          },
+          "hash": "Amber_Lake_Resort_8_5e884d5000",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 159.94,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Amber_Lake_Resort_8_5e884d5000_XlOBtavmeO.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f39414432c476416ebd8db"
+          },
+          "createdAt": "2025-04-07T14:30:06.498Z",
+          "updatedAt": "2025-04-07T14:30:06.498Z",
+          "publishedAt": "2025-04-07T14:30:06.499Z"
+        },
+        {
+          "id": 47,
+          "documentId": "udkafptyp6eo3tpyrfhuju1e",
+          "name": "Amber Lake Resort (9).png",
+          "alternativeText": "Amber Lake Resort (9)",
+          "caption": null,
+          "width": 1280,
+          "height": 648,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_Amber_Lake_Resort_9_48a3dfe5b6_nk4nQztvMt.png",
+              "hash": "large_Amber_Lake_Resort_9_48a3dfe5b6",
+              "mime": "image/png",
+              "name": "large_Amber Lake Resort (9).png",
+              "path": null,
+              "size": 712.89,
+              "width": 1000,
+              "height": 506,
+              "sizeInBytes": 712891,
+              "provider_metadata": {
+                "fileId": "67f39415432c476416ebe16b"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_Amber_Lake_Resort_9_48a3dfe5b6_pjqZUxaGSy.png",
+              "hash": "small_Amber_Lake_Resort_9_48a3dfe5b6",
+              "mime": "image/png",
+              "name": "small_Amber Lake Resort (9).png",
+              "path": null,
+              "size": 183.79,
+              "width": 500,
+              "height": 253,
+              "sizeInBytes": 183793,
+              "provider_metadata": {
+                "fileId": "67f39415432c476416ebdde2"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_Amber_Lake_Resort_9_48a3dfe5b6_BGtfdk30V.png",
+              "hash": "medium_Amber_Lake_Resort_9_48a3dfe5b6",
+              "mime": "image/png",
+              "name": "medium_Amber Lake Resort (9).png",
+              "path": null,
+              "size": 397.9,
+              "width": 750,
+              "height": 380,
+              "sizeInBytes": 397898,
+              "provider_metadata": {
+                "fileId": "67f39416432c476416ebe4b5"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Amber_Lake_Resort_9_48a3dfe5b6_NqCjy_d2Ek.png",
+              "hash": "thumbnail_Amber_Lake_Resort_9_48a3dfe5b6",
+              "mime": "image/png",
+              "name": "thumbnail_Amber Lake Resort (9).png",
+              "path": null,
+              "size": 52.85,
+              "width": 245,
+              "height": 124,
+              "sizeInBytes": 52848,
+              "provider_metadata": {
+                "fileId": "67f39415432c476416ebdddd"
+              }
+            }
+          },
+          "hash": "Amber_Lake_Resort_9_48a3dfe5b6",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 139.95,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Amber_Lake_Resort_9_48a3dfe5b6_x6nq9zaJk.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f39415432c476416ebdc76"
+          },
+          "createdAt": "2025-04-07T14:30:09.329Z",
+          "updatedAt": "2025-04-07T14:30:09.329Z",
+          "publishedAt": "2025-04-07T14:30:09.330Z"
+        },
+        {
+          "id": 48,
+          "documentId": "bpvvyr1jr43ts8zh5bnxjhk7",
+          "name": "Amber Lake Resort (10).png",
+          "alternativeText": "Amber Lake Resort (10)",
+          "caption": null,
+          "width": 1280,
+          "height": 659,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_Amber_Lake_Resort_10_0faa015280_VXWoFM9-x8.png",
+              "hash": "large_Amber_Lake_Resort_10_0faa015280",
+              "mime": "image/png",
+              "name": "large_Amber Lake Resort (10).png",
+              "path": null,
+              "size": 837.89,
+              "width": 1000,
+              "height": 515,
+              "sizeInBytes": 837892,
+              "provider_metadata": {
+                "fileId": "67f39416432c476416ebe757"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_Amber_Lake_Resort_10_0faa015280_E4NmXej1n.png",
+              "hash": "small_Amber_Lake_Resort_10_0faa015280",
+              "mime": "image/png",
+              "name": "small_Amber Lake Resort (10).png",
+              "path": null,
+              "size": 221.97,
+              "width": 500,
+              "height": 257,
+              "sizeInBytes": 221965,
+              "provider_metadata": {
+                "fileId": "67f39416432c476416ebe4d9"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_Amber_Lake_Resort_10_0faa015280_tWyhz86Lgv.png",
+              "hash": "medium_Amber_Lake_Resort_10_0faa015280",
+              "mime": "image/png",
+              "name": "medium_Amber Lake Resort (10).png",
+              "path": null,
+              "size": 477.19,
+              "width": 750,
+              "height": 386,
+              "sizeInBytes": 477185,
+              "provider_metadata": {
+                "fileId": "67f39416432c476416ebe56a"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Amber_Lake_Resort_10_0faa015280_broknU1G_z.png",
+              "hash": "thumbnail_Amber_Lake_Resort_10_0faa015280",
+              "mime": "image/png",
+              "name": "thumbnail_Amber Lake Resort (10).png",
+              "path": null,
+              "size": 62.44,
+              "width": 245,
+              "height": 126,
+              "sizeInBytes": 62435,
+              "provider_metadata": {
+                "fileId": "67f39415432c476416ebe0cc"
+              }
+            }
+          },
+          "hash": "Amber_Lake_Resort_10_0faa015280",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 167.8,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Amber_Lake_Resort_10_0faa015280_KLNTtfjSh.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f39415432c476416ebe12e"
+          },
+          "createdAt": "2025-04-07T14:30:09.748Z",
+          "updatedAt": "2025-04-07T14:30:09.748Z",
+          "publishedAt": "2025-04-07T14:30:09.749Z"
+        }
+      ],
+      "ProfilePicture": {
+        "id": 43,
+        "documentId": "awgfizvcl0czbkj83aen0dhc",
+        "name": "Amber Lake Resort (1).png",
+        "alternativeText": "Amber Lake Resort (1)",
+        "caption": null,
+        "width": 1280,
+        "height": 663,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_Amber_Lake_Resort_1_1a1f11d295_fqkvVA7TWX.png",
+            "hash": "large_Amber_Lake_Resort_1_1a1f11d295",
+            "mime": "image/png",
+            "name": "large_Amber Lake Resort (1).png",
+            "path": null,
+            "size": 848.37,
+            "width": 1000,
+            "height": 518,
+            "sizeInBytes": 848372,
+            "provider_metadata": {
+              "fileId": "67f3940e432c476416eba051"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_Amber_Lake_Resort_1_1a1f11d295_tM7jo2Oykl.png",
+            "hash": "small_Amber_Lake_Resort_1_1a1f11d295",
+            "mime": "image/png",
+            "name": "small_Amber Lake Resort (1).png",
+            "path": null,
+            "size": 226.2,
+            "width": 500,
+            "height": 259,
+            "sizeInBytes": 226199,
+            "provider_metadata": {
+              "fileId": "67f3940d432c476416eb99c5"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_Amber_Lake_Resort_1_1a1f11d295_3q0hyVOr5O.png",
+            "hash": "medium_Amber_Lake_Resort_1_1a1f11d295",
+            "mime": "image/png",
+            "name": "medium_Amber Lake Resort (1).png",
+            "path": null,
+            "size": 486.18,
+            "width": 750,
+            "height": 388,
+            "sizeInBytes": 486179,
+            "provider_metadata": {
+              "fileId": "67f3940e432c476416eb9ed9"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Amber_Lake_Resort_1_1a1f11d295_tx0DLMc5z.png",
+            "hash": "thumbnail_Amber_Lake_Resort_1_1a1f11d295",
+            "mime": "image/png",
+            "name": "thumbnail_Amber Lake Resort (1).png",
+            "path": null,
+            "size": 62.25,
+            "width": 245,
+            "height": 127,
+            "sizeInBytes": 62245,
+            "provider_metadata": {
+              "fileId": "67f3940c432c476416eb940d"
+            }
+          }
+        },
+        "hash": "Amber_Lake_Resort_1_1a1f11d295",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 174.44,
+        "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Amber_Lake_Resort_1_1a1f11d295_JwWKjeDCff.png",
+        "previewUrl": null,
+        "provider": "strapi-provider-upload-imagekit",
+        "provider_metadata": {
+          "fileId": "67f3940c432c476416eb95d5"
+        },
+        "createdAt": "2025-04-07T14:30:00.376Z",
+        "updatedAt": "2025-04-07T14:30:00.376Z",
+        "publishedAt": "2025-04-07T14:30:00.382Z"
+      },
+      "featured_ons": []
+    },
+    {
+      "id": 12,
+      "documentId": "yizdtwci59rj01b1850rzztv",
+      "ProjectName": "Villa Kochi",
+      "ProjectDescription": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you. This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are. At Wix we’re passionate about making templates that allow you to build fabulous websites and it’s all thanks to the support and feedback from users like you! Keep up to date with New Releases and what’s Coming Soon in Wixellaneous in Support. Feel free to tell us what you think",
+      "ProjectYTLink": "https://www.youtube.com/embed/fA4i6U3QRTw?si=ofXUnJlxW6MaWMhD",
+      "ArchitectName": "Tanzeem Sarguroh",
+      "PhotosBy": "Kuber Shah",
+      "createdAt": "2025-04-07T14:27:44.383Z",
+      "updatedAt": "2025-04-07T14:37:09.538Z",
+      "publishedAt": "2025-04-07T14:37:09.665Z",
+      "ProjectsImages": [
+        {
+          "id": 55,
+          "documentId": "lws26qakxed9rmxfyzhf5urt",
+          "name": "videoframe_313357.png",
+          "alternativeText": "Villa Kochi5",
+          "caption": null,
+          "width": 1920,
+          "height": 1080,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_313357_e75951a1a0_BPtorrcsmY.png",
+              "hash": "large_videoframe_313357_e75951a1a0",
+              "mime": "image/png",
+              "name": "large_videoframe_313357.png",
+              "path": null,
+              "size": 518.99,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 518991,
+              "provider_metadata": {
+                "fileId": "67f39592432c476416f6736b"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_313357_e75951a1a0_ETQx31sYvO.png",
+              "hash": "small_videoframe_313357_e75951a1a0",
+              "mime": "image/png",
+              "name": "small_videoframe_313357.png",
+              "path": null,
+              "size": 159.21,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 159209,
+              "provider_metadata": {
+                "fileId": "67f39591432c476416f6672c"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_313357_e75951a1a0_RRji6mEHzT.png",
+              "hash": "medium_videoframe_313357_e75951a1a0",
+              "mime": "image/png",
+              "name": "medium_videoframe_313357.png",
+              "path": null,
+              "size": 314.25,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 314252,
+              "provider_metadata": {
+                "fileId": "67f39591432c476416f66c26"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_313357_e75951a1a0_dUw6a5i1WN.png",
+              "hash": "thumbnail_videoframe_313357_e75951a1a0",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_313357.png",
+              "path": null,
+              "size": 49.26,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 49261,
+              "provider_metadata": {
+                "fileId": "67f39590432c476416f662cc"
+              }
+            }
+          },
+          "hash": "videoframe_313357_e75951a1a0",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 389.83,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_313357_e75951a1a0_Ouwjrq9re8.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f39591432c476416f6662b"
+          },
+          "createdAt": "2025-04-07T14:36:27.774Z",
+          "updatedAt": "2025-04-07T14:36:27.774Z",
+          "publishedAt": "2025-04-07T14:36:27.774Z"
+        },
+        {
+          "id": 56,
+          "documentId": "v9ndwdqyys55ip55ynkatgby",
+          "name": "videoframe_338623.png",
+          "alternativeText": "Villa Kochi3",
+          "caption": null,
+          "width": 1920,
+          "height": 1080,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_338623_c07ac2d50e_ycCrXfPBEh.png",
+              "hash": "large_videoframe_338623_c07ac2d50e",
+              "mime": "image/png",
+              "name": "large_videoframe_338623.png",
+              "path": null,
+              "size": 728.2,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 728196,
+              "provider_metadata": {
+                "fileId": "67f39595432c476416f68a54"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_338623_c07ac2d50e_nzyHTaeIXL.png",
+              "hash": "small_videoframe_338623_c07ac2d50e",
+              "mime": "image/png",
+              "name": "small_videoframe_338623.png",
+              "path": null,
+              "size": 217.32,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 217322,
+              "provider_metadata": {
+                "fileId": "67f39593432c476416f676a7"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_338623_c07ac2d50e_oBNunqZsi.png",
+              "hash": "medium_videoframe_338623_c07ac2d50e",
+              "mime": "image/png",
+              "name": "medium_videoframe_338623.png",
+              "path": null,
+              "size": 439.41,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 439411,
+              "provider_metadata": {
+                "fileId": "67f39594432c476416f67f5a"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_338623_c07ac2d50e_BZ42fBF5Nh.png",
+              "hash": "thumbnail_videoframe_338623_c07ac2d50e",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_338623.png",
+              "path": null,
+              "size": 63.61,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 63606,
+              "provider_metadata": {
+                "fileId": "67f39591432c476416f66b1b"
+              }
+            }
+          },
+          "hash": "videoframe_338623_c07ac2d50e",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 491.72,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_338623_c07ac2d50e_v_nL6js54D.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f39592432c476416f6748a"
+          },
+          "createdAt": "2025-04-07T14:36:30.841Z",
+          "updatedAt": "2025-04-07T14:36:30.841Z",
+          "publishedAt": "2025-04-07T14:36:30.842Z"
+        },
+        {
+          "id": 57,
+          "documentId": "e5ed5ddipyneigvkf5d6ow1s",
+          "name": "videoframe_268618.png",
+          "alternativeText": "Villa Kochi6",
+          "caption": null,
+          "width": 1920,
+          "height": 1080,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_268618_47994aeeba_BXZtQbZNm.png",
+              "hash": "large_videoframe_268618_47994aeeba",
+              "mime": "image/png",
+              "name": "large_videoframe_268618.png",
+              "path": null,
+              "size": 825.75,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 825754,
+              "provider_metadata": {
+                "fileId": "67f39596432c476416f68c0d"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_268618_47994aeeba_eNdKfHzCb.png",
+              "hash": "small_videoframe_268618_47994aeeba",
+              "mime": "image/png",
+              "name": "small_videoframe_268618.png",
+              "path": null,
+              "size": 240.8,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 240804,
+              "provider_metadata": {
+                "fileId": "67f39594432c476416f67f16"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_268618_47994aeeba_A7LLBdW2h.png",
+              "hash": "medium_videoframe_268618_47994aeeba",
+              "mime": "image/png",
+              "name": "medium_videoframe_268618.png",
+              "path": null,
+              "size": 492.85,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 492854,
+              "provider_metadata": {
+                "fileId": "67f39595432c476416f68681"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_268618_47994aeeba_FFgbukBU1.png",
+              "hash": "thumbnail_videoframe_268618_47994aeeba",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_268618.png",
+              "path": null,
+              "size": 69.15,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 69146,
+              "provider_metadata": {
+                "fileId": "67f39592432c476416f67464"
+              }
+            }
+          },
+          "hash": "videoframe_268618_47994aeeba",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 606.25,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_268618_47994aeeba_VJILkAc3HN.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f39594432c476416f68272"
+          },
+          "createdAt": "2025-04-07T14:36:31.308Z",
+          "updatedAt": "2025-04-07T14:36:31.308Z",
+          "publishedAt": "2025-04-07T14:36:31.309Z"
+        },
+        {
+          "id": 58,
+          "documentId": "fn0fh646hmvrftjbz3p65xgr",
+          "name": "videoframe_407219.png",
+          "alternativeText": "Villa Kochi2",
+          "caption": null,
+          "width": 1920,
+          "height": 1080,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_407219_d0e07a5b6b_e0Fbulshso.png",
+              "hash": "large_videoframe_407219_d0e07a5b6b",
+              "mime": "image/png",
+              "name": "large_videoframe_407219.png",
+              "path": null,
+              "size": 1232.6,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 1232599,
+              "provider_metadata": {
+                "fileId": "67f39595432c476416f689d7"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_407219_d0e07a5b6b_CG7ec-DYWs.png",
+              "hash": "small_videoframe_407219_d0e07a5b6b",
+              "mime": "image/png",
+              "name": "small_videoframe_407219.png",
+              "path": null,
+              "size": 321.82,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 321820,
+              "provider_metadata": {
+                "fileId": "67f39594432c476416f68269"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_407219_d0e07a5b6b_wcKT37V0cG.png",
+              "hash": "medium_videoframe_407219_d0e07a5b6b",
+              "mime": "image/png",
+              "name": "medium_videoframe_407219.png",
+              "path": null,
+              "size": 704.94,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 704939,
+              "provider_metadata": {
+                "fileId": "67f39595432c476416f6892f"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_407219_d0e07a5b6b_UvhzEoaW9W.png",
+              "hash": "thumbnail_videoframe_407219_d0e07a5b6b",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_407219.png",
+              "path": null,
+              "size": 81.82,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 81818,
+              "provider_metadata": {
+                "fileId": "67f39592432c476416f66efc"
+              }
+            }
+          },
+          "hash": "videoframe_407219_d0e07a5b6b",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 1091.47,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_407219_d0e07a5b6b_gQxWdldXKh.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f39596432c476416f68d58"
+          },
+          "createdAt": "2025-04-07T14:36:31.526Z",
+          "updatedAt": "2025-04-07T14:36:31.526Z",
+          "publishedAt": "2025-04-07T14:36:31.527Z"
+        },
+        {
+          "id": 59,
+          "documentId": "o2wqovctwfaebuancm6naquy",
+          "name": "videoframe_321585.png",
+          "alternativeText": "Villa Kochi4",
+          "caption": null,
+          "width": 1920,
+          "height": 1080,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_321585_f872e38686_4pL3743BaT.png",
+              "hash": "large_videoframe_321585_f872e38686",
+              "mime": "image/png",
+              "name": "large_videoframe_321585.png",
+              "path": null,
+              "size": 655.98,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 655983,
+              "provider_metadata": {
+                "fileId": "67f39595432c476416f68a67"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_321585_f872e38686_gqC3ygT4SY.png",
+              "hash": "small_videoframe_321585_f872e38686",
+              "mime": "image/png",
+              "name": "small_videoframe_321585.png",
+              "path": null,
+              "size": 199.3,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 199298,
+              "provider_metadata": {
+                "fileId": "67f39592432c476416f67536"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_321585_f872e38686_cuzOkCVQQj.png",
+              "hash": "medium_videoframe_321585_f872e38686",
+              "mime": "image/png",
+              "name": "medium_videoframe_321585.png",
+              "path": null,
+              "size": 398.24,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 398235,
+              "provider_metadata": {
+                "fileId": "67f39594432c476416f67f5b"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_321585_f872e38686_texIrQtCNm.png",
+              "hash": "thumbnail_videoframe_321585_f872e38686",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_321585.png",
+              "path": null,
+              "size": 60.36,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 60359,
+              "provider_metadata": {
+                "fileId": "67f39591432c476416f669f7"
+              }
+            }
+          },
+          "hash": "videoframe_321585_f872e38686",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 449.57,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_321585_f872e38686_OyMO7ZAlu.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f39592432c476416f66e7e"
+          },
+          "createdAt": "2025-04-07T14:36:31.663Z",
+          "updatedAt": "2025-04-07T14:36:31.663Z",
+          "publishedAt": "2025-04-07T14:36:31.666Z"
+        },
+        {
+          "id": 60,
+          "documentId": "d6mmefy5m9bm5oaov52xeews",
+          "name": "videoframe_416643.png",
+          "alternativeText": "Villa Kochi1",
+          "caption": null,
+          "width": 1920,
+          "height": 1080,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_416643_a30233b329_23q8ymT0Er.png",
+              "hash": "large_videoframe_416643_a30233b329",
+              "mime": "image/png",
+              "name": "large_videoframe_416643.png",
+              "path": null,
+              "size": 1075.43,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 1075428,
+              "provider_metadata": {
+                "fileId": "67f39596432c476416f68e99"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_416643_a30233b329_j_9aQnWO9D.png",
+              "hash": "small_videoframe_416643_a30233b329",
+              "mime": "image/png",
+              "name": "small_videoframe_416643.png",
+              "path": null,
+              "size": 297.4,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 297395,
+              "provider_metadata": {
+                "fileId": "67f39593432c476416f6788c"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_416643_a30233b329_gM5E5WvMc.png",
+              "hash": "medium_videoframe_416643_a30233b329",
+              "mime": "image/png",
+              "name": "medium_videoframe_416643.png",
+              "path": null,
+              "size": 629.65,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 629648,
+              "provider_metadata": {
+                "fileId": "67f39596432c476416f691f3"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_416643_a30233b329_YLzzZinZX.png",
+              "hash": "thumbnail_videoframe_416643_a30233b329",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_416643.png",
+              "path": null,
+              "size": 79.74,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 79739,
+              "provider_metadata": {
+                "fileId": "67f39593432c476416f676fd"
+              }
+            }
+          },
+          "hash": "videoframe_416643_a30233b329",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 798.29,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_416643_a30233b329_dI2WoXuCE.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f39595432c476416f68af9"
+          },
+          "createdAt": "2025-04-07T14:36:32.493Z",
+          "updatedAt": "2025-04-07T14:36:32.493Z",
+          "publishedAt": "2025-04-07T14:36:32.494Z"
+        },
+        {
+          "id": 61,
+          "documentId": "wvomt15bt78bhr59c687grs0",
+          "name": "videoframe_212566.png",
+          "alternativeText": "Villa Kochi7",
+          "caption": null,
+          "width": 1280,
+          "height": 720,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_212566_5a2528122c_u_mhD70f9m.png",
+              "hash": "large_videoframe_212566_5a2528122c",
+              "mime": "image/png",
+              "name": "large_videoframe_212566.png",
+              "path": null,
+              "size": 757.31,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 757309,
+              "provider_metadata": {
+                "fileId": "67f39596432c476416f691bf"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_212566_5a2528122c_KzPIp9_7HH.png",
+              "hash": "small_videoframe_212566_5a2528122c",
+              "mime": "image/png",
+              "name": "small_videoframe_212566.png",
+              "path": null,
+              "size": 214.91,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 214910,
+              "provider_metadata": {
+                "fileId": "67f39596432c476416f69078"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_212566_5a2528122c_U7qD_GcFNs.png",
+              "hash": "medium_videoframe_212566_5a2528122c",
+              "mime": "image/png",
+              "name": "medium_videoframe_212566.png",
+              "path": null,
+              "size": 448.25,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 448250,
+              "provider_metadata": {
+                "fileId": "67f39597432c476416f694ca"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_212566_5a2528122c_Ssu1R5SVgr.png",
+              "hash": "thumbnail_videoframe_212566_5a2528122c",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_212566.png",
+              "path": null,
+              "size": 62.03,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 62025,
+              "provider_metadata": {
+                "fileId": "67f39596432c476416f68d4b"
+              }
+            }
+          },
+          "hash": "videoframe_212566_5a2528122c",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 268.19,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_212566_5a2528122c_g0y_cM6pif.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f39596432c476416f68dca"
+          },
+          "createdAt": "2025-04-07T14:36:32.873Z",
+          "updatedAt": "2025-04-07T14:36:32.873Z",
+          "publishedAt": "2025-04-07T14:36:32.873Z"
+        },
+        {
+          "id": 62,
+          "documentId": "hgg76yan1m4esfxgctft2e3w",
+          "name": "videoframe_199791.png",
+          "alternativeText": "Villa Kochi8",
+          "caption": null,
+          "width": 1280,
+          "height": 720,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_199791_f3c9546b08_Z_1Wmp7UpN.png",
+              "hash": "large_videoframe_199791_f3c9546b08",
+              "mime": "image/png",
+              "name": "large_videoframe_199791.png",
+              "path": null,
+              "size": 1188.83,
+              "width": 1000,
+              "height": 563,
+              "sizeInBytes": 1188828,
+              "provider_metadata": {
+                "fileId": "67f3959c432c476416f6d2d9"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_199791_f3c9546b08_9mf97HoXA2.png",
+              "hash": "small_videoframe_199791_f3c9546b08",
+              "mime": "image/png",
+              "name": "small_videoframe_199791.png",
+              "path": null,
+              "size": 320.3,
+              "width": 500,
+              "height": 281,
+              "sizeInBytes": 320302,
+              "provider_metadata": {
+                "fileId": "67f3959b432c476416f6c40c"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_199791_f3c9546b08_RhTX7tebh.png",
+              "hash": "medium_videoframe_199791_f3c9546b08",
+              "mime": "image/png",
+              "name": "medium_videoframe_199791.png",
+              "path": null,
+              "size": 691.51,
+              "width": 750,
+              "height": 422,
+              "sizeInBytes": 691511,
+              "provider_metadata": {
+                "fileId": "67f3959c432c476416f6c6be"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_199791_f3c9546b08_n1LCKbhFBJ.png",
+              "hash": "thumbnail_videoframe_199791_f3c9546b08",
+              "mime": "image/png",
+              "name": "thumbnail_videoframe_199791.png",
+              "path": null,
+              "size": 83.32,
+              "width": 245,
+              "height": 138,
+              "sizeInBytes": 83318,
+              "provider_metadata": {
+                "fileId": "67f3959b432c476416f6c24a"
+              }
+            }
+          },
+          "hash": "videoframe_199791_f3c9546b08",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 451.37,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_199791_f3c9546b08_1ZcXGiky6.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f3959b432c476416f6c29f"
+          },
+          "createdAt": "2025-04-07T14:36:38.705Z",
+          "updatedAt": "2025-04-07T14:36:38.705Z",
+          "publishedAt": "2025-04-07T14:36:38.705Z"
+        }
+      ],
+      "ProfilePicture": {
+        "id": 53,
+        "documentId": "e4d0iif4z710af6bgdjjeiry",
+        "name": "videoframe_407219.png",
+        "alternativeText": "Villa Kochi2",
+        "caption": null,
+        "width": 1920,
+        "height": 1080,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_videoframe_407219_9ac0eb3ba1_AEGvO8HCT0.png",
+            "hash": "large_videoframe_407219_9ac0eb3ba1",
+            "mime": "image/png",
+            "name": "large_videoframe_407219.png",
+            "path": null,
+            "size": 1232.6,
+            "width": 1000,
+            "height": 563,
+            "sizeInBytes": 1232599,
+            "provider_metadata": {
+              "fileId": "67f3952c432c476416f404c4"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_videoframe_407219_9ac0eb3ba1_ZcCMJHFWrn.png",
+            "hash": "small_videoframe_407219_9ac0eb3ba1",
+            "mime": "image/png",
+            "name": "small_videoframe_407219.png",
+            "path": null,
+            "size": 321.82,
+            "width": 500,
+            "height": 281,
+            "sizeInBytes": 321820,
+            "provider_metadata": {
+              "fileId": "67f3952b432c476416f401be"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_videoframe_407219_9ac0eb3ba1_YhbQX1Ucj.png",
+            "hash": "medium_videoframe_407219_9ac0eb3ba1",
+            "mime": "image/png",
+            "name": "medium_videoframe_407219.png",
+            "path": null,
+            "size": 704.94,
+            "width": 750,
+            "height": 422,
+            "sizeInBytes": 704939,
+            "provider_metadata": {
+              "fileId": "67f3952c432c476416f4038f"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_videoframe_407219_9ac0eb3ba1_0-wy6P4jic.png",
+            "hash": "thumbnail_videoframe_407219_9ac0eb3ba1",
+            "mime": "image/png",
+            "name": "thumbnail_videoframe_407219.png",
+            "path": null,
+            "size": 81.82,
+            "width": 245,
+            "height": 138,
+            "sizeInBytes": 81818,
+            "provider_metadata": {
+              "fileId": "67f3952b432c476416f401d1"
+            }
+          }
+        },
+        "hash": "videoframe_407219_9ac0eb3ba1",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 1091.47,
+        "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/videoframe_407219_9ac0eb3ba1_FIU4QDv-Ku.png",
+        "previewUrl": null,
+        "provider": "strapi-provider-upload-imagekit",
+        "provider_metadata": {
+          "fileId": "67f3952b432c476416f40266"
+        },
+        "createdAt": "2025-04-07T14:34:46.347Z",
+        "updatedAt": "2025-04-07T14:34:46.347Z",
+        "publishedAt": "2025-04-07T14:34:46.348Z"
+      },
+      "featured_ons": []
+    },
+    {
+      "id": 14,
+      "documentId": "sy36vz9bagt4bvhkh1bna88x",
+      "ProjectName": "811",
+      "ProjectDescription": "811 is a 40sqm workspace designed using the 100-year-old reclaimed Teak Wood salvaged\nfrom demolished structures of Old Bombay built during the British Era.\nStriving for the balance of form, function and simplicity, we adopted an open layout while\nworking with natural materials and unconfined natural light. We leaned towards the Japandi\naesthetic as it matched perfectly with our objectives of minimalism and Practical Sustainability.\nWe were squarely aware of the insurmountable charge of shunning the ornate, retaining the\nessentials whilst maintaining warmth and comfort. We took smaller steps towards the enduring\nand compounding changes possible with our material choices.",
+      "ProjectYTLink": "https://www.youtube.com/embed/6v4y1fLHl8Y?si=vqnwAjLIzJqnGKBH",
+      "ArchitectName": "Tanzeem Sarguroh",
+      "PhotosBy": "Kuber Shah",
+      "createdAt": "2025-04-07T14:04:33.966Z",
+      "updatedAt": "2025-04-07T14:47:26.100Z",
+      "publishedAt": "2025-04-07T14:47:26.293Z",
+      "ProjectsImages": [
+        {
+          "id": 21,
+          "documentId": "dnd8b1hw94cei4lwos9xpdo6",
+          "name": "811-TD-10.jpg",
+          "alternativeText": "811-TD-10",
+          "caption": null,
+          "width": 4668,
+          "height": 7002,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_10_19fe6caf4a_MnBce_N_7a.jpg",
+              "hash": "large_811_TD_10_19fe6caf4a",
+              "mime": "image/jpeg",
+              "name": "large_811-TD-10.jpg",
+              "path": null,
+              "size": 66.17,
+              "width": 667,
+              "height": 1000,
+              "sizeInBytes": 66173,
+              "provider_metadata": {
+                "fileId": "67f38d82432c476416c418cd"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_10_19fe6caf4a_eNrobOmow6.jpg",
+              "hash": "small_811_TD_10_19fe6caf4a",
+              "mime": "image/jpeg",
+              "name": "small_811-TD-10.jpg",
+              "path": null,
+              "size": 22.1,
+              "width": 333,
+              "height": 500,
+              "sizeInBytes": 22102,
+              "provider_metadata": {
+                "fileId": "67f38d81432c476416c40e34"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_10_19fe6caf4a_AXukTXJ8iQ.jpg",
+              "hash": "medium_811_TD_10_19fe6caf4a",
+              "mime": "image/jpeg",
+              "name": "medium_811-TD-10.jpg",
+              "path": null,
+              "size": 40.24,
+              "width": 500,
+              "height": 750,
+              "sizeInBytes": 40239,
+              "provider_metadata": {
+                "fileId": "67f38d81432c476416c40efa"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_10_19fe6caf4a_8sIMI9rxjO.jpg",
+              "hash": "thumbnail_811_TD_10_19fe6caf4a",
+              "mime": "image/jpeg",
+              "name": "thumbnail_811-TD-10.jpg",
+              "path": null,
+              "size": 3.74,
+              "width": 104,
+              "height": 156,
+              "sizeInBytes": 3735,
+              "provider_metadata": {
+                "fileId": "67f38d81432c476416c40dd1"
+              }
+            }
+          },
+          "hash": "811_TD_10_19fe6caf4a",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 2578.48,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_10_19fe6caf4a_mu3dVsXD5.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f38d86432c476416c433de"
+          },
+          "createdAt": "2025-04-07T14:02:08.970Z",
+          "updatedAt": "2025-04-07T14:02:08.970Z",
+          "publishedAt": "2025-04-07T14:02:08.970Z"
+        },
+        {
+          "id": 20,
+          "documentId": "altos5ilcj9n27jtntgyzwae",
+          "name": "811-TD-09.jpg",
+          "alternativeText": "811-TD-09",
+          "caption": null,
+          "width": 4899,
+          "height": 7348,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_09_a096b96363_hsQ4ntxhTf.jpg",
+              "hash": "large_811_TD_09_a096b96363",
+              "mime": "image/jpeg",
+              "name": "large_811-TD-09.jpg",
+              "path": null,
+              "size": 85.11,
+              "width": 666,
+              "height": 1000,
+              "sizeInBytes": 85106,
+              "provider_metadata": {
+                "fileId": "67f38d82432c476416c41084"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_09_a096b96363_MYkOnix2z.jpg",
+              "hash": "small_811_TD_09_a096b96363",
+              "mime": "image/jpeg",
+              "name": "small_811-TD-09.jpg",
+              "path": null,
+              "size": 27.74,
+              "width": 333,
+              "height": 500,
+              "sizeInBytes": 27738,
+              "provider_metadata": {
+                "fileId": "67f38d81432c476416c40ebb"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_09_a096b96363_uaba3nUJew.jpg",
+              "hash": "medium_811_TD_09_a096b96363",
+              "mime": "image/jpeg",
+              "name": "medium_811-TD-09.jpg",
+              "path": null,
+              "size": 52.45,
+              "width": 500,
+              "height": 750,
+              "sizeInBytes": 52454,
+              "provider_metadata": {
+                "fileId": "67f38d81432c476416c41054"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_09_a096b96363_CjKa7pbU2s.jpg",
+              "hash": "thumbnail_811_TD_09_a096b96363",
+              "mime": "image/jpeg",
+              "name": "thumbnail_811-TD-09.jpg",
+              "path": null,
+              "size": 4.33,
+              "width": 104,
+              "height": 156,
+              "sizeInBytes": 4334,
+              "provider_metadata": {
+                "fileId": "67f38d82432c476416c41882"
+              }
+            }
+          },
+          "hash": "811_TD_09_a096b96363",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 2846.33,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_09_a096b96363_iWSvjNPn0.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f38d85432c476416c42f60"
+          },
+          "createdAt": "2025-04-07T14:02:07.511Z",
+          "updatedAt": "2025-04-07T14:02:07.511Z",
+          "publishedAt": "2025-04-07T14:02:07.512Z"
+        },
+        {
+          "id": 19,
+          "documentId": "rkow5aikrrf9bdwohbiwfqg9",
+          "name": "811-TD-07.jpg",
+          "alternativeText": "811-TD-07",
+          "caption": null,
+          "width": 5482,
+          "height": 8223,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_07_0716c7ebaf_6mrQLdOZKv.jpg",
+              "hash": "large_811_TD_07_0716c7ebaf",
+              "mime": "image/jpeg",
+              "name": "large_811-TD-07.jpg",
+              "path": null,
+              "size": 86.72,
+              "width": 667,
+              "height": 1000,
+              "sizeInBytes": 86716,
+              "provider_metadata": {
+                "fileId": "67f38d82432c476416c410b8"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_07_0716c7ebaf_lDEY5w-iA.jpg",
+              "hash": "small_811_TD_07_0716c7ebaf",
+              "mime": "image/jpeg",
+              "name": "small_811-TD-07.jpg",
+              "path": null,
+              "size": 27.68,
+              "width": 333,
+              "height": 500,
+              "sizeInBytes": 27679,
+              "provider_metadata": {
+                "fileId": "67f38d81432c476416c40ed1"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_07_0716c7ebaf_ZuW9-F20Hi.jpg",
+              "hash": "medium_811_TD_07_0716c7ebaf",
+              "mime": "image/jpeg",
+              "name": "medium_811-TD-07.jpg",
+              "path": null,
+              "size": 53.23,
+              "width": 500,
+              "height": 750,
+              "sizeInBytes": 53230,
+              "provider_metadata": {
+                "fileId": "67f38d82432c476416c418c7"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_07_0716c7ebaf_r9R2HV5x9j.jpg",
+              "hash": "thumbnail_811_TD_07_0716c7ebaf",
+              "mime": "image/jpeg",
+              "name": "thumbnail_811-TD-07.jpg",
+              "path": null,
+              "size": 4.35,
+              "width": 104,
+              "height": 156,
+              "sizeInBytes": 4351,
+              "provider_metadata": {
+                "fileId": "67f38d81432c476416c40e10"
+              }
+            }
+          },
+          "hash": "811_TD_07_0716c7ebaf",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 3826.44,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_07_0716c7ebaf_kqWLKVFTu.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f38d86432c476416c43399"
+          },
+          "createdAt": "2025-04-07T14:02:07.222Z",
+          "updatedAt": "2025-04-07T14:02:07.222Z",
+          "publishedAt": "2025-04-07T14:02:07.223Z"
+        },
+        {
+          "id": 18,
+          "documentId": "gmvups13c9uuriectr2mymt7",
+          "name": "811-TD-08.jpg",
+          "alternativeText": "811-TD-08",
+          "caption": null,
+          "width": 5479,
+          "height": 8219,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_08_f151b8e206_EtSk2GwCZ2.jpg",
+              "hash": "large_811_TD_08_f151b8e206",
+              "mime": "image/jpeg",
+              "name": "large_811-TD-08.jpg",
+              "path": null,
+              "size": 87.13,
+              "width": 667,
+              "height": 1000,
+              "sizeInBytes": 87132,
+              "provider_metadata": {
+                "fileId": "67f38d82432c476416c4107e"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_08_f151b8e206_f-HkVhJlo-.jpg",
+              "hash": "small_811_TD_08_f151b8e206",
+              "mime": "image/jpeg",
+              "name": "small_811-TD-08.jpg",
+              "path": null,
+              "size": 28.86,
+              "width": 333,
+              "height": 500,
+              "sizeInBytes": 28857,
+              "provider_metadata": {
+                "fileId": "67f38d82432c476416c418ca"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_08_f151b8e206_Nm0qHO5Sdx.jpg",
+              "hash": "medium_811_TD_08_f151b8e206",
+              "mime": "image/jpeg",
+              "name": "medium_811-TD-08.jpg",
+              "path": null,
+              "size": 54.56,
+              "width": 500,
+              "height": 750,
+              "sizeInBytes": 54557,
+              "provider_metadata": {
+                "fileId": "67f38d81432c476416c41077"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_08_f151b8e206_XwYXcKlR65.jpg",
+              "hash": "thumbnail_811_TD_08_f151b8e206",
+              "mime": "image/jpeg",
+              "name": "thumbnail_811-TD-08.jpg",
+              "path": null,
+              "size": 4.55,
+              "width": 104,
+              "height": 156,
+              "sizeInBytes": 4553,
+              "provider_metadata": {
+                "fileId": "67f38d82432c476416c4187a"
+              }
+            }
+          },
+          "hash": "811_TD_08_f151b8e206",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 2892.73,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_08_f151b8e206_qzigUe09lY.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f38d85432c476416c42ed2"
+          },
+          "createdAt": "2025-04-07T14:02:06.551Z",
+          "updatedAt": "2025-04-07T14:02:06.551Z",
+          "publishedAt": "2025-04-07T14:02:06.552Z"
+        },
+        {
+          "id": 17,
+          "documentId": "c3djdjobjw6drcyfztzln2w6",
+          "name": "811-TD-04.jpg",
+          "alternativeText": "811-TD-04",
+          "caption": null,
+          "width": 5269,
+          "height": 7903,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_04_7055fee36b_0Oh9vq3dLG.jpg",
+              "hash": "large_811_TD_04_7055fee36b",
+              "mime": "image/jpeg",
+              "name": "large_811-TD-04.jpg",
+              "path": null,
+              "size": 66.23,
+              "width": 667,
+              "height": 1000,
+              "sizeInBytes": 66228,
+              "provider_metadata": {
+                "fileId": "67f38c5a432c476416bdc080"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_04_7055fee36b_tU4M2k7Gqy.jpg",
+              "hash": "small_811_TD_04_7055fee36b",
+              "mime": "image/jpeg",
+              "name": "small_811-TD-04.jpg",
+              "path": null,
+              "size": 21.96,
+              "width": 333,
+              "height": 500,
+              "sizeInBytes": 21964,
+              "provider_metadata": {
+                "fileId": "67f38d63432c476416c30c2d"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_04_7055fee36b_bqMaIn91DV.jpg",
+              "hash": "medium_811_TD_04_7055fee36b",
+              "mime": "image/jpeg",
+              "name": "medium_811-TD-04.jpg",
+              "path": null,
+              "size": 41.4,
+              "width": 500,
+              "height": 750,
+              "sizeInBytes": 41403,
+              "provider_metadata": {
+                "fileId": "67f38c5a432c476416bdbf6d"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_04_7055fee36b_fbsh8nfIj.jpg",
+              "hash": "thumbnail_811_TD_04_7055fee36b",
+              "mime": "image/jpeg",
+              "name": "thumbnail_811-TD-04.jpg",
+              "path": null,
+              "size": 3.59,
+              "width": 104,
+              "height": 156,
+              "sizeInBytes": 3593,
+              "provider_metadata": {
+                "fileId": "67f38c58432c476416bdae7c"
+              }
+            }
+          },
+          "hash": "811_TD_04_7055fee36b",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 2055.5,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_04_7055fee36b_aK3ysMev-07.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f38d64432c476416c31066"
+          },
+          "createdAt": "2025-04-07T14:01:43.168Z",
+          "updatedAt": "2025-04-07T14:01:43.168Z",
+          "publishedAt": "2025-04-07T14:01:43.169Z"
+        },
+        {
+          "id": 16,
+          "documentId": "p3hzpsvu07svzo67mlmr1psn",
+          "name": "811-TD-01.jpg",
+          "alternativeText": "811-TD-01",
+          "caption": null,
+          "width": 5487,
+          "height": 8231,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_01_93f842a372_sfIk1lK1KS.jpg",
+              "hash": "large_811_TD_01_93f842a372",
+              "mime": "image/jpeg",
+              "name": "large_811-TD-01.jpg",
+              "path": null,
+              "size": 72.53,
+              "width": 667,
+              "height": 1000,
+              "sizeInBytes": 72527,
+              "provider_metadata": {
+                "fileId": "67f38c5c432c476416bdc95b"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_01_93f842a372_DDHpLO-qGH.jpg",
+              "hash": "small_811_TD_01_93f842a372",
+              "mime": "image/jpeg",
+              "name": "small_811-TD-01.jpg",
+              "path": null,
+              "size": 22.81,
+              "width": 333,
+              "height": 500,
+              "sizeInBytes": 22813,
+              "provider_metadata": {
+                "fileId": "67f38d64432c476416c31296"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_01_93f842a372_gEe3N3lR2q.jpg",
+              "hash": "medium_811_TD_01_93f842a372",
+              "mime": "image/jpeg",
+              "name": "medium_811-TD-01.jpg",
+              "path": null,
+              "size": 44.06,
+              "width": 500,
+              "height": 750,
+              "sizeInBytes": 44061,
+              "provider_metadata": {
+                "fileId": "67f38c5b432c476416bdc715"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_01_93f842a372_5R17DvEWp.jpg",
+              "hash": "thumbnail_811_TD_01_93f842a372",
+              "mime": "image/jpeg",
+              "name": "thumbnail_811-TD-01.jpg",
+              "path": null,
+              "size": 3.63,
+              "width": 104,
+              "height": 156,
+              "sizeInBytes": 3632,
+              "provider_metadata": {
+                "fileId": "67f38c5b432c476416bdc275"
+              }
+            }
+          },
+          "hash": "811_TD_01_93f842a372",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 3571.48,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_01_93f842a372_6M6I7xkiN.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f38c63432c476416bdf2a7"
+          },
+          "createdAt": "2025-04-07T14:01:42.440Z",
+          "updatedAt": "2025-04-07T14:01:42.440Z",
+          "publishedAt": "2025-04-07T14:01:42.441Z"
+        },
+        {
+          "id": 15,
+          "documentId": "uoh5f6ajf7ghyw56is019h64",
+          "name": "811-TD-05.jpg",
+          "alternativeText": "811-TD-05",
+          "caption": null,
+          "width": 8256,
+          "height": 5504,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_05_72bd5b889c_C7ybhM7Ov.jpg",
+              "hash": "large_811_TD_05_72bd5b889c",
+              "mime": "image/jpeg",
+              "name": "large_811-TD-05.jpg",
+              "path": null,
+              "size": 76.11,
+              "width": 1000,
+              "height": 667,
+              "sizeInBytes": 76114,
+              "provider_metadata": {
+                "fileId": "67f38c60432c476416bde07f"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_05_72bd5b889c_8iQ-OVFdY.jpg",
+              "hash": "small_811_TD_05_72bd5b889c",
+              "mime": "image/jpeg",
+              "name": "small_811-TD-05.jpg",
+              "path": null,
+              "size": 24.61,
+              "width": 500,
+              "height": 333,
+              "sizeInBytes": 24608,
+              "provider_metadata": {
+                "fileId": "67f38c60432c476416bddcf5"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_05_72bd5b889c_KVVwmXpNpoW.jpg",
+              "hash": "medium_811_TD_05_72bd5b889c",
+              "mime": "image/jpeg",
+              "name": "medium_811-TD-05.jpg",
+              "path": null,
+              "size": 46.93,
+              "width": 750,
+              "height": 500,
+              "sizeInBytes": 46925,
+              "provider_metadata": {
+                "fileId": "67f38d63432c476416c30cd6"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_05_72bd5b889c_a68VO9q4up.jpg",
+              "hash": "thumbnail_811_TD_05_72bd5b889c",
+              "mime": "image/jpeg",
+              "name": "thumbnail_811-TD-05.jpg",
+              "path": null,
+              "size": 7.63,
+              "width": 234,
+              "height": 156,
+              "sizeInBytes": 7626,
+              "provider_metadata": {
+                "fileId": "67f38d63432c476416c30eed"
+              }
+            }
+          },
+          "hash": "811_TD_05_72bd5b889c",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 4734.93,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_05_72bd5b889c_2sP5EK74O.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f38c64432c476416bdf86a"
+          },
+          "createdAt": "2025-04-07T14:01:41.644Z",
+          "updatedAt": "2025-04-07T14:01:41.644Z",
+          "publishedAt": "2025-04-07T14:01:41.645Z"
+        },
+        {
+          "id": 14,
+          "documentId": "ftu6hns56x4remqzbq7iyitm",
+          "name": "811-TD-06.jpg",
+          "alternativeText": "811-TD-06",
+          "caption": null,
+          "width": 8230,
+          "height": 5487,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_06_3538e285bc_OXwN2ytBhs.jpg",
+              "hash": "large_811_TD_06_3538e285bc",
+              "mime": "image/jpeg",
+              "name": "large_811-TD-06.jpg",
+              "path": null,
+              "size": 79.26,
+              "width": 1000,
+              "height": 667,
+              "sizeInBytes": 79262,
+              "provider_metadata": {
+                "fileId": "67f38d63432c476416c30d42"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_06_3538e285bc_yY71TaXs1_.jpg",
+              "hash": "small_811_TD_06_3538e285bc",
+              "mime": "image/jpeg",
+              "name": "small_811-TD-06.jpg",
+              "path": null,
+              "size": 27,
+              "width": 500,
+              "height": 333,
+              "sizeInBytes": 27000,
+              "provider_metadata": {
+                "fileId": "67f38d63432c476416c30bed"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_06_3538e285bc_6KdBKEYbmX.jpg",
+              "hash": "medium_811_TD_06_3538e285bc",
+              "mime": "image/jpeg",
+              "name": "medium_811-TD-06.jpg",
+              "path": null,
+              "size": 50.32,
+              "width": 750,
+              "height": 500,
+              "sizeInBytes": 50321,
+              "provider_metadata": {
+                "fileId": "67f38c5b432c476416bdc32f"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_06_3538e285bc_OUqx5s3rJy.jpg",
+              "hash": "thumbnail_811_TD_06_3538e285bc",
+              "mime": "image/jpeg",
+              "name": "thumbnail_811-TD-06.jpg",
+              "path": null,
+              "size": 8.36,
+              "width": 234,
+              "height": 156,
+              "sizeInBytes": 8360,
+              "provider_metadata": {
+                "fileId": "67f38d63432c476416c30c02"
+              }
+            }
+          },
+          "hash": "811_TD_06_3538e285bc",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 2786.07,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_06_3538e285bc_mZYJZlS1t.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f38c5e432c476416bdd70c"
+          },
+          "createdAt": "2025-04-07T14:01:41.230Z",
+          "updatedAt": "2025-04-07T14:01:41.230Z",
+          "publishedAt": "2025-04-07T14:01:41.231Z"
+        },
+        {
+          "id": 13,
+          "documentId": "cxsvm344z59v8j68gvziz867",
+          "name": "811-TD-02.jpg",
+          "alternativeText": "811-TD-02",
+          "caption": null,
+          "width": 7965,
+          "height": 5310,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_02_f86b056443_HMFC-NKcf4.jpg",
+              "hash": "large_811_TD_02_f86b056443",
+              "mime": "image/jpeg",
+              "name": "large_811-TD-02.jpg",
+              "path": null,
+              "size": 78.92,
+              "width": 1000,
+              "height": 666,
+              "sizeInBytes": 78916,
+              "provider_metadata": {
+                "fileId": "67f38c5b432c476416bdc3a7"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_02_f86b056443_WC5I0TnwZ.jpg",
+              "hash": "small_811_TD_02_f86b056443",
+              "mime": "image/jpeg",
+              "name": "small_811-TD-02.jpg",
+              "path": null,
+              "size": 25.79,
+              "width": 500,
+              "height": 333,
+              "sizeInBytes": 25787,
+              "provider_metadata": {
+                "fileId": "67f38c5a432c476416bdc0dc"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_02_f86b056443_sK820-vfXD.jpg",
+              "hash": "medium_811_TD_02_f86b056443",
+              "mime": "image/jpeg",
+              "name": "medium_811-TD-02.jpg",
+              "path": null,
+              "size": 48.97,
+              "width": 750,
+              "height": 500,
+              "sizeInBytes": 48969,
+              "provider_metadata": {
+                "fileId": "67f38d63432c476416c30bfc"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_02_f86b056443_qrF4QjW-n.jpg",
+              "hash": "thumbnail_811_TD_02_f86b056443",
+              "mime": "image/jpeg",
+              "name": "thumbnail_811-TD-02.jpg",
+              "path": null,
+              "size": 7.86,
+              "width": 234,
+              "height": 156,
+              "sizeInBytes": 7859,
+              "provider_metadata": {
+                "fileId": "67f38c59432c476416bdb61b"
+              }
+            }
+          },
+          "hash": "811_TD_02_f86b056443",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 3417.69,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_02_f86b056443_w9NOzmRvs.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f38c61432c476416bde18a"
+          },
+          "createdAt": "2025-04-07T14:01:41.173Z",
+          "updatedAt": "2025-04-07T14:01:41.173Z",
+          "publishedAt": "2025-04-07T14:01:41.174Z"
+        },
+        {
+          "id": 12,
+          "documentId": "g1cpukzai0yopuk10ktywu37",
+          "name": "811-TD-03.jpg",
+          "alternativeText": "811-TD-03",
+          "caption": null,
+          "width": 8232,
+          "height": 5488,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_03_85314eeb16_Pfhheb3e4y.jpg",
+              "hash": "large_811_TD_03_85314eeb16",
+              "mime": "image/jpeg",
+              "name": "large_811-TD-03.jpg",
+              "path": null,
+              "size": 81.67,
+              "width": 1000,
+              "height": 667,
+              "sizeInBytes": 81672,
+              "provider_metadata": {
+                "fileId": "67f38c5d432c476416bdd061"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_03_85314eeb16_a7agzPhyq.jpg",
+              "hash": "small_811_TD_03_85314eeb16",
+              "mime": "image/jpeg",
+              "name": "small_811-TD-03.jpg",
+              "path": null,
+              "size": 26.23,
+              "width": 500,
+              "height": 333,
+              "sizeInBytes": 26230,
+              "provider_metadata": {
+                "fileId": "67f38c5d432c476416bdce5a"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_03_85314eeb16_u9MbNeB9CO.jpg",
+              "hash": "medium_811_TD_03_85314eeb16",
+              "mime": "image/jpeg",
+              "name": "medium_811-TD-03.jpg",
+              "path": null,
+              "size": 50.86,
+              "width": 750,
+              "height": 500,
+              "sizeInBytes": 50860,
+              "provider_metadata": {
+                "fileId": "67f38c5d432c476416bdce17"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_03_85314eeb16_xgEq55fUT.jpg",
+              "hash": "thumbnail_811_TD_03_85314eeb16",
+              "mime": "image/jpeg",
+              "name": "thumbnail_811-TD-03.jpg",
+              "path": null,
+              "size": 8.06,
+              "width": 234,
+              "height": 156,
+              "sizeInBytes": 8055,
+              "provider_metadata": {
+                "fileId": "67f38c5c432c476416bdcc6a"
+              }
+            }
+          },
+          "hash": "811_TD_03_85314eeb16",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 3817.55,
+          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_03_85314eeb16_6Xr86D53wjn.jpg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-imagekit",
+          "provider_metadata": {
+            "fileId": "67f38d63432c476416c30ce6"
+          },
+          "createdAt": "2025-04-07T14:01:41.053Z",
+          "updatedAt": "2025-04-07T14:01:41.053Z",
+          "publishedAt": "2025-04-07T14:01:41.057Z"
+        }
+      ],
+      "ProfilePicture": {
+        "id": 22,
+        "documentId": "lk5kc32yu9rrkra590r033pm",
+        "name": "811-TD-00.jpg",
+        "alternativeText": "811-TD-00",
+        "caption": null,
+        "width": 5387,
+        "height": 8080,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_00_0cf76e3fda_M8c7XGhQTd.jpg",
+            "hash": "large_811_TD_00_0cf76e3fda",
+            "mime": "image/jpeg",
+            "name": "large_811-TD-00.jpg",
+            "path": null,
+            "size": 92.74,
+            "width": 666,
+            "height": 1000,
+            "sizeInBytes": 92743,
+            "provider_metadata": {
+              "fileId": "67f38e12432c476416c8af8b"
+            }
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_00_0cf76e3fda_PyR3MU4sqJ.jpg",
+            "hash": "small_811_TD_00_0cf76e3fda",
+            "mime": "image/jpeg",
+            "name": "small_811-TD-00.jpg",
+            "path": null,
+            "size": 28.76,
+            "width": 333,
+            "height": 500,
+            "sizeInBytes": 28762,
+            "provider_metadata": {
+              "fileId": "67f38e12432c476416c8ad37"
+            }
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_00_0cf76e3fda_q6QbXf11vy.jpg",
+            "hash": "medium_811_TD_00_0cf76e3fda",
+            "mime": "image/jpeg",
+            "name": "medium_811-TD-00.jpg",
+            "path": null,
+            "size": 56.3,
+            "width": 500,
+            "height": 750,
+            "sizeInBytes": 56299,
+            "provider_metadata": {
+              "fileId": "67f38e12432c476416c8af43"
+            }
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_00_0cf76e3fda_XOw-bR8DJN.jpg",
+            "hash": "thumbnail_811_TD_00_0cf76e3fda",
+            "mime": "image/jpeg",
+            "name": "thumbnail_811-TD-00.jpg",
+            "path": null,
+            "size": 4.5,
+            "width": 104,
+            "height": 156,
+            "sizeInBytes": 4495,
+            "provider_metadata": {
+              "fileId": "67f38e12432c476416c8ab22"
+            }
+          }
+        },
+        "hash": "811_TD_00_0cf76e3fda",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 4687.57,
+        "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_00_0cf76e3fda_a9tRQnH_J.jpg",
+        "previewUrl": null,
+        "provider": "strapi-provider-upload-imagekit",
+        "provider_metadata": {
+          "fileId": "67f38e14432c476416c8c155"
+        },
+        "createdAt": "2025-04-07T14:04:29.488Z",
+        "updatedAt": "2025-04-07T14:04:29.488Z",
+        "publishedAt": "2025-04-07T14:04:29.489Z"
+      },
+      "featured_ons": [
+        {
+          "id": 10,
+          "documentId": "zhhsdovn4ziyhw6tnp3iwa4i",
+          "ArticalLink": "https://www.architecturaldigest.in/story/this-mumbai-office-adapts-japandi-design-to-the-indian-context/",
+          "createdAt": "2025-04-07T14:42:04.233Z",
+          "updatedAt": "2025-04-07T14:42:11.425Z",
+          "publishedAt": "2025-04-07T14:42:11.812Z"
+        },
+        {
+          "id": 4,
+          "documentId": "pehieqg0dur24u2ael8bubwu",
+          "ArticalLink": "https://www.dezeen.com/awards/2022/longlists/811/",
+          "createdAt": "2025-04-07T14:40:48.152Z",
+          "updatedAt": "2025-04-07T14:40:48.152Z",
+          "publishedAt": "2025-04-07T14:40:48.290Z"
+        },
+        {
+          "id": 17,
+          "documentId": "c2xn4gwvhige6zme2j4muzco",
+          "ArticalLink": "https://www.architecturaldigest.in/story/ad-small-spaces-5-compact-offices-that-prove-limited-space-is-never-a-constraint/",
+          "createdAt": "2025-04-07T14:43:49.524Z",
+          "updatedAt": "2025-04-07T14:43:57.942Z",
+          "publishedAt": "2025-04-07T14:43:58.062Z"
+        },
+        {
+          "id": 20,
+          "documentId": "iqxpcrg2lb2iws7fol3dsri2",
+          "ArticalLink": "https://www.architecturaldigest.in/story/5-minimalist-workspaces-from-the-ad-archives-that-are-very-demure-very-mindful/",
+          "createdAt": "2025-04-07T14:45:12.392Z",
+          "updatedAt": "2025-04-07T14:45:19.576Z",
+          "publishedAt": "2025-04-07T14:45:19.712Z"
+        },
+        {
+          "id": 7,
+          "documentId": "gapobeuaerajgk85b1asizn0",
+          "ArticalLink": "https://www.re-thinkingthefuture.com/residentail-interior-design/8837-811-by-tasa-designs/",
+          "createdAt": "2025-04-07T14:41:32.790Z",
+          "updatedAt": "2025-04-07T14:41:41.992Z",
+          "publishedAt": "2025-04-07T14:41:42.122Z"
+        },
+        {
+          "id": 14,
+          "documentId": "rl7gtrairpoqryu3oipv32ov",
+          "ArticalLink": "https://www.designpataki.com/three-contemporary-workspaces-in-india-that-champion-colour-and-texture/",
+          "createdAt": "2025-04-07T14:43:08.152Z",
+          "updatedAt": "2025-04-07T14:43:16.305Z",
+          "publishedAt": "2025-04-07T14:43:17.464Z"
+        },
+        {
+          "id": 23,
+          "documentId": "j0feeahaaopwz5axtgkvvotm",
+          "ArticalLink": "https://www.thehindu.com/life-and-style/homes-and-gardens/channel-your-energy-in-the-year-of-the-wood-snake-to-create-calming-spaces/article69104467.ece",
+          "createdAt": "2025-04-07T14:45:49.727Z",
+          "updatedAt": "2025-04-07T14:45:56.494Z",
+          "publishedAt": "2025-04-07T14:45:56.619Z"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 5
+    }
+  }
+}

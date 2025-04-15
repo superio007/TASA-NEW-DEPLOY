@@ -6,7 +6,7 @@ import {
 } from "react-icons/md";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
-import ProjectsData from "../Data/ProjectsData.json";
+import ProjectsBriefData from "../Data/ProjectsBriefData.json";
 import { IoCameraOutline } from "react-icons/io5";
 import styles from "../css/ProjectBriefPage.module.css";
 import { IKImage, IKContext } from "imagekitio-react";
@@ -38,7 +38,7 @@ const ProjectBrief = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["Projectsbriefpage-content"],
     queryFn: fetchProjectpageContent,
-    initialData: ProjectsData.data,
+    initialData: ProjectsBriefData.data,
     initialDataUpdatedAt: 0,
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
@@ -69,7 +69,7 @@ const ProjectBrief = () => {
       }));
       setProjects(mappedProjects);
     } else if (error) {
-      setProjects(ProjectsData.data);
+      setProjects(ProjectsBriefData.data);
     }
   }, [data, error, isLoading]);
 
