@@ -13,16 +13,18 @@ const fetchProjectpageContent = async () => {
 };
 
 const ProjectsPage = () => {
-  const [apiResponse, setapiResponse] = useState([]);
   const { data, isLoading, error } = useQuery({
     queryKey: ["Projectspage-content"],
     queryFn: fetchProjectpageContent,
+    initialData: ProjectsData.data,
+    initialDataUpdatedAt: 0,
+    staleTime: 1000 * 60 * 60, // 1 hour
+    refetchOnWindowFocus: false,
+    refetchOnReconnect: false,
+    refetchInterval: false,
   });
 
-  // Use API response if available, otherwise fallback to static data
-  useEffect(() => {
-    setapiResponse(error ? ProjectsData.data : data);
-  }, [data]);
+  const apiResponse = error ? ProjectsData.data : data;
 
   if (isLoading) return <p>Loading...</p>;
 

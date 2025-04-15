@@ -26,7 +26,6 @@ const fetchHomepageContent = async () => {
 };
 
 function App() {
-  const [apiResponse, setapiResponse] = useState([]);
   const { data, error } = useQuery({
     queryKey: ["Apppage-content"],
     queryFn: fetchHomepageContent,
@@ -35,11 +34,7 @@ function App() {
     refetchOnReconnect: false,
     refetchInterval: false,
   });
-
-  // Use API data if available; fallback to static data on error
-  useEffect(() => {
-    setapiResponse(error ? HomeStaticData.data : data || {});
-  }, [data]);
+  const apiResponse = error ? HomeStaticData.data : data || {};
 
   // Store projects in state so that context updates when data changes
   const [projects, setProjects] = useState(apiResponse.projects || []);

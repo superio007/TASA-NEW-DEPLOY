@@ -15,20 +15,18 @@ const fetchHomepageContent = async (formattedData) => {
 };
 
 const HomePage = () => {
-  const [apiResponse, setapiResponse] = useState([]);
   const { data, isLoading, error } = useQuery({
     queryKey: ["homepage-content"],
     queryFn: fetchHomepageContent,
+    initialData: HomeStaticData.data,
+    initialDataUpdatedAt: 0,
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,
     refetchInterval: false,
   });
 
-  // Use API data if available; fallback to static data on error
-  useEffect(() => {
-    setapiResponse(error ? HomeStaticData.data : data || {});
-  }, [data]);
+  const apiResponse = error ? HomeStaticData.data : data || {};
   if (isLoading) return <p>Loading...</p>;
   return (
     <>

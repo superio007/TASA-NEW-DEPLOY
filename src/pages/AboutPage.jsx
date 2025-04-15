@@ -11,20 +11,18 @@ const fetchAboutpageContent = async (formattedData) => {
   return data.data;
 };
 const AboutPage = () => {
-  const [apiResponse, setapiResponse] = useState([]);
   const { data, isLoading, error } = useQuery({
     queryKey: ["Aboutpage-content"],
     queryFn: fetchAboutpageContent,
+    initialData: AboutStaticData.data,
+    initialDataUpdatedAt: 0,
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,
     refetchInterval: false,
   });
 
-  // Use API data if available; fallback to static data on error
-  useEffect(() => {
-    setapiResponse(error ? AboutStaticData.data : data || {});
-  }, [data]);
+  const apiResponse = error ? AboutStaticData.data : data || {};
   if (isLoading) return <p>Loading...</p>;
   return apiResponse.about_hero_section_heading ? (
     <>

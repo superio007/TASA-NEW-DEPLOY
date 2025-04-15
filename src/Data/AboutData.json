@@ -2,16 +2,16 @@
   "data": {
     "id": 2,
     "documentId": "h501s4jqkh4luztcmqov432l",
-    "createdAt": "2025-04-07T09:50:35.269Z",
-    "updatedAt": "2025-04-07T09:50:35.269Z",
-    "publishedAt": "2025-04-07T09:50:35.437Z",
+    "createdAt": "2025-04-07T15:20:35.269Z",
+    "updatedAt": "2025-04-07T15:20:35.269Z",
+    "publishedAt": "2025-04-07T15:20:35.437Z",
     "about_hero_section_heading": {
       "id": 5,
       "documentId": "zo7vyqu1c5a30g3k2aid2ssx",
       "Heading": "About us",
-      "createdAt": "2025-04-07T07:39:33.574Z",
-      "updatedAt": "2025-04-07T08:16:38.617Z",
-      "publishedAt": "2025-04-07T08:16:38.724Z",
+      "createdAt": "2025-04-07T13:09:33.574Z",
+      "updatedAt": "2025-04-07T13:46:38.617Z",
+      "publishedAt": "2025-04-07T13:46:38.724Z",
       "BackgroundImage": {
         "id": 11,
         "documentId": "lt45jfkfa1vhegjmr7fgfupz",
@@ -92,42 +92,42 @@
         "provider_metadata": {
           "fileId": "67f3812d432c4764167b4aa7"
         },
-        "createdAt": "2025-04-07T07:39:26.929Z",
-        "updatedAt": "2025-04-07T07:39:26.929Z",
-        "publishedAt": "2025-04-07T07:39:26.934Z"
+        "createdAt": "2025-04-07T13:09:26.929Z",
+        "updatedAt": "2025-04-07T13:09:26.929Z",
+        "publishedAt": "2025-04-07T13:09:26.934Z"
       },
       "about_hero_descriptions": [
         {
           "id": 11,
           "documentId": "eetmn7segty4d715y0584116",
           "description": "TASA designs is a Mumbai based architectural practice that prioritises simplicity, warmth and practical sustainability as a part of its core design philosophy, thus ensuring that every project adheres to the principles of leaving a better earth behind and beyond ourselves.",
-          "createdAt": "2025-04-07T08:11:58.552Z",
-          "updatedAt": "2025-04-07T08:13:20.446Z",
-          "publishedAt": "2025-04-07T08:13:20.576Z"
+          "createdAt": "2025-04-07T13:41:58.552Z",
+          "updatedAt": "2025-04-07T13:43:20.446Z",
+          "publishedAt": "2025-04-07T13:43:20.576Z"
         },
         {
           "id": 4,
           "documentId": "eirl9l8vdlk263qeb5kkr7n2",
           "description": "We take a conscious effort to design spaces that respect their surroundings and expand the harmony between nature and the humans living in them",
-          "createdAt": "2025-04-07T08:12:09.946Z",
-          "updatedAt": "2025-04-07T08:12:09.946Z",
-          "publishedAt": "2025-04-07T08:12:10.313Z"
+          "createdAt": "2025-04-07T13:42:09.946Z",
+          "updatedAt": "2025-04-07T13:42:09.946Z",
+          "publishedAt": "2025-04-07T13:42:10.313Z"
         },
         {
           "id": 7,
           "documentId": "fst12lgd9qow0x24fgib9hqi",
           "description": "Obeying a decree to create aethetically calming dwellings with the use of natural light, wind and water bodies to enhance the cohabiting experience",
-          "createdAt": "2025-04-07T08:12:24.316Z",
-          "updatedAt": "2025-04-07T08:12:43.347Z",
-          "publishedAt": "2025-04-07T08:12:43.458Z"
+          "createdAt": "2025-04-07T13:42:24.316Z",
+          "updatedAt": "2025-04-07T13:42:43.347Z",
+          "publishedAt": "2025-04-07T13:42:43.458Z"
         },
         {
           "id": 10,
           "documentId": "wo61s0ehqy0kcv4rjv7x2a86",
           "description": "Leading the charge of the philosophies set forth, the natural material choices of stone, metal, glass, plants & bio-based paints become a practicality",
-          "createdAt": "2025-04-07T08:12:55.140Z",
-          "updatedAt": "2025-04-07T08:13:00.307Z",
-          "publishedAt": "2025-04-07T08:13:00.422Z"
+          "createdAt": "2025-04-07T13:42:55.140Z",
+          "updatedAt": "2025-04-07T13:43:00.307Z",
+          "publishedAt": "2025-04-07T13:43:00.422Z"
         }
       ]
     },
@@ -139,9 +139,9 @@
         "Phone": "+91 8652-233-399",
         "Email": "info@tasaarchitects.com",
         "Role": "Managing Partner",
-        "createdAt": "2025-04-07T09:20:47.827Z",
-        "updatedAt": "2025-04-07T09:20:47.827Z",
-        "publishedAt": "2025-04-07T09:20:47.921Z",
+        "createdAt": "2025-04-07T14:50:47.827Z",
+        "updatedAt": "2025-04-07T14:50:47.827Z",
+        "publishedAt": "2025-04-07T14:50:47.921Z",
         "TeamPicture": {
           "id": 69,
           "documentId": "sutexwfjpsmoe0h0ydlmflm2",
@@ -192,9 +192,9 @@
           "provider_metadata": {
             "fileId": "67f398be432c476416127cf3"
           },
-          "createdAt": "2025-04-07T09:20:00.170Z",
-          "updatedAt": "2025-04-07T09:20:00.170Z",
-          "publishedAt": "2025-04-07T09:20:00.171Z"
+          "createdAt": "2025-04-07T14:50:00.170Z",
+          "updatedAt": "2025-04-07T14:50:00.170Z",
+          "publishedAt": "2025-04-07T14:50:00.171Z"
         }
       },
       {
@@ -204,9 +204,9 @@
         "Phone": null,
         "Email": "info@tasaarchitects.com",
         "Role": "Principle Architect",
-        "createdAt": "2025-04-07T09:22:26.924Z",
-        "updatedAt": "2025-04-07T09:22:26.924Z",
-        "publishedAt": "2025-04-07T09:22:27.109Z",
+        "createdAt": "2025-04-07T14:52:26.924Z",
+        "updatedAt": "2025-04-07T14:52:26.924Z",
+        "publishedAt": "2025-04-07T14:52:27.109Z",
         "TeamPicture": {
           "id": 70,
           "documentId": "rl3b1wdlqko3i8ivu8eticsq",
@@ -287,9 +287,9 @@
           "provider_metadata": {
             "fileId": "67f39939432c47641616279b"
           },
-          "createdAt": "2025-04-07T09:22:02.994Z",
-          "updatedAt": "2025-04-07T09:22:25.584Z",
-          "publishedAt": "2025-04-07T09:22:02.995Z"
+          "createdAt": "2025-04-07T14:52:02.994Z",
+          "updatedAt": "2025-04-07T14:52:25.584Z",
+          "publishedAt": "2025-04-07T14:52:02.995Z"
         }
       }
     ],
@@ -297,9 +297,9 @@
       "id": 2,
       "documentId": "qmhq1qnrg7d6e0xmazg4lruw",
       "Heading": "The Visionaries Shaping Spaces",
-      "createdAt": "2025-04-07T09:23:19.115Z",
-      "updatedAt": "2025-04-07T09:23:19.115Z",
-      "publishedAt": "2025-04-07T09:23:19.234Z"
+      "createdAt": "2025-04-07T14:53:19.115Z",
+      "updatedAt": "2025-04-07T14:53:19.115Z",
+      "publishedAt": "2025-04-07T14:53:19.234Z"
     }
   },
   "meta": {}
