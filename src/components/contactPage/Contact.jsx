@@ -5,7 +5,7 @@ import axios from "axios";
 import Swal from "sweetalert2";
 const postContactForm = async (formattedData) => {
   const { data } = await axios.post(
-    "${process.env.VITE_API_URL}api/contact-forms",
+    "https://akgswo8ccs0kw8kckg8gg4c8.82.25.90.229.sslip.io/api/contact-forms",
     formattedData, // Sending formattedData in the request body
     {
       headers: {
