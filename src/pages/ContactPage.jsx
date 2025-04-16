@@ -5,7 +5,7 @@ import axios from "axios";
 import ContactStaticData from "../Data/ContactStaticData.json";
 const fetchContactpageContent = async (formattedData) => {
   const { data } = await axios.get(
-    "http://akgswo8ccs0kw8kckg8gg4c8.82.25.90.229.sslip.io/api/home-page?populate[home_herosection][populate]=BackgroundImage&populate[projects][populate]=*&populate[publications_slider][populate]=*"
+    `${process.env.VITE_API_URL}api/home-page?populate[home_herosection][populate]=BackgroundImage&populate[projects][populate]=*&populate[publications_slider][populate]=*`
   );
   return data.data;
 };

@@ -6,7 +6,7 @@ import { encryptData, decryptData } from "../utils/cryptoUtils";
 import axios from "axios";
 const postContactForm = async (formattedData) => {
   const { data } = await axios.post(
-    "http://akgswo8ccs0kw8kckg8gg4c8.82.25.90.229.sslip.io/api/sticky-forms",
+    `${process.env.VITE_API_URL}api/sticky-forms`,
     formattedData, // Sending formattedData in the request body
     {
       headers: {

@@ -13,14 +13,14 @@ import { IKImage, IKContext } from "imagekitio-react";
 
 const fetchProjectpageContent = async () => {
   const { data } = await axios.get(
-    "http://akgswo8ccs0kw8kckg8gg4c8.82.25.90.229.sslip.io/api/projects?populate=*"
+    `${process.env.VITE_API_URL}api/projects?populate=*`
   );
   return data.data;
 };
 
 async function callFeatureApi(documentedID) {
   try {
-    const apilink = `http://akgswo8ccs0kw8kckg8gg4c8.82.25.90.229.sslip.io/api/featured-ons/${documentedID}?populate=*`;
+    const apilink = `${process.env.VITE_API_URL}api/featured-ons/${documentedID}?populate=*`;
     const { data } = await axios.get(apilink);
     let res = {
       src: data.data.ArticalBrandlogo.url,

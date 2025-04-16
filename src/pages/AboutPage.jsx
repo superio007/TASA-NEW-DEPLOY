@@ -6,7 +6,7 @@ import axios from "axios";
 import AboutStaticData from "../Data/AboutData.json";
 const fetchAboutpageContent = async (formattedData) => {
   const { data } = await axios.get(
-    "http://akgswo8ccs0kw8kckg8gg4c8.82.25.90.229.sslip.io/api/about-page?populate[about_hero_section_heading][populate]=*&populate[team_members][populate]=*&populate[our_team][populate]=*"
+    `${process.env.VITE_API_URL}api/about-page?populate[about_hero_section_heading][populate]=*&populate[team_members][populate]=*&populate[our_team][populate]=*`
   );
   return data.data;
 };
