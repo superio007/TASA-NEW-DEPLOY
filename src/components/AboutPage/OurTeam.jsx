@@ -11,7 +11,7 @@ const OurTeam = ({ team, members }) => {
             {team.Heading || "The Visionaries Shaping Spaces"}
           </h2>
         </div>
-        <div className="container mx-auto md:px-24 pb-20 flex xl:flex-row flex-col justify-between gap-18 items-center">
+        <div className="container mx-auto md:pl-24 md:pr-[146px] pb-20 flex xl:flex-row flex-col justify-between gap-18 items-center">
           {members.map((member, index) => (
             <div
               key={index}
@@ -37,16 +37,14 @@ const OurTeam = ({ team, members }) => {
                 </div>
               </div>
               <div className={`${styles.LeftChild} flex items-center`}>
-
                 <IKImage
+                  className="md:w-[180px] md:h-[180px]"
                   urlEndpoint={import.meta.env.VITE_IMAGEKIT_BASE_URL}
                   path={member.TeamPicture?.url
                     .split("https://ik.imagekit.io/2cdga3aqf/TasaUploads/")
                     .join("/")}
                   loading="lazy"
-                  transformation={[
-                    { progressive: true, quality: "auto", },
-                  ]}
+                  transformation={[{ progressive: true, quality: "auto" }]}
                   alt={member.Name}
                 />
               </div>
