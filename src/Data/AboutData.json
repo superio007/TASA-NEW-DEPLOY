@@ -198,15 +198,15 @@
         }
       },
       {
-        "id": 4,
+        "id": 6,
         "documentId": "r7bgopjfqrr7g3jp5bx1p3ld",
         "Name": "Tanzeem Sarguroh",
-        "Phone": null,
+        "Phone": "+91 22 4603 5650",
         "Email": "info@tasaarchitects.com",
-        "Role": "Principle Architect",
+        "Role": "Principal architect",
         "createdAt": "2025-04-07T14:52:26.924Z",
-        "updatedAt": "2025-04-07T14:52:26.924Z",
-        "publishedAt": "2025-04-07T14:52:27.109Z",
+        "updatedAt": "2025-04-16T14:01:43.488Z",
+        "publishedAt": "2025-04-16T14:01:43.509Z",
         "TeamPicture": {
           "id": 70,
           "documentId": "rl3b1wdlqko3i8ivu8eticsq",
