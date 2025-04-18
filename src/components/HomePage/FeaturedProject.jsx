@@ -2,9 +2,9 @@ import Right from "../../assets/HomePage/601SakuraHome.jpg";
 import Left from "../../assets/HomePage/811.jpg";
 import styles from "./css/FeaturedProject.module.css";
 import { MdOutlineArrowRight } from "react-icons/md";
-import Project4 from "./Project4";
+// import Project4 from "./Project4";
 import Project5 from "./Poject5";
-import Project3 from "./Project3";
+// import Project3 from "./Project3";
 import { Link } from "react-router-dom";
 import { IKImage } from "imagekitio-react";
 const FeaturedProject = ({ apiRes }) => {
@@ -188,8 +188,8 @@ const FeaturedProject = ({ apiRes }) => {
           </div>
         </div>
         <Project5 apiRes={apiRes[2]} />
-        <Project4 apiRes={apiRes[3]} />
-        <Project3 apiRes={apiRes[4]} />
+        <Project5 apiRes={apiRes[3]} />
+        <Project5 apiRes={apiRes[4]} />
       </div>
     </>
   );
