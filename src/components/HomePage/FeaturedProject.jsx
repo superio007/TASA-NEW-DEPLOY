@@ -8,7 +8,7 @@ import Project5 from "./Poject5";
 import { Link } from "react-router-dom";
 import { IKImage } from "imagekitio-react";
 const FeaturedProject = ({ apiRes }) => {
-  console.log(apiRes);
+  // console.log(apiRes);
   function truncateText(text, limit = 200) {
     if (text.length > limit) {
       return text.substring(0, limit) + "...";

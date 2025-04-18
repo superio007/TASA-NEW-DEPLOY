@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 // import styles from "./css/NonStickyFrom.module.css";
+import emailjs from "@emailjs/browser";
 import styles from "./css/StickyFrom.module.css";
 import { encryptData, decryptData } from "../utils/cryptoUtils";
 import axios from "axios";
@@ -39,12 +40,22 @@ const StickyFrom = () => {
     // Simulate API call
     await new Promise((resolve) => setTimeout(resolve, 2000));
     setIsUserToken(true);
+    emailjs
+      .send(
+        import.meta.env.VITE_SERVICEID, // Replace with your EmailJS Service ID
+        import.meta.env.VITE_ENQUERYTEMPLATEID, // Replace with your EmailJS Template ID
+        data,
+        import.meta.env.VITE_PUBLICID // Replace with your EmailJS Public Key
+      )
+      .then(() => console.log("Email sent successfully"))
+      .catch((error) => alert("Error sending email: " + error.text));
     const formattedData = {
       data: {
         Email: data.email,
         Phone: data.PhoneNumber,
       },
     };
+    // console.log("Formatted Data:", formattedData);
     postContactForm(formattedData);
     setLoading(false);
     reset();

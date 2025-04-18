@@ -51,7 +51,7 @@ const ProjectBrief = () => {
   const ProjectName = id.split("-").join(" ");
   useEffect(() => {
     if (data && Array.isArray(data)) {
-      console.log("Data fetched:", data);
+      // console.log("Data fetched:", data);
       let count = 1;
       const mappedProjects = data?.map((project) => ({
         id: count++,
