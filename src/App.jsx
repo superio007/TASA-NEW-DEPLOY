@@ -9,6 +9,7 @@ import Publications from "./pages/PublicationPage";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import HomeStaticData from "./Data/HomeStaticData.json";
+import Try from "./pages/tryPage";
 import ProjectsContext from "./context/ProjectContext";
 import {
   Route,
@@ -68,6 +69,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/publications" element={<Publications />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/try" element={<Try />} />
         <Route
           path="/projects/:id"
           element={<ProjectBrief apiRes={projects} />}
