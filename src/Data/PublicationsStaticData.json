@@ -1,1403 +1,1568 @@
 {
-  "data": {
-    "id": 4,
-    "documentId": "pw57wgr9rfygqok3i0i6il0q",
-    "EnqueryHeading": "Build Your Dream Project",
-    "EnquerySubHeading": "Crafting Spaces That Fit Your Aspirations",
-    "createdAt": "2025-04-07T15:19:33.669Z",
-    "updatedAt": "2025-04-07T15:19:55.476Z",
-    "publishedAt": "2025-04-07T15:19:55.624Z",
-    "publication_hero_section": {
-      "id": 2,
-      "documentId": "f7153hrz9n5we056nirw88d7",
-      "Heading": "TASA in the news",
-      "subHeading": "We are humbled to be covered by multiple distinguished publication houses in the field of architecture and design. This recognition validates our design philosophies and spreads awareness about soft minimalism and functional japandi aesthetics.",
-      "createdAt": "2025-04-07T14:47:52.602Z",
-      "updatedAt": "2025-04-07T14:47:52.602Z",
-      "publishedAt": "2025-04-07T14:47:52.686Z"
+    "data": {
+        "id": 9,
+        "documentId": "pw57wgr9rfygqok3i0i6il0q",
+        "EnqueryHeading": "Build Your Dream Project",
+        "EnquerySubHeading": "Crafting Spaces That Fit Your Aspirations",
+        "createdAt": "2025-04-07T15:19:33.669Z",
+        "updatedAt": "2025-04-22T13:48:54.578Z",
+        "publishedAt": "2025-04-22T13:48:54.603Z",
+        "publication_hero_section": {
+            "id": 2,
+            "documentId": "f7153hrz9n5we056nirw88d7",
+            "Heading": "TASA in the news",
+            "subHeading": "We are humbled to be covered by multiple distinguished publication houses in the field of architecture and design. This recognition validates our design philosophies and spreads awareness about soft minimalism and functional japandi aesthetics.",
+            "createdAt": "2025-04-07T14:47:52.602Z",
+            "updatedAt": "2025-04-07T14:47:52.602Z",
+            "publishedAt": "2025-04-07T14:47:52.686Z"
+        },
+        "publications_slider": {
+            "id": 2,
+            "documentId": "hoh72rmcoe5sh36b423vbco0",
+            "Title": "As seen on",
+            "createdAt": "2025-04-07T14:48:44.892Z",
+            "updatedAt": "2025-04-07T14:48:44.892Z",
+            "publishedAt": "2025-04-07T14:48:45.165Z",
+            "PublicationsLogos": [
+                {
+                    "id": 68,
+                    "documentId": "sjbnfbfy7hwyesjbt7ksfvhi",
+                    "name": "ArchitectsandIndia.png",
+                    "alternativeText": "ArchitectsandIndia",
+                    "caption": null,
+                    "width": 342,
+                    "height": 90,
+                    "formats": {
+                        "thumbnail": {
+                            "ext": ".png",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Architectsand_India_208b53b5b7_2YCtQihaoX.png",
+                            "hash": "thumbnail_Architectsand_India_208b53b5b7",
+                            "mime": "image/png",
+                            "name": "thumbnail_ArchitectsandIndia.png",
+                            "path": null,
+                            "size": 16.4,
+                            "width": 245,
+                            "height": 64,
+                            "sizeInBytes": 16402,
+                            "provider_metadata": {
+                                "fileId": "67f3963c432c476416fd35c4"
+                            }
+                        }
+                    },
+                    "hash": "Architectsand_India_208b53b5b7",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "size": 3.96,
+                    "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Architectsand_India_208b53b5b7_UrqPUs-Yx2.png",
+                    "previewUrl": null,
+                    "provider": "strapi-provider-upload-imagekit",
+                    "provider_metadata": {
+                        "fileId": "67f3963c432c476416fd35c0"
+                    },
+                    "createdAt": "2025-04-07T14:39:17.548Z",
+                    "updatedAt": "2025-04-07T14:39:32.139Z",
+                    "publishedAt": "2025-04-07T14:39:17.549Z"
+                },
+                {
+                    "id": 67,
+                    "documentId": "j8n8xdhxoe5o624knmt5z1fq",
+                    "name": "deZeen.webp",
+                    "alternativeText": "deZeen",
+                    "caption": null,
+                    "width": 822,
+                    "height": 336,
+                    "formats": {
+                        "small": {
+                            "ext": ".webp",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_de_Zeen_5736ff2736_JvTPbcFs-.webp",
+                            "hash": "small_de_Zeen_5736ff2736",
+                            "mime": "image/webp",
+                            "name": "small_deZeen.webp",
+                            "path": null,
+                            "size": 16.94,
+                            "width": 500,
+                            "height": 204,
+                            "sizeInBytes": 16940,
+                            "provider_metadata": {
+                                "fileId": "67f39620432c476416fb6005"
+                            }
+                        },
+                        "medium": {
+                            "ext": ".webp",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_de_Zeen_5736ff2736_2YeLtFiQyp.webp",
+                            "hash": "medium_de_Zeen_5736ff2736",
+                            "mime": "image/webp",
+                            "name": "medium_deZeen.webp",
+                            "path": null,
+                            "size": 29.68,
+                            "width": 750,
+                            "height": 307,
+                            "sizeInBytes": 29678,
+                            "provider_metadata": {
+                                "fileId": "67f3961e432c476416fb3f90"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".webp",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_de_Zeen_5736ff2736_VbOrBq8GzJ.webp",
+                            "hash": "thumbnail_de_Zeen_5736ff2736",
+                            "mime": "image/webp",
+                            "name": "thumbnail_deZeen.webp",
+                            "path": null,
+                            "size": 6.77,
+                            "width": 245,
+                            "height": 100,
+                            "sizeInBytes": 6774,
+                            "provider_metadata": {
+                                "fileId": "67f3961e432c476416fb3584"
+                            }
+                        }
+                    },
+                    "hash": "de_Zeen_5736ff2736",
+                    "ext": ".webp",
+                    "mime": "image/webp",
+                    "size": 21.97,
+                    "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/de_Zeen_5736ff2736_KhFilnGLWR.webp",
+                    "previewUrl": null,
+                    "provider": "strapi-provider-upload-imagekit",
+                    "provider_metadata": {
+                        "fileId": "67f3961e432c476416fb35b0"
+                    },
+                    "createdAt": "2025-04-07T14:38:50.292Z",
+                    "updatedAt": "2025-04-07T14:38:50.292Z",
+                    "publishedAt": "2025-04-07T14:38:50.293Z"
+                },
+                {
+                    "id": 66,
+                    "documentId": "kxzfllv7hq5gohivceg6o3oo",
+                    "name": "thehindu-logo.svg",
+                    "alternativeText": "thehindu-logo",
+                    "caption": null,
+                    "width": 660,
+                    "height": 62,
+                    "formats": null,
+                    "hash": "thehindu_logo_da73c5aa1c",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 90.21,
+                    "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thehindu_logo_da73c5aa1c_9ErByo3vUP.svg",
+                    "previewUrl": null,
+                    "provider": "strapi-provider-upload-imagekit",
+                    "provider_metadata": {
+                        "fileId": "67f3961e432c476416fb3644"
+                    },
+                    "createdAt": "2025-04-07T14:38:47.528Z",
+                    "updatedAt": "2025-04-07T14:38:47.528Z",
+                    "publishedAt": "2025-04-07T14:38:47.529Z"
+                },
+                {
+                    "id": 65,
+                    "documentId": "ksbeyp92z4fj9gh22bsz9vtv",
+                    "name": "DesignPataki.png",
+                    "alternativeText": "DesignPataki",
+                    "caption": null,
+                    "width": 410,
+                    "height": 81,
+                    "formats": {
+                        "thumbnail": {
+                            "ext": ".png",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Design_Pataki_be1a1ddddd_sTLtcI3rmw.png",
+                            "hash": "thumbnail_Design_Pataki_be1a1ddddd",
+                            "mime": "image/png",
+                            "name": "thumbnail_DesignPataki.png",
+                            "path": null,
+                            "size": 5.24,
+                            "width": 245,
+                            "height": 48,
+                            "sizeInBytes": 5236,
+                            "provider_metadata": {
+                                "fileId": "67f3961e432c476416fb3581"
+                            }
+                        }
+                    },
+                    "hash": "Design_Pataki_be1a1ddddd",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "size": 3.03,
+                    "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Design_Pataki_be1a1ddddd_N0KMcdytT-.png",
+                    "previewUrl": null,
+                    "provider": "strapi-provider-upload-imagekit",
+                    "provider_metadata": {
+                        "fileId": "67f3961e432c476416fb351d"
+                    },
+                    "createdAt": "2025-04-07T14:38:47.451Z",
+                    "updatedAt": "2025-04-07T14:38:47.451Z",
+                    "publishedAt": "2025-04-07T14:38:47.452Z"
+                },
+                {
+                    "id": 64,
+                    "documentId": "ulx9lkvzig07s54m3v0rbefn",
+                    "name": "architecturalDigest.png",
+                    "alternativeText": "architecturalDigest",
+                    "caption": null,
+                    "width": 600,
+                    "height": 600,
+                    "formats": {
+                        "small": {
+                            "ext": ".png",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_architectural_Digest_189d30d3b8_J5Hcw1S5S.png",
+                            "hash": "small_architectural_Digest_189d30d3b8",
+                            "mime": "image/png",
+                            "name": "small_architecturalDigest.png",
+                            "path": null,
+                            "size": 31.66,
+                            "width": 500,
+                            "height": 500,
+                            "sizeInBytes": 31660,
+                            "provider_metadata": {
+                                "fileId": "67f3961d432c476416fb2d3b"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".png",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_architectural_Digest_189d30d3b8_Hkr18q9oG.png",
+                            "hash": "thumbnail_architectural_Digest_189d30d3b8",
+                            "mime": "image/png",
+                            "name": "thumbnail_architecturalDigest.png",
+                            "path": null,
+                            "size": 7.41,
+                            "width": 156,
+                            "height": 156,
+                            "sizeInBytes": 7414,
+                            "provider_metadata": {
+                                "fileId": "67f3961d432c476416fb27af"
+                            }
+                        }
+                    },
+                    "hash": "architectural_Digest_189d30d3b8",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "size": 8.94,
+                    "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/architectural_Digest_189d30d3b8_bsNuiY4A4.png",
+                    "previewUrl": null,
+                    "provider": "strapi-provider-upload-imagekit",
+                    "provider_metadata": {
+                        "fileId": "67f3961c432c476416fb1aba"
+                    },
+                    "createdAt": "2025-04-07T14:38:47.182Z",
+                    "updatedAt": "2025-04-07T14:38:47.182Z",
+                    "publishedAt": "2025-04-07T14:38:47.183Z"
+                },
+                {
+                    "id": 63,
+                    "documentId": "mp6fzknika3gllnmiblmm8eq",
+                    "name": "rethinking.webp",
+                    "alternativeText": "rethinking",
+                    "caption": null,
+                    "width": 194,
+                    "height": 50,
+                    "formats": null,
+                    "hash": "rethinking_beefbb46c0",
+                    "ext": ".webp",
+                    "mime": "image/webp",
+                    "size": 1.5,
+                    "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/rethinking_beefbb46c0_95SKA3Q2j.webp",
+                    "previewUrl": null,
+                    "provider": "strapi-provider-upload-imagekit",
+                    "provider_metadata": {
+                        "fileId": "67f3961d432c476416fb2e4d"
+                    },
+                    "createdAt": "2025-04-07T14:38:47.054Z",
+                    "updatedAt": "2025-04-07T14:38:47.054Z",
+                    "publishedAt": "2025-04-07T14:38:47.055Z"
+                }
+            ]
+        },
+        "publications": [
+            {
+                "id": 18,
+                "documentId": "yz4ahafaq8lhxnqhn4iz6nai",
+                "Heading": "Designed with intention and tranquility in mind, Sakura Home by TASA Designs is crafted using only natural materials",
+                "Description": "\nIn the middle of Mumbai’s bustling cityscape, Sakura Home emerges as a contrast to chaos. Designed by Tanzeem Sarguroh, Principal Architect of TASA Designs, this 1,050 sq ft apartment filters architecture down to its essentials—light, material, texture, and emotion. More than a home, it is a mindful retreat. “We wanted to create a mental switch-off space,” shares Tanzeem, “a place where the residents could breathe, slow down, and just be.” This intention reflects through a Japandi aesthetic—a refined blend of Japanese minimalism and Scandinavian warmth. The output is a sunlit sanctuary composed solely of natural materials such as wood, stone, metal, and glass, consciously rejecting the use of anything synthetic.",
+                "ArticalLink": "https://www.architectureplusdesign.in/design/designed-with-intention-and-tranquility-in-mind-sakura-home-by-tasa-designs-is-crafted-using-only-natural-materials/",
+                "createdAt": "2025-04-22T13:43:51.212Z",
+                "updatedAt": "2025-04-22T13:43:51.212Z",
+                "publishedAt": "2025-04-22T13:43:51.258Z",
+                "PublicationLogo": [
+                    {
+                        "id": 120,
+                        "documentId": "ol87o22iljx8v8sejnso87lj",
+                        "name": "AD-logo2.webp",
+                        "alternativeText": "AD-logo",
+                        "caption": null,
+                        "width": 760,
+                        "height": 204,
+                        "formats": {
+                            "small": {
+                                "ext": ".webp",
+                                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_AD_logo2_461697b1e2_XFHyqsz5F.webp",
+                                "hash": "small_AD_logo2_461697b1e2",
+                                "mime": "image/webp",
+                                "name": "small_AD-logo2.webp",
+                                "path": null,
+                                "size": 6.24,
+                                "width": 500,
+                                "height": 134,
+                                "sizeInBytes": 6242,
+                                "provider_metadata": {
+                                    "fileId": "68079c7c432c476416d2032c"
+                                }
+                            },
+                            "medium": {
+                                "ext": ".webp",
+                                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_AD_logo2_461697b1e2_G-66Pmxglz.webp",
+                                "hash": "medium_AD_logo2_461697b1e2",
+                                "mime": "image/webp",
+                                "name": "medium_AD-logo2.webp",
+                                "path": null,
+                                "size": 9.78,
+                                "width": 750,
+                                "height": 201,
+                                "sizeInBytes": 9776,
+                                "provider_metadata": {
+                                    "fileId": "68079c7c432c476416d2069b"
+                                }
+                            },
+                            "thumbnail": {
+                                "ext": ".webp",
+                                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_AD_logo2_461697b1e2_qrw6WYJHeN.webp",
+                                "hash": "thumbnail_AD_logo2_461697b1e2",
+                                "mime": "image/webp",
+                                "name": "thumbnail_AD-logo2.webp",
+                                "path": null,
+                                "size": 2.82,
+                                "width": 245,
+                                "height": 66,
+                                "sizeInBytes": 2822,
+                                "provider_metadata": {
+                                    "fileId": "68079c7b432c476416d201a7"
+                                }
+                            }
+                        },
+                        "hash": "AD_logo2_461697b1e2",
+                        "ext": ".webp",
+                        "mime": "image/webp",
+                        "size": 5.23,
+                        "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/AD_logo2_461697b1e2_Wcxtu8W7_I.webp",
+                        "previewUrl": null,
+                        "provider": "strapi-provider-upload-imagekit",
+                        "provider_metadata": {
+                            "fileId": "68079c7b432c476416d20140"
+                        },
+                        "createdAt": "2025-04-22T13:41:17.064Z",
+                        "updatedAt": "2025-04-22T13:41:17.064Z",
+                        "publishedAt": "2025-04-22T13:41:17.065Z"
+                    }
+                ],
+                "ArticalBackground": {
+                    "id": 85,
+                    "documentId": "xhen6r1rfc4s6d1xucoeqcqh",
+                    "name": "EPHX_1986_FS.jpg",
+                    "alternativeText": "EPHX_1986_FS.jpg",
+                    "caption": null,
+                    "width": 8256,
+                    "height": 5504,
+                    "formats": {
+                        "large": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_EPHX_1986_FS_a082a5a1b3_qM5u5H7Rc.jpg",
+                            "hash": "large_EPHX_1986_FS_a082a5a1b3",
+                            "mime": "image/jpeg",
+                            "name": "large_EPHX_1986_FS.jpg",
+                            "path": null,
+                            "size": 83.43,
+                            "width": 1000,
+                            "height": 667,
+                            "sizeInBytes": 83425,
+                            "provider_metadata": {
+                                "fileId": "68023c80432c4764161f7338"
+                            }
+                        },
+                        "small": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_EPHX_1986_FS_a082a5a1b3_FH6PrUT8_L.jpg",
+                            "hash": "small_EPHX_1986_FS_a082a5a1b3",
+                            "mime": "image/jpeg",
+                            "name": "small_EPHX_1986_FS.jpg",
+                            "path": null,
+                            "size": 24.73,
+                            "width": 500,
+                            "height": 333,
+                            "sizeInBytes": 24729,
+                            "provider_metadata": {
+                                "fileId": "68023c80432c4764161f70f1"
+                            }
+                        },
+                        "medium": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_EPHX_1986_FS_a082a5a1b3_YRcCnvBHo.jpg",
+                            "hash": "medium_EPHX_1986_FS_a082a5a1b3",
+                            "mime": "image/jpeg",
+                            "name": "medium_EPHX_1986_FS.jpg",
+                            "path": null,
+                            "size": 48.68,
+                            "width": 750,
+                            "height": 500,
+                            "sizeInBytes": 48676,
+                            "provider_metadata": {
+                                "fileId": "68023c80432c4764161f72af"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_EPHX_1986_FS_a082a5a1b3_E278FdB00_.jpg",
+                            "hash": "thumbnail_EPHX_1986_FS_a082a5a1b3",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_EPHX_1986_FS.jpg",
+                            "path": null,
+                            "size": 7.39,
+                            "width": 234,
+                            "height": 156,
+                            "sizeInBytes": 7392,
+                            "provider_metadata": {
+                                "fileId": "68023c7f432c4764161f6cfd"
+                            }
+                        }
+                    },
+                    "hash": "EPHX_1986_FS_a082a5a1b3",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 10684.47,
+                    "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/EPHX_1986_FS_a082a5a1b3_pejsDA8-6.jpg",
+                    "previewUrl": null,
+                    "provider": "strapi-provider-upload-imagekit",
+                    "provider_metadata": {
+                        "fileId": "68023c83432c4764161f894c"
+                    },
+                    "createdAt": "2025-04-18T11:50:27.894Z",
+                    "updatedAt": "2025-04-18T11:50:27.894Z",
+                    "publishedAt": "2025-04-18T11:50:27.894Z"
+                }
+            },
+            {
+                "id": 2,
+                "documentId": "fnct251rfxjsk4dnse4p4a9e",
+                "Heading": "Uncover a slice of Japan tucked away in this 1,050 sq ft Thane home",
+                "Description": "Melding design innovation with a deep pursuit of serenity, it becomes a refuge where peace is the primary occupant. The home’s redesign was driven by the client’s need for more space and light, addressing the feeling of crampedness that had overshadowed the potential of the floor plan.",
+                "ArticalLink": "https://www.architectandinteriorsindia.com/projects/uncover-a-slice-of-japan-tucked-away-in-this-1050-sq-ft-thane-home",
+                "createdAt": "2025-04-07T14:57:19.204Z",
+                "updatedAt": "2025-04-07T14:57:19.204Z",
+                "publishedAt": "2025-04-07T14:57:19.382Z",
+                "PublicationLogo": [
+                    {
+                        "id": 68,
+                        "documentId": "sjbnfbfy7hwyesjbt7ksfvhi",
+                        "name": "ArchitectsandIndia.png",
+                        "alternativeText": "ArchitectsandIndia",
+                        "caption": null,
+                        "width": 342,
+                        "height": 90,
+                        "formats": {
+                            "thumbnail": {
+                                "ext": ".png",
+                                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Architectsand_India_208b53b5b7_2YCtQihaoX.png",
+                                "hash": "thumbnail_Architectsand_India_208b53b5b7",
+                                "mime": "image/png",
+                                "name": "thumbnail_ArchitectsandIndia.png",
+                                "path": null,
+                                "size": 16.4,
+                                "width": 245,
+                                "height": 64,
+                                "sizeInBytes": 16402,
+                                "provider_metadata": {
+                                    "fileId": "67f3963c432c476416fd35c4"
+                                }
+                            }
+                        },
+                        "hash": "Architectsand_India_208b53b5b7",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "size": 3.96,
+                        "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Architectsand_India_208b53b5b7_UrqPUs-Yx2.png",
+                        "previewUrl": null,
+                        "provider": "strapi-provider-upload-imagekit",
+                        "provider_metadata": {
+                            "fileId": "67f3963c432c476416fd35c0"
+                        },
+                        "createdAt": "2025-04-07T14:39:17.548Z",
+                        "updatedAt": "2025-04-07T14:39:32.139Z",
+                        "publishedAt": "2025-04-07T14:39:17.549Z"
+                    }
+                ],
+                "ArticalBackground": {
+                    "id": 71,
+                    "documentId": "qqpetq4na3rj9vg848zkekit",
+                    "name": "EPHX_1950_FS.jpg",
+                    "alternativeText": "Home Hero",
+                    "caption": null,
+                    "width": 8256,
+                    "height": 5504,
+                    "formats": {
+                        "large": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_EPHX_1950_FS_0df83312bd_zMaHG3Ijr.jpg",
+                            "hash": "large_EPHX_1950_FS_0df83312bd",
+                            "mime": "image/jpeg",
+                            "name": "large_EPHX_1950_FS.jpg",
+                            "path": null,
+                            "size": 70.86,
+                            "width": 1000,
+                            "height": 667,
+                            "sizeInBytes": 70856,
+                            "provider_metadata": {
+                                "fileId": "67f39a1b432c4764161c7c59"
+                            }
+                        },
+                        "small": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_EPHX_1950_FS_0df83312bd_wze25g5oKI.jpg",
+                            "hash": "small_EPHX_1950_FS_0df83312bd",
+                            "mime": "image/jpeg",
+                            "name": "small_EPHX_1950_FS.jpg",
+                            "path": null,
+                            "size": 22.67,
+                            "width": 500,
+                            "height": 333,
+                            "sizeInBytes": 22666,
+                            "provider_metadata": {
+                                "fileId": "67f39a1b432c4764161c7ba7"
+                            }
+                        },
+                        "medium": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_EPHX_1950_FS_0df83312bd_JvbVExsQuM.jpg",
+                            "hash": "medium_EPHX_1950_FS_0df83312bd",
+                            "mime": "image/jpeg",
+                            "name": "medium_EPHX_1950_FS.jpg",
+                            "path": null,
+                            "size": 43.43,
+                            "width": 750,
+                            "height": 500,
+                            "sizeInBytes": 43427,
+                            "provider_metadata": {
+                                "fileId": "67f39a1b432c4764161c7bb3"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_EPHX_1950_FS_0df83312bd_YyoXplb-J.jpg",
+                            "hash": "thumbnail_EPHX_1950_FS_0df83312bd",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_EPHX_1950_FS.jpg",
+                            "path": null,
+                            "size": 6.94,
+                            "width": 234,
+                            "height": 156,
+                            "sizeInBytes": 6943,
+                            "provider_metadata": {
+                                "fileId": "67f39a1b432c4764161c7978"
+                            }
+                        }
+                    },
+                    "hash": "EPHX_1950_FS_0df83312bd",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 5352.08,
+                    "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/EPHX_1950_FS_0df83312bd_HGoGoHflvd.jpg",
+                    "previewUrl": null,
+                    "provider": "strapi-provider-upload-imagekit",
+                    "provider_metadata": {
+                        "fileId": "67f39a1c432c4764161c8293"
+                    },
+                    "createdAt": "2025-04-07T14:55:50.027Z",
+                    "updatedAt": "2025-04-07T14:55:50.027Z",
+                    "publishedAt": "2025-04-07T14:55:50.027Z"
+                }
+            },
+            {
+                "id": 4,
+                "documentId": "ush7cjk17wlqavtc1li6lf7v",
+                "Heading": " 811 by TASA designs",
+                "Description": "At a time when offices are increasingly polarising, either being monotonous, incandescent and crowded or colourful yet cold with unoptimised spaces, we attempted to meet the balance of form, function and warmth.",
+                "ArticalLink": "https://www.re-thinkingthefuture.com/residentail-interior-design/8837-811-by-tasa-designs/",
+                "createdAt": "2025-04-07T14:59:34.172Z",
+                "updatedAt": "2025-04-07T14:59:34.172Z",
+                "publishedAt": "2025-04-07T14:59:34.290Z",
+                "PublicationLogo": [
+                    {
+                        "id": 63,
+                        "documentId": "mp6fzknika3gllnmiblmm8eq",
+                        "name": "rethinking.webp",
+                        "alternativeText": "rethinking",
+                        "caption": null,
+                        "width": 194,
+                        "height": 50,
+                        "formats": null,
+                        "hash": "rethinking_beefbb46c0",
+                        "ext": ".webp",
+                        "mime": "image/webp",
+                        "size": 1.5,
+                        "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/rethinking_beefbb46c0_95SKA3Q2j.webp",
+                        "previewUrl": null,
+                        "provider": "strapi-provider-upload-imagekit",
+                        "provider_metadata": {
+                            "fileId": "67f3961d432c476416fb2e4d"
+                        },
+                        "createdAt": "2025-04-07T14:38:47.054Z",
+                        "updatedAt": "2025-04-07T14:38:47.054Z",
+                        "publishedAt": "2025-04-07T14:38:47.055Z"
+                    }
+                ],
+                "ArticalBackground": {
+                    "id": 14,
+                    "documentId": "ftu6hns56x4remqzbq7iyitm",
+                    "name": "811-TD-06.jpg",
+                    "alternativeText": "811-TD-06",
+                    "caption": null,
+                    "width": 8230,
+                    "height": 5487,
+                    "formats": {
+                        "large": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_06_3538e285bc_OXwN2ytBhs.jpg",
+                            "hash": "large_811_TD_06_3538e285bc",
+                            "mime": "image/jpeg",
+                            "name": "large_811-TD-06.jpg",
+                            "path": null,
+                            "size": 79.26,
+                            "width": 1000,
+                            "height": 667,
+                            "sizeInBytes": 79262,
+                            "provider_metadata": {
+                                "fileId": "67f38d63432c476416c30d42"
+                            }
+                        },
+                        "small": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_06_3538e285bc_yY71TaXs1_.jpg",
+                            "hash": "small_811_TD_06_3538e285bc",
+                            "mime": "image/jpeg",
+                            "name": "small_811-TD-06.jpg",
+                            "path": null,
+                            "size": 27,
+                            "width": 500,
+                            "height": 333,
+                            "sizeInBytes": 27000,
+                            "provider_metadata": {
+                                "fileId": "67f38d63432c476416c30bed"
+                            }
+                        },
+                        "medium": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_06_3538e285bc_6KdBKEYbmX.jpg",
+                            "hash": "medium_811_TD_06_3538e285bc",
+                            "mime": "image/jpeg",
+                            "name": "medium_811-TD-06.jpg",
+                            "path": null,
+                            "size": 50.32,
+                            "width": 750,
+                            "height": 500,
+                            "sizeInBytes": 50321,
+                            "provider_metadata": {
+                                "fileId": "67f38c5b432c476416bdc32f"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_06_3538e285bc_OUqx5s3rJy.jpg",
+                            "hash": "thumbnail_811_TD_06_3538e285bc",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_811-TD-06.jpg",
+                            "path": null,
+                            "size": 8.36,
+                            "width": 234,
+                            "height": 156,
+                            "sizeInBytes": 8360,
+                            "provider_metadata": {
+                                "fileId": "67f38d63432c476416c30c02"
+                            }
+                        }
+                    },
+                    "hash": "811_TD_06_3538e285bc",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 2786.07,
+                    "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_06_3538e285bc_mZYJZlS1t.jpg",
+                    "previewUrl": null,
+                    "provider": "strapi-provider-upload-imagekit",
+                    "provider_metadata": {
+                        "fileId": "67f38c5e432c476416bdd70c"
+                    },
+                    "createdAt": "2025-04-07T14:01:41.230Z",
+                    "updatedAt": "2025-04-07T14:01:41.230Z",
+                    "publishedAt": "2025-04-07T14:01:41.231Z"
+                }
+            },
+            {
+                "id": 6,
+                "documentId": "ao2at49m9qw1t0o2a7yjbffw",
+                "Heading": "AD Small Spaces: 5 compact offices that prove limited space is never a constraint",
+                "Description": "Designing small spaces in an efficient yet aesthetically pleasing style may seem like a daunting task, but not for the designers of these projects. In this collection of compact offices taken from the AD archives, the designers put their best foot forward to showcase unique design styles and maximise the functionality of a small space.",
+                "ArticalLink": "https://www.architecturaldigest.in/story/ad-small-spaces-5-compact-offices-that-prove-limited-space-is-never-a-constraint/",
+                "createdAt": "2025-04-07T15:00:45.836Z",
+                "updatedAt": "2025-04-07T15:00:45.836Z",
+                "publishedAt": "2025-04-07T15:00:45.943Z",
+                "PublicationLogo": [
+                    {
+                        "id": 64,
+                        "documentId": "ulx9lkvzig07s54m3v0rbefn",
+                        "name": "architecturalDigest.png",
+                        "alternativeText": "architecturalDigest",
+                        "caption": null,
+                        "width": 600,
+                        "height": 600,
+                        "formats": {
+                            "small": {
+                                "ext": ".png",
+                                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_architectural_Digest_189d30d3b8_J5Hcw1S5S.png",
+                                "hash": "small_architectural_Digest_189d30d3b8",
+                                "mime": "image/png",
+                                "name": "small_architecturalDigest.png",
+                                "path": null,
+                                "size": 31.66,
+                                "width": 500,
+                                "height": 500,
+                                "sizeInBytes": 31660,
+                                "provider_metadata": {
+                                    "fileId": "67f3961d432c476416fb2d3b"
+                                }
+                            },
+                            "thumbnail": {
+                                "ext": ".png",
+                                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_architectural_Digest_189d30d3b8_Hkr18q9oG.png",
+                                "hash": "thumbnail_architectural_Digest_189d30d3b8",
+                                "mime": "image/png",
+                                "name": "thumbnail_architecturalDigest.png",
+                                "path": null,
+                                "size": 7.41,
+                                "width": 156,
+                                "height": 156,
+                                "sizeInBytes": 7414,
+                                "provider_metadata": {
+                                    "fileId": "67f3961d432c476416fb27af"
+                                }
+                            }
+                        },
+                        "hash": "architectural_Digest_189d30d3b8",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "size": 8.94,
+                        "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/architectural_Digest_189d30d3b8_bsNuiY4A4.png",
+                        "previewUrl": null,
+                        "provider": "strapi-provider-upload-imagekit",
+                        "provider_metadata": {
+                            "fileId": "67f3961c432c476416fb1aba"
+                        },
+                        "createdAt": "2025-04-07T14:38:47.182Z",
+                        "updatedAt": "2025-04-07T14:38:47.182Z",
+                        "publishedAt": "2025-04-07T14:38:47.183Z"
+                    }
+                ],
+                "ArticalBackground": {
+                    "id": 13,
+                    "documentId": "cxsvm344z59v8j68gvziz867",
+                    "name": "811-TD-02.jpg",
+                    "alternativeText": "811-TD-02",
+                    "caption": null,
+                    "width": 7965,
+                    "height": 5310,
+                    "formats": {
+                        "large": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_02_f86b056443_HMFC-NKcf4.jpg",
+                            "hash": "large_811_TD_02_f86b056443",
+                            "mime": "image/jpeg",
+                            "name": "large_811-TD-02.jpg",
+                            "path": null,
+                            "size": 78.92,
+                            "width": 1000,
+                            "height": 666,
+                            "sizeInBytes": 78916,
+                            "provider_metadata": {
+                                "fileId": "67f38c5b432c476416bdc3a7"
+                            }
+                        },
+                        "small": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_02_f86b056443_WC5I0TnwZ.jpg",
+                            "hash": "small_811_TD_02_f86b056443",
+                            "mime": "image/jpeg",
+                            "name": "small_811-TD-02.jpg",
+                            "path": null,
+                            "size": 25.79,
+                            "width": 500,
+                            "height": 333,
+                            "sizeInBytes": 25787,
+                            "provider_metadata": {
+                                "fileId": "67f38c5a432c476416bdc0dc"
+                            }
+                        },
+                        "medium": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_02_f86b056443_sK820-vfXD.jpg",
+                            "hash": "medium_811_TD_02_f86b056443",
+                            "mime": "image/jpeg",
+                            "name": "medium_811-TD-02.jpg",
+                            "path": null,
+                            "size": 48.97,
+                            "width": 750,
+                            "height": 500,
+                            "sizeInBytes": 48969,
+                            "provider_metadata": {
+                                "fileId": "67f38d63432c476416c30bfc"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_02_f86b056443_qrF4QjW-n.jpg",
+                            "hash": "thumbnail_811_TD_02_f86b056443",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_811-TD-02.jpg",
+                            "path": null,
+                            "size": 7.86,
+                            "width": 234,
+                            "height": 156,
+                            "sizeInBytes": 7859,
+                            "provider_metadata": {
+                                "fileId": "67f38c59432c476416bdb61b"
+                            }
+                        }
+                    },
+                    "hash": "811_TD_02_f86b056443",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 3417.69,
+                    "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_02_f86b056443_w9NOzmRvs.jpg",
+                    "previewUrl": null,
+                    "provider": "strapi-provider-upload-imagekit",
+                    "provider_metadata": {
+                        "fileId": "67f38c61432c476416bde18a"
+                    },
+                    "createdAt": "2025-04-07T14:01:41.173Z",
+                    "updatedAt": "2025-04-07T14:01:41.173Z",
+                    "publishedAt": "2025-04-07T14:01:41.174Z"
+                }
+            },
+            {
+                "id": 8,
+                "documentId": "xg1qkz4haqim8j3spl9lwa5l",
+                "Heading": "Channel your energy in the Year of the Wood Snake to create calming spaces",
+                "Description": "The mystical serpent of the Chinese zodiac slithers into 2025, bringing a transformative Year of the Wood Snake that promises more strategic moves than a chess grandmaster’s playbook.\nRooted in a 60-year cyclical calendar combining 12 zodiac animals and five elemental forces, the 2025 Yin Wood Snake represents a nuanced dance of wisdom and adaptability. Unlike the rigid Yang Wood Dragon of 2024, this year embodies a ‘small green snake’ capable of calculated, diplomatic maneuvers.",
+                "ArticalLink": "https://www.thehindu.com/life-and-style/homes-and-gardens/channel-your-energy-in-the-year-of-the-wood-snake-to-create-calming-spaces/article69104467.ece",
+                "createdAt": "2025-04-07T15:02:00.606Z",
+                "updatedAt": "2025-04-07T15:02:00.606Z",
+                "publishedAt": "2025-04-07T15:02:00.723Z",
+                "PublicationLogo": [
+                    {
+                        "id": 66,
+                        "documentId": "kxzfllv7hq5gohivceg6o3oo",
+                        "name": "thehindu-logo.svg",
+                        "alternativeText": "thehindu-logo",
+                        "caption": null,
+                        "width": 660,
+                        "height": 62,
+                        "formats": null,
+                        "hash": "thehindu_logo_da73c5aa1c",
+                        "ext": ".svg",
+                        "mime": "image/svg+xml",
+                        "size": 90.21,
+                        "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thehindu_logo_da73c5aa1c_9ErByo3vUP.svg",
+                        "previewUrl": null,
+                        "provider": "strapi-provider-upload-imagekit",
+                        "provider_metadata": {
+                            "fileId": "67f3961e432c476416fb3644"
+                        },
+                        "createdAt": "2025-04-07T14:38:47.528Z",
+                        "updatedAt": "2025-04-07T14:38:47.528Z",
+                        "publishedAt": "2025-04-07T14:38:47.529Z"
+                    }
+                ],
+                "ArticalBackground": {
+                    "id": 11,
+                    "documentId": "lt45jfkfa1vhegjmr7fgfupz",
+                    "name": "About.jpg",
+                    "alternativeText": "About",
+                    "caption": null,
+                    "width": 8232,
+                    "height": 5488,
+                    "formats": {
+                        "large": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_About_2ac82cca62_SQfiBm2Nk.jpg",
+                            "hash": "large_About_2ac82cca62",
+                            "mime": "image/jpeg",
+                            "name": "large_About.jpg",
+                            "path": null,
+                            "size": 113.64,
+                            "width": 1000,
+                            "height": 667,
+                            "sizeInBytes": 113637,
+                            "provider_metadata": {
+                                "fileId": "67f3812c432c4764167b3296"
+                            }
+                        },
+                        "small": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_About_2ac82cca62_E6PBTye-7.jpg",
+                            "hash": "small_About_2ac82cca62",
+                            "mime": "image/jpeg",
+                            "name": "small_About.jpg",
+                            "path": null,
+                            "size": 35.72,
+                            "width": 500,
+                            "height": 333,
+                            "sizeInBytes": 35724,
+                            "provider_metadata": {
+                                "fileId": "67f3812c432c4764167b325b"
+                            }
+                        },
+                        "medium": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_About_2ac82cca62_7QV9h7XImA.jpg",
+                            "hash": "medium_About_2ac82cca62",
+                            "mime": "image/jpeg",
+                            "name": "medium_About.jpg",
+                            "path": null,
+                            "size": 69.65,
+                            "width": 750,
+                            "height": 500,
+                            "sizeInBytes": 69645,
+                            "provider_metadata": {
+                                "fileId": "67f3812c432c4764167b33f2"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_About_2ac82cca62_DrZ1bfHYeH.jpg",
+                            "hash": "thumbnail_About_2ac82cca62",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_About.jpg",
+                            "path": null,
+                            "size": 10.43,
+                            "width": 234,
+                            "height": 156,
+                            "sizeInBytes": 10430,
+                            "provider_metadata": {
+                                "fileId": "67f3812b432c4764167b30ac"
+                            }
+                        }
+                    },
+                    "hash": "About_2ac82cca62",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 4856.12,
+                    "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/About_2ac82cca62_s1V_FbACM.jpg",
+                    "previewUrl": null,
+                    "provider": "strapi-provider-upload-imagekit",
+                    "provider_metadata": {
+                        "fileId": "67f3812d432c4764167b4aa7"
+                    },
+                    "createdAt": "2025-04-07T13:09:26.929Z",
+                    "updatedAt": "2025-04-07T13:09:26.929Z",
+                    "publishedAt": "2025-04-07T13:09:26.934Z"
+                }
+            },
+            {
+                "id": 10,
+                "documentId": "cci0iwuhxlmu9tzh0asi45bg",
+                "Heading": "Tasa Designs has created a workspace in India that balances form, function and simplicity.",
+                "Description": "Tasa Designs has created a workspace in India that balances form, function and simplicity.\n\n\nThe project is a 40 square metre space designed with a Japandi aesthetic to align with objectives of minimalism and practical sustainability.\n\nAn open layout was adopted for working with natural elements and best use of daylight, and was constructed with materials including 100-year-old reclaimed teak wood salvaged from demolished structures of Old Bombay built during the British Era.\n\nThe result sees clean lines and smooth surfaces, all the while maintaining warmth and comfort for a space that invites clear thinking.",
+                "ArticalLink": "https://www.dezeen.com/awards/2022/longlists/811/",
+                "createdAt": "2025-04-07T15:03:38.370Z",
+                "updatedAt": "2025-04-07T15:03:38.370Z",
+                "publishedAt": "2025-04-07T15:03:38.516Z",
+                "PublicationLogo": [
+                    {
+                        "id": 67,
+                        "documentId": "j8n8xdhxoe5o624knmt5z1fq",
+                        "name": "deZeen.webp",
+                        "alternativeText": "deZeen",
+                        "caption": null,
+                        "width": 822,
+                        "height": 336,
+                        "formats": {
+                            "small": {
+                                "ext": ".webp",
+                                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_de_Zeen_5736ff2736_JvTPbcFs-.webp",
+                                "hash": "small_de_Zeen_5736ff2736",
+                                "mime": "image/webp",
+                                "name": "small_deZeen.webp",
+                                "path": null,
+                                "size": 16.94,
+                                "width": 500,
+                                "height": 204,
+                                "sizeInBytes": 16940,
+                                "provider_metadata": {
+                                    "fileId": "67f39620432c476416fb6005"
+                                }
+                            },
+                            "medium": {
+                                "ext": ".webp",
+                                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_de_Zeen_5736ff2736_2YeLtFiQyp.webp",
+                                "hash": "medium_de_Zeen_5736ff2736",
+                                "mime": "image/webp",
+                                "name": "medium_deZeen.webp",
+                                "path": null,
+                                "size": 29.68,
+                                "width": 750,
+                                "height": 307,
+                                "sizeInBytes": 29678,
+                                "provider_metadata": {
+                                    "fileId": "67f3961e432c476416fb3f90"
+                                }
+                            },
+                            "thumbnail": {
+                                "ext": ".webp",
+                                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_de_Zeen_5736ff2736_VbOrBq8GzJ.webp",
+                                "hash": "thumbnail_de_Zeen_5736ff2736",
+                                "mime": "image/webp",
+                                "name": "thumbnail_deZeen.webp",
+                                "path": null,
+                                "size": 6.77,
+                                "width": 245,
+                                "height": 100,
+                                "sizeInBytes": 6774,
+                                "provider_metadata": {
+                                    "fileId": "67f3961e432c476416fb3584"
+                                }
+                            }
+                        },
+                        "hash": "de_Zeen_5736ff2736",
+                        "ext": ".webp",
+                        "mime": "image/webp",
+                        "size": 21.97,
+                        "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/de_Zeen_5736ff2736_KhFilnGLWR.webp",
+                        "previewUrl": null,
+                        "provider": "strapi-provider-upload-imagekit",
+                        "provider_metadata": {
+                            "fileId": "67f3961e432c476416fb35b0"
+                        },
+                        "createdAt": "2025-04-07T14:38:50.292Z",
+                        "updatedAt": "2025-04-07T14:38:50.292Z",
+                        "publishedAt": "2025-04-07T14:38:50.293Z"
+                    }
+                ],
+                "ArticalBackground": {
+                    "id": 15,
+                    "documentId": "uoh5f6ajf7ghyw56is019h64",
+                    "name": "811-TD-05.jpg",
+                    "alternativeText": "811-TD-05",
+                    "caption": null,
+                    "width": 8256,
+                    "height": 5504,
+                    "formats": {
+                        "large": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_05_72bd5b889c_C7ybhM7Ov.jpg",
+                            "hash": "large_811_TD_05_72bd5b889c",
+                            "mime": "image/jpeg",
+                            "name": "large_811-TD-05.jpg",
+                            "path": null,
+                            "size": 76.11,
+                            "width": 1000,
+                            "height": 667,
+                            "sizeInBytes": 76114,
+                            "provider_metadata": {
+                                "fileId": "67f38c60432c476416bde07f"
+                            }
+                        },
+                        "small": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_05_72bd5b889c_8iQ-OVFdY.jpg",
+                            "hash": "small_811_TD_05_72bd5b889c",
+                            "mime": "image/jpeg",
+                            "name": "small_811-TD-05.jpg",
+                            "path": null,
+                            "size": 24.61,
+                            "width": 500,
+                            "height": 333,
+                            "sizeInBytes": 24608,
+                            "provider_metadata": {
+                                "fileId": "67f38c60432c476416bddcf5"
+                            }
+                        },
+                        "medium": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_05_72bd5b889c_KVVwmXpNpoW.jpg",
+                            "hash": "medium_811_TD_05_72bd5b889c",
+                            "mime": "image/jpeg",
+                            "name": "medium_811-TD-05.jpg",
+                            "path": null,
+                            "size": 46.93,
+                            "width": 750,
+                            "height": 500,
+                            "sizeInBytes": 46925,
+                            "provider_metadata": {
+                                "fileId": "67f38d63432c476416c30cd6"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_05_72bd5b889c_a68VO9q4up.jpg",
+                            "hash": "thumbnail_811_TD_05_72bd5b889c",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_811-TD-05.jpg",
+                            "path": null,
+                            "size": 7.63,
+                            "width": 234,
+                            "height": 156,
+                            "sizeInBytes": 7626,
+                            "provider_metadata": {
+                                "fileId": "67f38d63432c476416c30eed"
+                            }
+                        }
+                    },
+                    "hash": "811_TD_05_72bd5b889c",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 4734.93,
+                    "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_05_72bd5b889c_2sP5EK74O.jpg",
+                    "previewUrl": null,
+                    "provider": "strapi-provider-upload-imagekit",
+                    "provider_metadata": {
+                        "fileId": "67f38c64432c476416bdf86a"
+                    },
+                    "createdAt": "2025-04-07T14:01:41.644Z",
+                    "updatedAt": "2025-04-07T14:01:41.644Z",
+                    "publishedAt": "2025-04-07T14:01:41.645Z"
+                }
+            },
+            {
+                "id": 12,
+                "documentId": "knaxlf7vrzsxt14kdnd9bzkh",
+                "Heading": "This Mumbai office adapts Japandi design to the Indian context",
+                "Description": "“As an architect, I was looking for a style and strong foundation that would define my work—serving as an architectural signature in everything I built,” recalls Tanzeem Sarguroh, when looking back at how she found a way to blend Japandi (Japanese-Scandinavian) design within the context of Indian living spaces. “I started reading up on minimalism and the quality of our surroundings in the book The Architecture of Happiness, and realised aesthetics weren’t as important as the way our spaces enriched us. I also saw the immense potential in converting wastage in landfills into resources we could use to build sustainably in a practical way.”",
+                "ArticalLink": "https://www.architecturaldigest.in/story/this-mumbai-office-adapts-japandi-design-to-the-indian-context/",
+                "createdAt": "2025-04-07T15:05:16.350Z",
+                "updatedAt": "2025-04-07T15:05:16.350Z",
+                "publishedAt": "2025-04-07T15:05:16.451Z",
+                "PublicationLogo": [
+                    {
+                        "id": 64,
+                        "documentId": "ulx9lkvzig07s54m3v0rbefn",
+                        "name": "architecturalDigest.png",
+                        "alternativeText": "architecturalDigest",
+                        "caption": null,
+                        "width": 600,
+                        "height": 600,
+                        "formats": {
+                            "small": {
+                                "ext": ".png",
+                                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_architectural_Digest_189d30d3b8_J5Hcw1S5S.png",
+                                "hash": "small_architectural_Digest_189d30d3b8",
+                                "mime": "image/png",
+                                "name": "small_architecturalDigest.png",
+                                "path": null,
+                                "size": 31.66,
+                                "width": 500,
+                                "height": 500,
+                                "sizeInBytes": 31660,
+                                "provider_metadata": {
+                                    "fileId": "67f3961d432c476416fb2d3b"
+                                }
+                            },
+                            "thumbnail": {
+                                "ext": ".png",
+                                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_architectural_Digest_189d30d3b8_Hkr18q9oG.png",
+                                "hash": "thumbnail_architectural_Digest_189d30d3b8",
+                                "mime": "image/png",
+                                "name": "thumbnail_architecturalDigest.png",
+                                "path": null,
+                                "size": 7.41,
+                                "width": 156,
+                                "height": 156,
+                                "sizeInBytes": 7414,
+                                "provider_metadata": {
+                                    "fileId": "67f3961d432c476416fb27af"
+                                }
+                            }
+                        },
+                        "hash": "architectural_Digest_189d30d3b8",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "size": 8.94,
+                        "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/architectural_Digest_189d30d3b8_bsNuiY4A4.png",
+                        "previewUrl": null,
+                        "provider": "strapi-provider-upload-imagekit",
+                        "provider_metadata": {
+                            "fileId": "67f3961c432c476416fb1aba"
+                        },
+                        "createdAt": "2025-04-07T14:38:47.182Z",
+                        "updatedAt": "2025-04-07T14:38:47.182Z",
+                        "publishedAt": "2025-04-07T14:38:47.183Z"
+                    }
+                ],
+                "ArticalBackground": {
+                    "id": 11,
+                    "documentId": "lt45jfkfa1vhegjmr7fgfupz",
+                    "name": "About.jpg",
+                    "alternativeText": "About",
+                    "caption": null,
+                    "width": 8232,
+                    "height": 5488,
+                    "formats": {
+                        "large": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_About_2ac82cca62_SQfiBm2Nk.jpg",
+                            "hash": "large_About_2ac82cca62",
+                            "mime": "image/jpeg",
+                            "name": "large_About.jpg",
+                            "path": null,
+                            "size": 113.64,
+                            "width": 1000,
+                            "height": 667,
+                            "sizeInBytes": 113637,
+                            "provider_metadata": {
+                                "fileId": "67f3812c432c4764167b3296"
+                            }
+                        },
+                        "small": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_About_2ac82cca62_E6PBTye-7.jpg",
+                            "hash": "small_About_2ac82cca62",
+                            "mime": "image/jpeg",
+                            "name": "small_About.jpg",
+                            "path": null,
+                            "size": 35.72,
+                            "width": 500,
+                            "height": 333,
+                            "sizeInBytes": 35724,
+                            "provider_metadata": {
+                                "fileId": "67f3812c432c4764167b325b"
+                            }
+                        },
+                        "medium": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_About_2ac82cca62_7QV9h7XImA.jpg",
+                            "hash": "medium_About_2ac82cca62",
+                            "mime": "image/jpeg",
+                            "name": "medium_About.jpg",
+                            "path": null,
+                            "size": 69.65,
+                            "width": 750,
+                            "height": 500,
+                            "sizeInBytes": 69645,
+                            "provider_metadata": {
+                                "fileId": "67f3812c432c4764167b33f2"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_About_2ac82cca62_DrZ1bfHYeH.jpg",
+                            "hash": "thumbnail_About_2ac82cca62",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_About.jpg",
+                            "path": null,
+                            "size": 10.43,
+                            "width": 234,
+                            "height": 156,
+                            "sizeInBytes": 10430,
+                            "provider_metadata": {
+                                "fileId": "67f3812b432c4764167b30ac"
+                            }
+                        }
+                    },
+                    "hash": "About_2ac82cca62",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 4856.12,
+                    "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/About_2ac82cca62_s1V_FbACM.jpg",
+                    "previewUrl": null,
+                    "provider": "strapi-provider-upload-imagekit",
+                    "provider_metadata": {
+                        "fileId": "67f3812d432c4764167b4aa7"
+                    },
+                    "createdAt": "2025-04-07T13:09:26.929Z",
+                    "updatedAt": "2025-04-07T13:09:26.929Z",
+                    "publishedAt": "2025-04-07T13:09:26.934Z"
+                }
+            },
+            {
+                "id": 14,
+                "documentId": "ynlxg4i6pvyid1e6f1yeiavy",
+                "Heading": "Three Contemporary Workspaces In India That Champion Colour And Texture",
+                "Description": "As work-life boundaries have gotten fuzzier, it has led to an increase in expectations for comfort and flexibility in the workplace. “Flexibility is key for employee retention, productivity, and quality of life – one size doesn’t fit all – and hybrid work environments that encourage both the digital and the physical workplace are in demand, and designers are adapting to seamlessly move between the two!”, said Cindy Allen, Editor-in-Chief at Interior Design Magazine. The outcome is chic, contemporary and clean, with the right amount of cosy across the realm of office design.\nAnother trend emerging on a smaller scale are work pods that are different from accessible and universal design! With walls coming down in open-plan offices, this offers a reprieve from distraction. The need of the hour is a soothing oasis that fosters communal growth and interesting spatial relationships that add to the appeal of the office. We’ve scoured and rounded up 3 modern office spaces we love; that focus on evolving design, multi-functionality and social distancing norms of 2020 wooing employees back to them.",
+                "ArticalLink": "https://www.designpataki.com/three-contemporary-workspaces-in-india-that-champion-colour-and-texture/",
+                "createdAt": "2025-04-07T15:06:24.209Z",
+                "updatedAt": "2025-04-07T15:06:24.209Z",
+                "publishedAt": "2025-04-07T15:06:24.326Z",
+                "PublicationLogo": [
+                    {
+                        "id": 65,
+                        "documentId": "ksbeyp92z4fj9gh22bsz9vtv",
+                        "name": "DesignPataki.png",
+                        "alternativeText": "DesignPataki",
+                        "caption": null,
+                        "width": 410,
+                        "height": 81,
+                        "formats": {
+                            "thumbnail": {
+                                "ext": ".png",
+                                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Design_Pataki_be1a1ddddd_sTLtcI3rmw.png",
+                                "hash": "thumbnail_Design_Pataki_be1a1ddddd",
+                                "mime": "image/png",
+                                "name": "thumbnail_DesignPataki.png",
+                                "path": null,
+                                "size": 5.24,
+                                "width": 245,
+                                "height": 48,
+                                "sizeInBytes": 5236,
+                                "provider_metadata": {
+                                    "fileId": "67f3961e432c476416fb3581"
+                                }
+                            }
+                        },
+                        "hash": "Design_Pataki_be1a1ddddd",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "size": 3.03,
+                        "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Design_Pataki_be1a1ddddd_N0KMcdytT-.png",
+                        "previewUrl": null,
+                        "provider": "strapi-provider-upload-imagekit",
+                        "provider_metadata": {
+                            "fileId": "67f3961e432c476416fb351d"
+                        },
+                        "createdAt": "2025-04-07T14:38:47.451Z",
+                        "updatedAt": "2025-04-07T14:38:47.451Z",
+                        "publishedAt": "2025-04-07T14:38:47.452Z"
+                    }
+                ],
+                "ArticalBackground": {
+                    "id": 13,
+                    "documentId": "cxsvm344z59v8j68gvziz867",
+                    "name": "811-TD-02.jpg",
+                    "alternativeText": "811-TD-02",
+                    "caption": null,
+                    "width": 7965,
+                    "height": 5310,
+                    "formats": {
+                        "large": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_02_f86b056443_HMFC-NKcf4.jpg",
+                            "hash": "large_811_TD_02_f86b056443",
+                            "mime": "image/jpeg",
+                            "name": "large_811-TD-02.jpg",
+                            "path": null,
+                            "size": 78.92,
+                            "width": 1000,
+                            "height": 666,
+                            "sizeInBytes": 78916,
+                            "provider_metadata": {
+                                "fileId": "67f38c5b432c476416bdc3a7"
+                            }
+                        },
+                        "small": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_02_f86b056443_WC5I0TnwZ.jpg",
+                            "hash": "small_811_TD_02_f86b056443",
+                            "mime": "image/jpeg",
+                            "name": "small_811-TD-02.jpg",
+                            "path": null,
+                            "size": 25.79,
+                            "width": 500,
+                            "height": 333,
+                            "sizeInBytes": 25787,
+                            "provider_metadata": {
+                                "fileId": "67f38c5a432c476416bdc0dc"
+                            }
+                        },
+                        "medium": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_02_f86b056443_sK820-vfXD.jpg",
+                            "hash": "medium_811_TD_02_f86b056443",
+                            "mime": "image/jpeg",
+                            "name": "medium_811-TD-02.jpg",
+                            "path": null,
+                            "size": 48.97,
+                            "width": 750,
+                            "height": 500,
+                            "sizeInBytes": 48969,
+                            "provider_metadata": {
+                                "fileId": "67f38d63432c476416c30bfc"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_02_f86b056443_qrF4QjW-n.jpg",
+                            "hash": "thumbnail_811_TD_02_f86b056443",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_811-TD-02.jpg",
+                            "path": null,
+                            "size": 7.86,
+                            "width": 234,
+                            "height": 156,
+                            "sizeInBytes": 7859,
+                            "provider_metadata": {
+                                "fileId": "67f38c59432c476416bdb61b"
+                            }
+                        }
+                    },
+                    "hash": "811_TD_02_f86b056443",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 3417.69,
+                    "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_02_f86b056443_w9NOzmRvs.jpg",
+                    "previewUrl": null,
+                    "provider": "strapi-provider-upload-imagekit",
+                    "provider_metadata": {
+                        "fileId": "67f38c61432c476416bde18a"
+                    },
+                    "createdAt": "2025-04-07T14:01:41.173Z",
+                    "updatedAt": "2025-04-07T14:01:41.173Z",
+                    "publishedAt": "2025-04-07T14:01:41.174Z"
+                }
+            },
+            {
+                "id": 16,
+                "documentId": "xljeec7u3yh940k9jxa3wkst",
+                "Heading": "5 minimalist workspaces from the AD archives that are “very demure, very mindful”",
+                "Description": "Warm neutrals, unostentatious details, and timeless elegance—these minimalist workspaces from the AD archives are architectural personifications of the “very demure, very mindful” TikTok phenomenon by beauty influencer Jools Lebron; perfect for those of you who don’t come to work with a green cut-crease.",
+                "ArticalLink": "https://www.architecturaldigest.in/story/5-minimalist-workspaces-from-the-ad-archives-that-are-very-demure-very-mindful/",
+                "createdAt": "2025-04-07T15:07:42.450Z",
+                "updatedAt": "2025-04-07T15:07:42.450Z",
+                "publishedAt": "2025-04-07T15:07:42.550Z",
+                "PublicationLogo": [
+                    {
+                        "id": 64,
+                        "documentId": "ulx9lkvzig07s54m3v0rbefn",
+                        "name": "architecturalDigest.png",
+                        "alternativeText": "architecturalDigest",
+                        "caption": null,
+                        "width": 600,
+                        "height": 600,
+                        "formats": {
+                            "small": {
+                                "ext": ".png",
+                                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_architectural_Digest_189d30d3b8_J5Hcw1S5S.png",
+                                "hash": "small_architectural_Digest_189d30d3b8",
+                                "mime": "image/png",
+                                "name": "small_architecturalDigest.png",
+                                "path": null,
+                                "size": 31.66,
+                                "width": 500,
+                                "height": 500,
+                                "sizeInBytes": 31660,
+                                "provider_metadata": {
+                                    "fileId": "67f3961d432c476416fb2d3b"
+                                }
+                            },
+                            "thumbnail": {
+                                "ext": ".png",
+                                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_architectural_Digest_189d30d3b8_Hkr18q9oG.png",
+                                "hash": "thumbnail_architectural_Digest_189d30d3b8",
+                                "mime": "image/png",
+                                "name": "thumbnail_architecturalDigest.png",
+                                "path": null,
+                                "size": 7.41,
+                                "width": 156,
+                                "height": 156,
+                                "sizeInBytes": 7414,
+                                "provider_metadata": {
+                                    "fileId": "67f3961d432c476416fb27af"
+                                }
+                            }
+                        },
+                        "hash": "architectural_Digest_189d30d3b8",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "size": 8.94,
+                        "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/architectural_Digest_189d30d3b8_bsNuiY4A4.png",
+                        "previewUrl": null,
+                        "provider": "strapi-provider-upload-imagekit",
+                        "provider_metadata": {
+                            "fileId": "67f3961c432c476416fb1aba"
+                        },
+                        "createdAt": "2025-04-07T14:38:47.182Z",
+                        "updatedAt": "2025-04-07T14:38:47.182Z",
+                        "publishedAt": "2025-04-07T14:38:47.183Z"
+                    }
+                ],
+                "ArticalBackground": {
+                    "id": 15,
+                    "documentId": "uoh5f6ajf7ghyw56is019h64",
+                    "name": "811-TD-05.jpg",
+                    "alternativeText": "811-TD-05",
+                    "caption": null,
+                    "width": 8256,
+                    "height": 5504,
+                    "formats": {
+                        "large": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_05_72bd5b889c_C7ybhM7Ov.jpg",
+                            "hash": "large_811_TD_05_72bd5b889c",
+                            "mime": "image/jpeg",
+                            "name": "large_811-TD-05.jpg",
+                            "path": null,
+                            "size": 76.11,
+                            "width": 1000,
+                            "height": 667,
+                            "sizeInBytes": 76114,
+                            "provider_metadata": {
+                                "fileId": "67f38c60432c476416bde07f"
+                            }
+                        },
+                        "small": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_05_72bd5b889c_8iQ-OVFdY.jpg",
+                            "hash": "small_811_TD_05_72bd5b889c",
+                            "mime": "image/jpeg",
+                            "name": "small_811-TD-05.jpg",
+                            "path": null,
+                            "size": 24.61,
+                            "width": 500,
+                            "height": 333,
+                            "sizeInBytes": 24608,
+                            "provider_metadata": {
+                                "fileId": "67f38c60432c476416bddcf5"
+                            }
+                        },
+                        "medium": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_05_72bd5b889c_KVVwmXpNpoW.jpg",
+                            "hash": "medium_811_TD_05_72bd5b889c",
+                            "mime": "image/jpeg",
+                            "name": "medium_811-TD-05.jpg",
+                            "path": null,
+                            "size": 46.93,
+                            "width": 750,
+                            "height": 500,
+                            "sizeInBytes": 46925,
+                            "provider_metadata": {
+                                "fileId": "67f38d63432c476416c30cd6"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_05_72bd5b889c_a68VO9q4up.jpg",
+                            "hash": "thumbnail_811_TD_05_72bd5b889c",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_811-TD-05.jpg",
+                            "path": null,
+                            "size": 7.63,
+                            "width": 234,
+                            "height": 156,
+                            "sizeInBytes": 7626,
+                            "provider_metadata": {
+                                "fileId": "67f38d63432c476416c30eed"
+                            }
+                        }
+                    },
+                    "hash": "811_TD_05_72bd5b889c",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 4734.93,
+                    "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_05_72bd5b889c_2sP5EK74O.jpg",
+                    "previewUrl": null,
+                    "provider": "strapi-provider-upload-imagekit",
+                    "provider_metadata": {
+                        "fileId": "67f38c64432c476416bdf86a"
+                    },
+                    "createdAt": "2025-04-07T14:01:41.644Z",
+                    "updatedAt": "2025-04-07T14:01:41.644Z",
+                    "publishedAt": "2025-04-07T14:01:41.645Z"
+                }
+            }
+        ]
     },
-    "publications_slider": {
-      "id": 2,
-      "documentId": "hoh72rmcoe5sh36b423vbco0",
-      "Title": "As seen on",
-      "createdAt": "2025-04-07T14:48:44.892Z",
-      "updatedAt": "2025-04-07T14:48:44.892Z",
-      "publishedAt": "2025-04-07T14:48:45.165Z",
-      "PublicationsLogos": [
-        {
-          "id": 68,
-          "documentId": "sjbnfbfy7hwyesjbt7ksfvhi",
-          "name": "ArchitectsandIndia.png",
-          "alternativeText": "ArchitectsandIndia",
-          "caption": null,
-          "width": 342,
-          "height": 90,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Architectsand_India_208b53b5b7_2YCtQihaoX.png",
-              "hash": "thumbnail_Architectsand_India_208b53b5b7",
-              "mime": "image/png",
-              "name": "thumbnail_ArchitectsandIndia.png",
-              "path": null,
-              "size": 16.4,
-              "width": 245,
-              "height": 64,
-              "sizeInBytes": 16402,
-              "provider_metadata": {
-                "fileId": "67f3963c432c476416fd35c4"
-              }
-            }
-          },
-          "hash": "Architectsand_India_208b53b5b7",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 3.96,
-          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Architectsand_India_208b53b5b7_UrqPUs-Yx2.png",
-          "previewUrl": null,
-          "provider": "strapi-provider-upload-imagekit",
-          "provider_metadata": {
-            "fileId": "67f3963c432c476416fd35c0"
-          },
-          "createdAt": "2025-04-07T14:39:17.548Z",
-          "updatedAt": "2025-04-07T14:39:32.139Z",
-          "publishedAt": "2025-04-07T14:39:17.549Z"
-        },
-        {
-          "id": 67,
-          "documentId": "j8n8xdhxoe5o624knmt5z1fq",
-          "name": "deZeen.webp",
-          "alternativeText": "deZeen",
-          "caption": null,
-          "width": 822,
-          "height": 336,
-          "formats": {
-            "small": {
-              "ext": ".webp",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_de_Zeen_5736ff2736_JvTPbcFs-.webp",
-              "hash": "small_de_Zeen_5736ff2736",
-              "mime": "image/webp",
-              "name": "small_deZeen.webp",
-              "path": null,
-              "size": 16.94,
-              "width": 500,
-              "height": 204,
-              "sizeInBytes": 16940,
-              "provider_metadata": {
-                "fileId": "67f39620432c476416fb6005"
-              }
-            },
-            "medium": {
-              "ext": ".webp",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_de_Zeen_5736ff2736_2YeLtFiQyp.webp",
-              "hash": "medium_de_Zeen_5736ff2736",
-              "mime": "image/webp",
-              "name": "medium_deZeen.webp",
-              "path": null,
-              "size": 29.68,
-              "width": 750,
-              "height": 307,
-              "sizeInBytes": 29678,
-              "provider_metadata": {
-                "fileId": "67f3961e432c476416fb3f90"
-              }
-            },
-            "thumbnail": {
-              "ext": ".webp",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_de_Zeen_5736ff2736_VbOrBq8GzJ.webp",
-              "hash": "thumbnail_de_Zeen_5736ff2736",
-              "mime": "image/webp",
-              "name": "thumbnail_deZeen.webp",
-              "path": null,
-              "size": 6.77,
-              "width": 245,
-              "height": 100,
-              "sizeInBytes": 6774,
-              "provider_metadata": {
-                "fileId": "67f3961e432c476416fb3584"
-              }
-            }
-          },
-          "hash": "de_Zeen_5736ff2736",
-          "ext": ".webp",
-          "mime": "image/webp",
-          "size": 21.97,
-          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/de_Zeen_5736ff2736_KhFilnGLWR.webp",
-          "previewUrl": null,
-          "provider": "strapi-provider-upload-imagekit",
-          "provider_metadata": {
-            "fileId": "67f3961e432c476416fb35b0"
-          },
-          "createdAt": "2025-04-07T14:38:50.292Z",
-          "updatedAt": "2025-04-07T14:38:50.292Z",
-          "publishedAt": "2025-04-07T14:38:50.293Z"
-        },
-        {
-          "id": 66,
-          "documentId": "kxzfllv7hq5gohivceg6o3oo",
-          "name": "thehindu-logo.svg",
-          "alternativeText": "thehindu-logo",
-          "caption": null,
-          "width": 660,
-          "height": 62,
-          "formats": null,
-          "hash": "thehindu_logo_da73c5aa1c",
-          "ext": ".svg",
-          "mime": "image/svg+xml",
-          "size": 90.21,
-          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thehindu_logo_da73c5aa1c_9ErByo3vUP.svg",
-          "previewUrl": null,
-          "provider": "strapi-provider-upload-imagekit",
-          "provider_metadata": {
-            "fileId": "67f3961e432c476416fb3644"
-          },
-          "createdAt": "2025-04-07T14:38:47.528Z",
-          "updatedAt": "2025-04-07T14:38:47.528Z",
-          "publishedAt": "2025-04-07T14:38:47.529Z"
-        },
-        {
-          "id": 65,
-          "documentId": "ksbeyp92z4fj9gh22bsz9vtv",
-          "name": "DesignPataki.png",
-          "alternativeText": "DesignPataki",
-          "caption": null,
-          "width": 410,
-          "height": 81,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Design_Pataki_be1a1ddddd_sTLtcI3rmw.png",
-              "hash": "thumbnail_Design_Pataki_be1a1ddddd",
-              "mime": "image/png",
-              "name": "thumbnail_DesignPataki.png",
-              "path": null,
-              "size": 5.24,
-              "width": 245,
-              "height": 48,
-              "sizeInBytes": 5236,
-              "provider_metadata": {
-                "fileId": "67f3961e432c476416fb3581"
-              }
-            }
-          },
-          "hash": "Design_Pataki_be1a1ddddd",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 3.03,
-          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Design_Pataki_be1a1ddddd_N0KMcdytT-.png",
-          "previewUrl": null,
-          "provider": "strapi-provider-upload-imagekit",
-          "provider_metadata": {
-            "fileId": "67f3961e432c476416fb351d"
-          },
-          "createdAt": "2025-04-07T14:38:47.451Z",
-          "updatedAt": "2025-04-07T14:38:47.451Z",
-          "publishedAt": "2025-04-07T14:38:47.452Z"
-        },
-        {
-          "id": 64,
-          "documentId": "ulx9lkvzig07s54m3v0rbefn",
-          "name": "architecturalDigest.png",
-          "alternativeText": "architecturalDigest",
-          "caption": null,
-          "width": 600,
-          "height": 600,
-          "formats": {
-            "small": {
-              "ext": ".png",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_architectural_Digest_189d30d3b8_J5Hcw1S5S.png",
-              "hash": "small_architectural_Digest_189d30d3b8",
-              "mime": "image/png",
-              "name": "small_architecturalDigest.png",
-              "path": null,
-              "size": 31.66,
-              "width": 500,
-              "height": 500,
-              "sizeInBytes": 31660,
-              "provider_metadata": {
-                "fileId": "67f3961d432c476416fb2d3b"
-              }
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_architectural_Digest_189d30d3b8_Hkr18q9oG.png",
-              "hash": "thumbnail_architectural_Digest_189d30d3b8",
-              "mime": "image/png",
-              "name": "thumbnail_architecturalDigest.png",
-              "path": null,
-              "size": 7.41,
-              "width": 156,
-              "height": 156,
-              "sizeInBytes": 7414,
-              "provider_metadata": {
-                "fileId": "67f3961d432c476416fb27af"
-              }
-            }
-          },
-          "hash": "architectural_Digest_189d30d3b8",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 8.94,
-          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/architectural_Digest_189d30d3b8_bsNuiY4A4.png",
-          "previewUrl": null,
-          "provider": "strapi-provider-upload-imagekit",
-          "provider_metadata": {
-            "fileId": "67f3961c432c476416fb1aba"
-          },
-          "createdAt": "2025-04-07T14:38:47.182Z",
-          "updatedAt": "2025-04-07T14:38:47.182Z",
-          "publishedAt": "2025-04-07T14:38:47.183Z"
-        },
-        {
-          "id": 63,
-          "documentId": "mp6fzknika3gllnmiblmm8eq",
-          "name": "rethinking.webp",
-          "alternativeText": "rethinking",
-          "caption": null,
-          "width": 194,
-          "height": 50,
-          "formats": null,
-          "hash": "rethinking_beefbb46c0",
-          "ext": ".webp",
-          "mime": "image/webp",
-          "size": 1.5,
-          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/rethinking_beefbb46c0_95SKA3Q2j.webp",
-          "previewUrl": null,
-          "provider": "strapi-provider-upload-imagekit",
-          "provider_metadata": {
-            "fileId": "67f3961d432c476416fb2e4d"
-          },
-          "createdAt": "2025-04-07T14:38:47.054Z",
-          "updatedAt": "2025-04-07T14:38:47.054Z",
-          "publishedAt": "2025-04-07T14:38:47.055Z"
-        }
-      ]
-    },
-    "publications": [
-      {
-        "id": 2,
-        "documentId": "fnct251rfxjsk4dnse4p4a9e",
-        "Heading": "Uncover a slice of Japan tucked away in this 1,050 sq ft Thane home",
-        "Description": "Melding design innovation with a deep pursuit of serenity, it becomes a refuge where peace is the primary occupant. The home’s redesign was driven by the client’s need for more space and light, addressing the feeling of crampedness that had overshadowed the potential of the floor plan.",
-        "ArticalLink": "https://www.architectandinteriorsindia.com/projects/uncover-a-slice-of-japan-tucked-away-in-this-1050-sq-ft-thane-home",
-        "createdAt": "2025-04-07T14:57:19.204Z",
-        "updatedAt": "2025-04-07T14:57:19.204Z",
-        "publishedAt": "2025-04-07T14:57:19.382Z",
-        "PublicationLogo": [
-          {
-            "id": 68,
-            "documentId": "sjbnfbfy7hwyesjbt7ksfvhi",
-            "name": "ArchitectsandIndia.png",
-            "alternativeText": "ArchitectsandIndia",
-            "caption": null,
-            "width": 342,
-            "height": 90,
-            "formats": {
-              "thumbnail": {
-                "ext": ".png",
-                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Architectsand_India_208b53b5b7_2YCtQihaoX.png",
-                "hash": "thumbnail_Architectsand_India_208b53b5b7",
-                "mime": "image/png",
-                "name": "thumbnail_ArchitectsandIndia.png",
-                "path": null,
-                "size": 16.4,
-                "width": 245,
-                "height": 64,
-                "sizeInBytes": 16402,
-                "provider_metadata": {
-                  "fileId": "67f3963c432c476416fd35c4"
-                }
-              }
-            },
-            "hash": "Architectsand_India_208b53b5b7",
-            "ext": ".png",
-            "mime": "image/png",
-            "size": 3.96,
-            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Architectsand_India_208b53b5b7_UrqPUs-Yx2.png",
-            "previewUrl": null,
-            "provider": "strapi-provider-upload-imagekit",
-            "provider_metadata": {
-              "fileId": "67f3963c432c476416fd35c0"
-            },
-            "createdAt": "2025-04-07T14:39:17.548Z",
-            "updatedAt": "2025-04-07T14:39:32.139Z",
-            "publishedAt": "2025-04-07T14:39:17.549Z"
-          }
-        ],
-        "ArticalBackground": {
-          "id": 71,
-          "documentId": "qqpetq4na3rj9vg848zkekit",
-          "name": "EPHX_1950_FS.jpg",
-          "alternativeText": "Home Hero",
-          "caption": null,
-          "width": 8256,
-          "height": 5504,
-          "formats": {
-            "large": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_EPHX_1950_FS_0df83312bd_zMaHG3Ijr.jpg",
-              "hash": "large_EPHX_1950_FS_0df83312bd",
-              "mime": "image/jpeg",
-              "name": "large_EPHX_1950_FS.jpg",
-              "path": null,
-              "size": 70.86,
-              "width": 1000,
-              "height": 667,
-              "sizeInBytes": 70856,
-              "provider_metadata": {
-                "fileId": "67f39a1b432c4764161c7c59"
-              }
-            },
-            "small": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_EPHX_1950_FS_0df83312bd_wze25g5oKI.jpg",
-              "hash": "small_EPHX_1950_FS_0df83312bd",
-              "mime": "image/jpeg",
-              "name": "small_EPHX_1950_FS.jpg",
-              "path": null,
-              "size": 22.67,
-              "width": 500,
-              "height": 333,
-              "sizeInBytes": 22666,
-              "provider_metadata": {
-                "fileId": "67f39a1b432c4764161c7ba7"
-              }
-            },
-            "medium": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_EPHX_1950_FS_0df83312bd_JvbVExsQuM.jpg",
-              "hash": "medium_EPHX_1950_FS_0df83312bd",
-              "mime": "image/jpeg",
-              "name": "medium_EPHX_1950_FS.jpg",
-              "path": null,
-              "size": 43.43,
-              "width": 750,
-              "height": 500,
-              "sizeInBytes": 43427,
-              "provider_metadata": {
-                "fileId": "67f39a1b432c4764161c7bb3"
-              }
-            },
-            "thumbnail": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_EPHX_1950_FS_0df83312bd_YyoXplb-J.jpg",
-              "hash": "thumbnail_EPHX_1950_FS_0df83312bd",
-              "mime": "image/jpeg",
-              "name": "thumbnail_EPHX_1950_FS.jpg",
-              "path": null,
-              "size": 6.94,
-              "width": 234,
-              "height": 156,
-              "sizeInBytes": 6943,
-              "provider_metadata": {
-                "fileId": "67f39a1b432c4764161c7978"
-              }
-            }
-          },
-          "hash": "EPHX_1950_FS_0df83312bd",
-          "ext": ".jpg",
-          "mime": "image/jpeg",
-          "size": 5352.08,
-          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/EPHX_1950_FS_0df83312bd_HGoGoHflvd.jpg",
-          "previewUrl": null,
-          "provider": "strapi-provider-upload-imagekit",
-          "provider_metadata": {
-            "fileId": "67f39a1c432c4764161c8293"
-          },
-          "createdAt": "2025-04-07T14:55:50.027Z",
-          "updatedAt": "2025-04-07T14:55:50.027Z",
-          "publishedAt": "2025-04-07T14:55:50.027Z"
-        }
-      },
-      {
-        "id": 4,
-        "documentId": "ush7cjk17wlqavtc1li6lf7v",
-        "Heading": " 811 by TASA designs",
-        "Description": "At a time when offices are increasingly polarising, either being monotonous, incandescent and crowded or colourful yet cold with unoptimised spaces, we attempted to meet the balance of form, function and warmth.",
-        "ArticalLink": "https://www.re-thinkingthefuture.com/residentail-interior-design/8837-811-by-tasa-designs/",
-        "createdAt": "2025-04-07T14:59:34.172Z",
-        "updatedAt": "2025-04-07T14:59:34.172Z",
-        "publishedAt": "2025-04-07T14:59:34.290Z",
-        "PublicationLogo": [
-          {
-            "id": 63,
-            "documentId": "mp6fzknika3gllnmiblmm8eq",
-            "name": "rethinking.webp",
-            "alternativeText": "rethinking",
-            "caption": null,
-            "width": 194,
-            "height": 50,
-            "formats": null,
-            "hash": "rethinking_beefbb46c0",
-            "ext": ".webp",
-            "mime": "image/webp",
-            "size": 1.5,
-            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/rethinking_beefbb46c0_95SKA3Q2j.webp",
-            "previewUrl": null,
-            "provider": "strapi-provider-upload-imagekit",
-            "provider_metadata": {
-              "fileId": "67f3961d432c476416fb2e4d"
-            },
-            "createdAt": "2025-04-07T14:38:47.054Z",
-            "updatedAt": "2025-04-07T14:38:47.054Z",
-            "publishedAt": "2025-04-07T14:38:47.055Z"
-          }
-        ],
-        "ArticalBackground": {
-          "id": 14,
-          "documentId": "ftu6hns56x4remqzbq7iyitm",
-          "name": "811-TD-06.jpg",
-          "alternativeText": "811-TD-06",
-          "caption": null,
-          "width": 8230,
-          "height": 5487,
-          "formats": {
-            "large": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_06_3538e285bc_OXwN2ytBhs.jpg",
-              "hash": "large_811_TD_06_3538e285bc",
-              "mime": "image/jpeg",
-              "name": "large_811-TD-06.jpg",
-              "path": null,
-              "size": 79.26,
-              "width": 1000,
-              "height": 667,
-              "sizeInBytes": 79262,
-              "provider_metadata": {
-                "fileId": "67f38d63432c476416c30d42"
-              }
-            },
-            "small": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_06_3538e285bc_yY71TaXs1_.jpg",
-              "hash": "small_811_TD_06_3538e285bc",
-              "mime": "image/jpeg",
-              "name": "small_811-TD-06.jpg",
-              "path": null,
-              "size": 27,
-              "width": 500,
-              "height": 333,
-              "sizeInBytes": 27000,
-              "provider_metadata": {
-                "fileId": "67f38d63432c476416c30bed"
-              }
-            },
-            "medium": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_06_3538e285bc_6KdBKEYbmX.jpg",
-              "hash": "medium_811_TD_06_3538e285bc",
-              "mime": "image/jpeg",
-              "name": "medium_811-TD-06.jpg",
-              "path": null,
-              "size": 50.32,
-              "width": 750,
-              "height": 500,
-              "sizeInBytes": 50321,
-              "provider_metadata": {
-                "fileId": "67f38c5b432c476416bdc32f"
-              }
-            },
-            "thumbnail": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_06_3538e285bc_OUqx5s3rJy.jpg",
-              "hash": "thumbnail_811_TD_06_3538e285bc",
-              "mime": "image/jpeg",
-              "name": "thumbnail_811-TD-06.jpg",
-              "path": null,
-              "size": 8.36,
-              "width": 234,
-              "height": 156,
-              "sizeInBytes": 8360,
-              "provider_metadata": {
-                "fileId": "67f38d63432c476416c30c02"
-              }
-            }
-          },
-          "hash": "811_TD_06_3538e285bc",
-          "ext": ".jpg",
-          "mime": "image/jpeg",
-          "size": 2786.07,
-          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_06_3538e285bc_mZYJZlS1t.jpg",
-          "previewUrl": null,
-          "provider": "strapi-provider-upload-imagekit",
-          "provider_metadata": {
-            "fileId": "67f38c5e432c476416bdd70c"
-          },
-          "createdAt": "2025-04-07T14:01:41.230Z",
-          "updatedAt": "2025-04-07T14:01:41.230Z",
-          "publishedAt": "2025-04-07T14:01:41.231Z"
-        }
-      },
-      {
-        "id": 6,
-        "documentId": "ao2at49m9qw1t0o2a7yjbffw",
-        "Heading": "AD Small Spaces: 5 compact offices that prove limited space is never a constraint",
-        "Description": "Designing small spaces in an efficient yet aesthetically pleasing style may seem like a daunting task, but not for the designers of these projects. In this collection of compact offices taken from the AD archives, the designers put their best foot forward to showcase unique design styles and maximise the functionality of a small space.",
-        "ArticalLink": "https://www.architecturaldigest.in/story/ad-small-spaces-5-compact-offices-that-prove-limited-space-is-never-a-constraint/",
-        "createdAt": "2025-04-07T15:00:45.836Z",
-        "updatedAt": "2025-04-07T15:00:45.836Z",
-        "publishedAt": "2025-04-07T15:00:45.943Z",
-        "PublicationLogo": [
-          {
-            "id": 64,
-            "documentId": "ulx9lkvzig07s54m3v0rbefn",
-            "name": "architecturalDigest.png",
-            "alternativeText": "architecturalDigest",
-            "caption": null,
-            "width": 600,
-            "height": 600,
-            "formats": {
-              "small": {
-                "ext": ".png",
-                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_architectural_Digest_189d30d3b8_J5Hcw1S5S.png",
-                "hash": "small_architectural_Digest_189d30d3b8",
-                "mime": "image/png",
-                "name": "small_architecturalDigest.png",
-                "path": null,
-                "size": 31.66,
-                "width": 500,
-                "height": 500,
-                "sizeInBytes": 31660,
-                "provider_metadata": {
-                  "fileId": "67f3961d432c476416fb2d3b"
-                }
-              },
-              "thumbnail": {
-                "ext": ".png",
-                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_architectural_Digest_189d30d3b8_Hkr18q9oG.png",
-                "hash": "thumbnail_architectural_Digest_189d30d3b8",
-                "mime": "image/png",
-                "name": "thumbnail_architecturalDigest.png",
-                "path": null,
-                "size": 7.41,
-                "width": 156,
-                "height": 156,
-                "sizeInBytes": 7414,
-                "provider_metadata": {
-                  "fileId": "67f3961d432c476416fb27af"
-                }
-              }
-            },
-            "hash": "architectural_Digest_189d30d3b8",
-            "ext": ".png",
-            "mime": "image/png",
-            "size": 8.94,
-            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/architectural_Digest_189d30d3b8_bsNuiY4A4.png",
-            "previewUrl": null,
-            "provider": "strapi-provider-upload-imagekit",
-            "provider_metadata": {
-              "fileId": "67f3961c432c476416fb1aba"
-            },
-            "createdAt": "2025-04-07T14:38:47.182Z",
-            "updatedAt": "2025-04-07T14:38:47.182Z",
-            "publishedAt": "2025-04-07T14:38:47.183Z"
-          }
-        ],
-        "ArticalBackground": {
-          "id": 13,
-          "documentId": "cxsvm344z59v8j68gvziz867",
-          "name": "811-TD-02.jpg",
-          "alternativeText": "811-TD-02",
-          "caption": null,
-          "width": 7965,
-          "height": 5310,
-          "formats": {
-            "large": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_02_f86b056443_HMFC-NKcf4.jpg",
-              "hash": "large_811_TD_02_f86b056443",
-              "mime": "image/jpeg",
-              "name": "large_811-TD-02.jpg",
-              "path": null,
-              "size": 78.92,
-              "width": 1000,
-              "height": 666,
-              "sizeInBytes": 78916,
-              "provider_metadata": {
-                "fileId": "67f38c5b432c476416bdc3a7"
-              }
-            },
-            "small": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_02_f86b056443_WC5I0TnwZ.jpg",
-              "hash": "small_811_TD_02_f86b056443",
-              "mime": "image/jpeg",
-              "name": "small_811-TD-02.jpg",
-              "path": null,
-              "size": 25.79,
-              "width": 500,
-              "height": 333,
-              "sizeInBytes": 25787,
-              "provider_metadata": {
-                "fileId": "67f38c5a432c476416bdc0dc"
-              }
-            },
-            "medium": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_02_f86b056443_sK820-vfXD.jpg",
-              "hash": "medium_811_TD_02_f86b056443",
-              "mime": "image/jpeg",
-              "name": "medium_811-TD-02.jpg",
-              "path": null,
-              "size": 48.97,
-              "width": 750,
-              "height": 500,
-              "sizeInBytes": 48969,
-              "provider_metadata": {
-                "fileId": "67f38d63432c476416c30bfc"
-              }
-            },
-            "thumbnail": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_02_f86b056443_qrF4QjW-n.jpg",
-              "hash": "thumbnail_811_TD_02_f86b056443",
-              "mime": "image/jpeg",
-              "name": "thumbnail_811-TD-02.jpg",
-              "path": null,
-              "size": 7.86,
-              "width": 234,
-              "height": 156,
-              "sizeInBytes": 7859,
-              "provider_metadata": {
-                "fileId": "67f38c59432c476416bdb61b"
-              }
-            }
-          },
-          "hash": "811_TD_02_f86b056443",
-          "ext": ".jpg",
-          "mime": "image/jpeg",
-          "size": 3417.69,
-          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_02_f86b056443_w9NOzmRvs.jpg",
-          "previewUrl": null,
-          "provider": "strapi-provider-upload-imagekit",
-          "provider_metadata": {
-            "fileId": "67f38c61432c476416bde18a"
-          },
-          "createdAt": "2025-04-07T14:01:41.173Z",
-          "updatedAt": "2025-04-07T14:01:41.173Z",
-          "publishedAt": "2025-04-07T14:01:41.174Z"
-        }
-      },
-      {
-        "id": 8,
-        "documentId": "xg1qkz4haqim8j3spl9lwa5l",
-        "Heading": "Channel your energy in the Year of the Wood Snake to create calming spaces",
-        "Description": "The mystical serpent of the Chinese zodiac slithers into 2025, bringing a transformative Year of the Wood Snake that promises more strategic moves than a chess grandmaster’s playbook.\nRooted in a 60-year cyclical calendar combining 12 zodiac animals and five elemental forces, the 2025 Yin Wood Snake represents a nuanced dance of wisdom and adaptability. Unlike the rigid Yang Wood Dragon of 2024, this year embodies a ‘small green snake’ capable of calculated, diplomatic maneuvers.",
-        "ArticalLink": "https://www.thehindu.com/life-and-style/homes-and-gardens/channel-your-energy-in-the-year-of-the-wood-snake-to-create-calming-spaces/article69104467.ece",
-        "createdAt": "2025-04-07T15:02:00.606Z",
-        "updatedAt": "2025-04-07T15:02:00.606Z",
-        "publishedAt": "2025-04-07T15:02:00.723Z",
-        "PublicationLogo": [
-          {
-            "id": 66,
-            "documentId": "kxzfllv7hq5gohivceg6o3oo",
-            "name": "thehindu-logo.svg",
-            "alternativeText": "thehindu-logo",
-            "caption": null,
-            "width": 660,
-            "height": 62,
-            "formats": null,
-            "hash": "thehindu_logo_da73c5aa1c",
-            "ext": ".svg",
-            "mime": "image/svg+xml",
-            "size": 90.21,
-            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thehindu_logo_da73c5aa1c_9ErByo3vUP.svg",
-            "previewUrl": null,
-            "provider": "strapi-provider-upload-imagekit",
-            "provider_metadata": {
-              "fileId": "67f3961e432c476416fb3644"
-            },
-            "createdAt": "2025-04-07T14:38:47.528Z",
-            "updatedAt": "2025-04-07T14:38:47.528Z",
-            "publishedAt": "2025-04-07T14:38:47.529Z"
-          }
-        ],
-        "ArticalBackground": {
-          "id": 11,
-          "documentId": "lt45jfkfa1vhegjmr7fgfupz",
-          "name": "About.jpg",
-          "alternativeText": "About",
-          "caption": null,
-          "width": 8232,
-          "height": 5488,
-          "formats": {
-            "large": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_About_2ac82cca62_SQfiBm2Nk.jpg",
-              "hash": "large_About_2ac82cca62",
-              "mime": "image/jpeg",
-              "name": "large_About.jpg",
-              "path": null,
-              "size": 113.64,
-              "width": 1000,
-              "height": 667,
-              "sizeInBytes": 113637,
-              "provider_metadata": {
-                "fileId": "67f3812c432c4764167b3296"
-              }
-            },
-            "small": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_About_2ac82cca62_E6PBTye-7.jpg",
-              "hash": "small_About_2ac82cca62",
-              "mime": "image/jpeg",
-              "name": "small_About.jpg",
-              "path": null,
-              "size": 35.72,
-              "width": 500,
-              "height": 333,
-              "sizeInBytes": 35724,
-              "provider_metadata": {
-                "fileId": "67f3812c432c4764167b325b"
-              }
-            },
-            "medium": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_About_2ac82cca62_7QV9h7XImA.jpg",
-              "hash": "medium_About_2ac82cca62",
-              "mime": "image/jpeg",
-              "name": "medium_About.jpg",
-              "path": null,
-              "size": 69.65,
-              "width": 750,
-              "height": 500,
-              "sizeInBytes": 69645,
-              "provider_metadata": {
-                "fileId": "67f3812c432c4764167b33f2"
-              }
-            },
-            "thumbnail": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_About_2ac82cca62_DrZ1bfHYeH.jpg",
-              "hash": "thumbnail_About_2ac82cca62",
-              "mime": "image/jpeg",
-              "name": "thumbnail_About.jpg",
-              "path": null,
-              "size": 10.43,
-              "width": 234,
-              "height": 156,
-              "sizeInBytes": 10430,
-              "provider_metadata": {
-                "fileId": "67f3812b432c4764167b30ac"
-              }
-            }
-          },
-          "hash": "About_2ac82cca62",
-          "ext": ".jpg",
-          "mime": "image/jpeg",
-          "size": 4856.12,
-          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/About_2ac82cca62_s1V_FbACM.jpg",
-          "previewUrl": null,
-          "provider": "strapi-provider-upload-imagekit",
-          "provider_metadata": {
-            "fileId": "67f3812d432c4764167b4aa7"
-          },
-          "createdAt": "2025-04-07T13:09:26.929Z",
-          "updatedAt": "2025-04-07T13:09:26.929Z",
-          "publishedAt": "2025-04-07T13:09:26.934Z"
-        }
-      },
-      {
-        "id": 10,
-        "documentId": "cci0iwuhxlmu9tzh0asi45bg",
-        "Heading": "Tasa Designs has created a workspace in India that balances form, function and simplicity.",
-        "Description": "Tasa Designs has created a workspace in India that balances form, function and simplicity.\n\n\nThe project is a 40 square metre space designed with a Japandi aesthetic to align with objectives of minimalism and practical sustainability.\n\nAn open layout was adopted for working with natural elements and best use of daylight, and was constructed with materials including 100-year-old reclaimed teak wood salvaged from demolished structures of Old Bombay built during the British Era.\n\nThe result sees clean lines and smooth surfaces, all the while maintaining warmth and comfort for a space that invites clear thinking.",
-        "ArticalLink": "https://www.dezeen.com/awards/2022/longlists/811/",
-        "createdAt": "2025-04-07T15:03:38.370Z",
-        "updatedAt": "2025-04-07T15:03:38.370Z",
-        "publishedAt": "2025-04-07T15:03:38.516Z",
-        "PublicationLogo": [
-          {
-            "id": 67,
-            "documentId": "j8n8xdhxoe5o624knmt5z1fq",
-            "name": "deZeen.webp",
-            "alternativeText": "deZeen",
-            "caption": null,
-            "width": 822,
-            "height": 336,
-            "formats": {
-              "small": {
-                "ext": ".webp",
-                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_de_Zeen_5736ff2736_JvTPbcFs-.webp",
-                "hash": "small_de_Zeen_5736ff2736",
-                "mime": "image/webp",
-                "name": "small_deZeen.webp",
-                "path": null,
-                "size": 16.94,
-                "width": 500,
-                "height": 204,
-                "sizeInBytes": 16940,
-                "provider_metadata": {
-                  "fileId": "67f39620432c476416fb6005"
-                }
-              },
-              "medium": {
-                "ext": ".webp",
-                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_de_Zeen_5736ff2736_2YeLtFiQyp.webp",
-                "hash": "medium_de_Zeen_5736ff2736",
-                "mime": "image/webp",
-                "name": "medium_deZeen.webp",
-                "path": null,
-                "size": 29.68,
-                "width": 750,
-                "height": 307,
-                "sizeInBytes": 29678,
-                "provider_metadata": {
-                  "fileId": "67f3961e432c476416fb3f90"
-                }
-              },
-              "thumbnail": {
-                "ext": ".webp",
-                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_de_Zeen_5736ff2736_VbOrBq8GzJ.webp",
-                "hash": "thumbnail_de_Zeen_5736ff2736",
-                "mime": "image/webp",
-                "name": "thumbnail_deZeen.webp",
-                "path": null,
-                "size": 6.77,
-                "width": 245,
-                "height": 100,
-                "sizeInBytes": 6774,
-                "provider_metadata": {
-                  "fileId": "67f3961e432c476416fb3584"
-                }
-              }
-            },
-            "hash": "de_Zeen_5736ff2736",
-            "ext": ".webp",
-            "mime": "image/webp",
-            "size": 21.97,
-            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/de_Zeen_5736ff2736_KhFilnGLWR.webp",
-            "previewUrl": null,
-            "provider": "strapi-provider-upload-imagekit",
-            "provider_metadata": {
-              "fileId": "67f3961e432c476416fb35b0"
-            },
-            "createdAt": "2025-04-07T14:38:50.292Z",
-            "updatedAt": "2025-04-07T14:38:50.292Z",
-            "publishedAt": "2025-04-07T14:38:50.293Z"
-          }
-        ],
-        "ArticalBackground": {
-          "id": 15,
-          "documentId": "uoh5f6ajf7ghyw56is019h64",
-          "name": "811-TD-05.jpg",
-          "alternativeText": "811-TD-05",
-          "caption": null,
-          "width": 8256,
-          "height": 5504,
-          "formats": {
-            "large": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_05_72bd5b889c_C7ybhM7Ov.jpg",
-              "hash": "large_811_TD_05_72bd5b889c",
-              "mime": "image/jpeg",
-              "name": "large_811-TD-05.jpg",
-              "path": null,
-              "size": 76.11,
-              "width": 1000,
-              "height": 667,
-              "sizeInBytes": 76114,
-              "provider_metadata": {
-                "fileId": "67f38c60432c476416bde07f"
-              }
-            },
-            "small": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_05_72bd5b889c_8iQ-OVFdY.jpg",
-              "hash": "small_811_TD_05_72bd5b889c",
-              "mime": "image/jpeg",
-              "name": "small_811-TD-05.jpg",
-              "path": null,
-              "size": 24.61,
-              "width": 500,
-              "height": 333,
-              "sizeInBytes": 24608,
-              "provider_metadata": {
-                "fileId": "67f38c60432c476416bddcf5"
-              }
-            },
-            "medium": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_05_72bd5b889c_KVVwmXpNpoW.jpg",
-              "hash": "medium_811_TD_05_72bd5b889c",
-              "mime": "image/jpeg",
-              "name": "medium_811-TD-05.jpg",
-              "path": null,
-              "size": 46.93,
-              "width": 750,
-              "height": 500,
-              "sizeInBytes": 46925,
-              "provider_metadata": {
-                "fileId": "67f38d63432c476416c30cd6"
-              }
-            },
-            "thumbnail": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_05_72bd5b889c_a68VO9q4up.jpg",
-              "hash": "thumbnail_811_TD_05_72bd5b889c",
-              "mime": "image/jpeg",
-              "name": "thumbnail_811-TD-05.jpg",
-              "path": null,
-              "size": 7.63,
-              "width": 234,
-              "height": 156,
-              "sizeInBytes": 7626,
-              "provider_metadata": {
-                "fileId": "67f38d63432c476416c30eed"
-              }
-            }
-          },
-          "hash": "811_TD_05_72bd5b889c",
-          "ext": ".jpg",
-          "mime": "image/jpeg",
-          "size": 4734.93,
-          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_05_72bd5b889c_2sP5EK74O.jpg",
-          "previewUrl": null,
-          "provider": "strapi-provider-upload-imagekit",
-          "provider_metadata": {
-            "fileId": "67f38c64432c476416bdf86a"
-          },
-          "createdAt": "2025-04-07T14:01:41.644Z",
-          "updatedAt": "2025-04-07T14:01:41.644Z",
-          "publishedAt": "2025-04-07T14:01:41.645Z"
-        }
-      },
-      {
-        "id": 12,
-        "documentId": "knaxlf7vrzsxt14kdnd9bzkh",
-        "Heading": "This Mumbai office adapts Japandi design to the Indian context",
-        "Description": "“As an architect, I was looking for a style and strong foundation that would define my work—serving as an architectural signature in everything I built,” recalls Tanzeem Sarguroh, when looking back at how she found a way to blend Japandi (Japanese-Scandinavian) design within the context of Indian living spaces. “I started reading up on minimalism and the quality of our surroundings in the book The Architecture of Happiness, and realised aesthetics weren’t as important as the way our spaces enriched us. I also saw the immense potential in converting wastage in landfills into resources we could use to build sustainably in a practical way.”",
-        "ArticalLink": "https://www.architecturaldigest.in/story/this-mumbai-office-adapts-japandi-design-to-the-indian-context/",
-        "createdAt": "2025-04-07T15:05:16.350Z",
-        "updatedAt": "2025-04-07T15:05:16.350Z",
-        "publishedAt": "2025-04-07T15:05:16.451Z",
-        "PublicationLogo": [
-          {
-            "id": 64,
-            "documentId": "ulx9lkvzig07s54m3v0rbefn",
-            "name": "architecturalDigest.png",
-            "alternativeText": "architecturalDigest",
-            "caption": null,
-            "width": 600,
-            "height": 600,
-            "formats": {
-              "small": {
-                "ext": ".png",
-                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_architectural_Digest_189d30d3b8_J5Hcw1S5S.png",
-                "hash": "small_architectural_Digest_189d30d3b8",
-                "mime": "image/png",
-                "name": "small_architecturalDigest.png",
-                "path": null,
-                "size": 31.66,
-                "width": 500,
-                "height": 500,
-                "sizeInBytes": 31660,
-                "provider_metadata": {
-                  "fileId": "67f3961d432c476416fb2d3b"
-                }
-              },
-              "thumbnail": {
-                "ext": ".png",
-                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_architectural_Digest_189d30d3b8_Hkr18q9oG.png",
-                "hash": "thumbnail_architectural_Digest_189d30d3b8",
-                "mime": "image/png",
-                "name": "thumbnail_architecturalDigest.png",
-                "path": null,
-                "size": 7.41,
-                "width": 156,
-                "height": 156,
-                "sizeInBytes": 7414,
-                "provider_metadata": {
-                  "fileId": "67f3961d432c476416fb27af"
-                }
-              }
-            },
-            "hash": "architectural_Digest_189d30d3b8",
-            "ext": ".png",
-            "mime": "image/png",
-            "size": 8.94,
-            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/architectural_Digest_189d30d3b8_bsNuiY4A4.png",
-            "previewUrl": null,
-            "provider": "strapi-provider-upload-imagekit",
-            "provider_metadata": {
-              "fileId": "67f3961c432c476416fb1aba"
-            },
-            "createdAt": "2025-04-07T14:38:47.182Z",
-            "updatedAt": "2025-04-07T14:38:47.182Z",
-            "publishedAt": "2025-04-07T14:38:47.183Z"
-          }
-        ],
-        "ArticalBackground": {
-          "id": 11,
-          "documentId": "lt45jfkfa1vhegjmr7fgfupz",
-          "name": "About.jpg",
-          "alternativeText": "About",
-          "caption": null,
-          "width": 8232,
-          "height": 5488,
-          "formats": {
-            "large": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_About_2ac82cca62_SQfiBm2Nk.jpg",
-              "hash": "large_About_2ac82cca62",
-              "mime": "image/jpeg",
-              "name": "large_About.jpg",
-              "path": null,
-              "size": 113.64,
-              "width": 1000,
-              "height": 667,
-              "sizeInBytes": 113637,
-              "provider_metadata": {
-                "fileId": "67f3812c432c4764167b3296"
-              }
-            },
-            "small": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_About_2ac82cca62_E6PBTye-7.jpg",
-              "hash": "small_About_2ac82cca62",
-              "mime": "image/jpeg",
-              "name": "small_About.jpg",
-              "path": null,
-              "size": 35.72,
-              "width": 500,
-              "height": 333,
-              "sizeInBytes": 35724,
-              "provider_metadata": {
-                "fileId": "67f3812c432c4764167b325b"
-              }
-            },
-            "medium": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_About_2ac82cca62_7QV9h7XImA.jpg",
-              "hash": "medium_About_2ac82cca62",
-              "mime": "image/jpeg",
-              "name": "medium_About.jpg",
-              "path": null,
-              "size": 69.65,
-              "width": 750,
-              "height": 500,
-              "sizeInBytes": 69645,
-              "provider_metadata": {
-                "fileId": "67f3812c432c4764167b33f2"
-              }
-            },
-            "thumbnail": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_About_2ac82cca62_DrZ1bfHYeH.jpg",
-              "hash": "thumbnail_About_2ac82cca62",
-              "mime": "image/jpeg",
-              "name": "thumbnail_About.jpg",
-              "path": null,
-              "size": 10.43,
-              "width": 234,
-              "height": 156,
-              "sizeInBytes": 10430,
-              "provider_metadata": {
-                "fileId": "67f3812b432c4764167b30ac"
-              }
-            }
-          },
-          "hash": "About_2ac82cca62",
-          "ext": ".jpg",
-          "mime": "image/jpeg",
-          "size": 4856.12,
-          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/About_2ac82cca62_s1V_FbACM.jpg",
-          "previewUrl": null,
-          "provider": "strapi-provider-upload-imagekit",
-          "provider_metadata": {
-            "fileId": "67f3812d432c4764167b4aa7"
-          },
-          "createdAt": "2025-04-07T13:09:26.929Z",
-          "updatedAt": "2025-04-07T13:09:26.929Z",
-          "publishedAt": "2025-04-07T13:09:26.934Z"
-        }
-      },
-      {
-        "id": 14,
-        "documentId": "ynlxg4i6pvyid1e6f1yeiavy",
-        "Heading": "Three Contemporary Workspaces In India That Champion Colour And Texture",
-        "Description": "As work-life boundaries have gotten fuzzier, it has led to an increase in expectations for comfort and flexibility in the workplace. “Flexibility is key for employee retention, productivity, and quality of life – one size doesn’t fit all – and hybrid work environments that encourage both the digital and the physical workplace are in demand, and designers are adapting to seamlessly move between the two!”, said Cindy Allen, Editor-in-Chief at Interior Design Magazine. The outcome is chic, contemporary and clean, with the right amount of cosy across the realm of office design.\nAnother trend emerging on a smaller scale are work pods that are different from accessible and universal design! With walls coming down in open-plan offices, this offers a reprieve from distraction. The need of the hour is a soothing oasis that fosters communal growth and interesting spatial relationships that add to the appeal of the office. We’ve scoured and rounded up 3 modern office spaces we love; that focus on evolving design, multi-functionality and social distancing norms of 2020 wooing employees back to them.",
-        "ArticalLink": "https://www.designpataki.com/three-contemporary-workspaces-in-india-that-champion-colour-and-texture/",
-        "createdAt": "2025-04-07T15:06:24.209Z",
-        "updatedAt": "2025-04-07T15:06:24.209Z",
-        "publishedAt": "2025-04-07T15:06:24.326Z",
-        "PublicationLogo": [
-          {
-            "id": 65,
-            "documentId": "ksbeyp92z4fj9gh22bsz9vtv",
-            "name": "DesignPataki.png",
-            "alternativeText": "DesignPataki",
-            "caption": null,
-            "width": 410,
-            "height": 81,
-            "formats": {
-              "thumbnail": {
-                "ext": ".png",
-                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_Design_Pataki_be1a1ddddd_sTLtcI3rmw.png",
-                "hash": "thumbnail_Design_Pataki_be1a1ddddd",
-                "mime": "image/png",
-                "name": "thumbnail_DesignPataki.png",
-                "path": null,
-                "size": 5.24,
-                "width": 245,
-                "height": 48,
-                "sizeInBytes": 5236,
-                "provider_metadata": {
-                  "fileId": "67f3961e432c476416fb3581"
-                }
-              }
-            },
-            "hash": "Design_Pataki_be1a1ddddd",
-            "ext": ".png",
-            "mime": "image/png",
-            "size": 3.03,
-            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/Design_Pataki_be1a1ddddd_N0KMcdytT-.png",
-            "previewUrl": null,
-            "provider": "strapi-provider-upload-imagekit",
-            "provider_metadata": {
-              "fileId": "67f3961e432c476416fb351d"
-            },
-            "createdAt": "2025-04-07T14:38:47.451Z",
-            "updatedAt": "2025-04-07T14:38:47.451Z",
-            "publishedAt": "2025-04-07T14:38:47.452Z"
-          }
-        ],
-        "ArticalBackground": {
-          "id": 13,
-          "documentId": "cxsvm344z59v8j68gvziz867",
-          "name": "811-TD-02.jpg",
-          "alternativeText": "811-TD-02",
-          "caption": null,
-          "width": 7965,
-          "height": 5310,
-          "formats": {
-            "large": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_02_f86b056443_HMFC-NKcf4.jpg",
-              "hash": "large_811_TD_02_f86b056443",
-              "mime": "image/jpeg",
-              "name": "large_811-TD-02.jpg",
-              "path": null,
-              "size": 78.92,
-              "width": 1000,
-              "height": 666,
-              "sizeInBytes": 78916,
-              "provider_metadata": {
-                "fileId": "67f38c5b432c476416bdc3a7"
-              }
-            },
-            "small": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_02_f86b056443_WC5I0TnwZ.jpg",
-              "hash": "small_811_TD_02_f86b056443",
-              "mime": "image/jpeg",
-              "name": "small_811-TD-02.jpg",
-              "path": null,
-              "size": 25.79,
-              "width": 500,
-              "height": 333,
-              "sizeInBytes": 25787,
-              "provider_metadata": {
-                "fileId": "67f38c5a432c476416bdc0dc"
-              }
-            },
-            "medium": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_02_f86b056443_sK820-vfXD.jpg",
-              "hash": "medium_811_TD_02_f86b056443",
-              "mime": "image/jpeg",
-              "name": "medium_811-TD-02.jpg",
-              "path": null,
-              "size": 48.97,
-              "width": 750,
-              "height": 500,
-              "sizeInBytes": 48969,
-              "provider_metadata": {
-                "fileId": "67f38d63432c476416c30bfc"
-              }
-            },
-            "thumbnail": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_02_f86b056443_qrF4QjW-n.jpg",
-              "hash": "thumbnail_811_TD_02_f86b056443",
-              "mime": "image/jpeg",
-              "name": "thumbnail_811-TD-02.jpg",
-              "path": null,
-              "size": 7.86,
-              "width": 234,
-              "height": 156,
-              "sizeInBytes": 7859,
-              "provider_metadata": {
-                "fileId": "67f38c59432c476416bdb61b"
-              }
-            }
-          },
-          "hash": "811_TD_02_f86b056443",
-          "ext": ".jpg",
-          "mime": "image/jpeg",
-          "size": 3417.69,
-          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_02_f86b056443_w9NOzmRvs.jpg",
-          "previewUrl": null,
-          "provider": "strapi-provider-upload-imagekit",
-          "provider_metadata": {
-            "fileId": "67f38c61432c476416bde18a"
-          },
-          "createdAt": "2025-04-07T14:01:41.173Z",
-          "updatedAt": "2025-04-07T14:01:41.173Z",
-          "publishedAt": "2025-04-07T14:01:41.174Z"
-        }
-      },
-      {
-        "id": 16,
-        "documentId": "xljeec7u3yh940k9jxa3wkst",
-        "Heading": "5 minimalist workspaces from the AD archives that are “very demure, very mindful”",
-        "Description": "Warm neutrals, unostentatious details, and timeless elegance—these minimalist workspaces from the AD archives are architectural personifications of the “very demure, very mindful” TikTok phenomenon by beauty influencer Jools Lebron; perfect for those of you who don’t come to work with a green cut-crease.",
-        "ArticalLink": "https://www.architecturaldigest.in/story/5-minimalist-workspaces-from-the-ad-archives-that-are-very-demure-very-mindful/",
-        "createdAt": "2025-04-07T15:07:42.450Z",
-        "updatedAt": "2025-04-07T15:07:42.450Z",
-        "publishedAt": "2025-04-07T15:07:42.550Z",
-        "PublicationLogo": [
-          {
-            "id": 64,
-            "documentId": "ulx9lkvzig07s54m3v0rbefn",
-            "name": "architecturalDigest.png",
-            "alternativeText": "architecturalDigest",
-            "caption": null,
-            "width": 600,
-            "height": 600,
-            "formats": {
-              "small": {
-                "ext": ".png",
-                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_architectural_Digest_189d30d3b8_J5Hcw1S5S.png",
-                "hash": "small_architectural_Digest_189d30d3b8",
-                "mime": "image/png",
-                "name": "small_architecturalDigest.png",
-                "path": null,
-                "size": 31.66,
-                "width": 500,
-                "height": 500,
-                "sizeInBytes": 31660,
-                "provider_metadata": {
-                  "fileId": "67f3961d432c476416fb2d3b"
-                }
-              },
-              "thumbnail": {
-                "ext": ".png",
-                "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_architectural_Digest_189d30d3b8_Hkr18q9oG.png",
-                "hash": "thumbnail_architectural_Digest_189d30d3b8",
-                "mime": "image/png",
-                "name": "thumbnail_architecturalDigest.png",
-                "path": null,
-                "size": 7.41,
-                "width": 156,
-                "height": 156,
-                "sizeInBytes": 7414,
-                "provider_metadata": {
-                  "fileId": "67f3961d432c476416fb27af"
-                }
-              }
-            },
-            "hash": "architectural_Digest_189d30d3b8",
-            "ext": ".png",
-            "mime": "image/png",
-            "size": 8.94,
-            "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/architectural_Digest_189d30d3b8_bsNuiY4A4.png",
-            "previewUrl": null,
-            "provider": "strapi-provider-upload-imagekit",
-            "provider_metadata": {
-              "fileId": "67f3961c432c476416fb1aba"
-            },
-            "createdAt": "2025-04-07T14:38:47.182Z",
-            "updatedAt": "2025-04-07T14:38:47.182Z",
-            "publishedAt": "2025-04-07T14:38:47.183Z"
-          }
-        ],
-        "ArticalBackground": {
-          "id": 15,
-          "documentId": "uoh5f6ajf7ghyw56is019h64",
-          "name": "811-TD-05.jpg",
-          "alternativeText": "811-TD-05",
-          "caption": null,
-          "width": 8256,
-          "height": 5504,
-          "formats": {
-            "large": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/large_811_TD_05_72bd5b889c_C7ybhM7Ov.jpg",
-              "hash": "large_811_TD_05_72bd5b889c",
-              "mime": "image/jpeg",
-              "name": "large_811-TD-05.jpg",
-              "path": null,
-              "size": 76.11,
-              "width": 1000,
-              "height": 667,
-              "sizeInBytes": 76114,
-              "provider_metadata": {
-                "fileId": "67f38c60432c476416bde07f"
-              }
-            },
-            "small": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/small_811_TD_05_72bd5b889c_8iQ-OVFdY.jpg",
-              "hash": "small_811_TD_05_72bd5b889c",
-              "mime": "image/jpeg",
-              "name": "small_811-TD-05.jpg",
-              "path": null,
-              "size": 24.61,
-              "width": 500,
-              "height": 333,
-              "sizeInBytes": 24608,
-              "provider_metadata": {
-                "fileId": "67f38c60432c476416bddcf5"
-              }
-            },
-            "medium": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/medium_811_TD_05_72bd5b889c_KVVwmXpNpoW.jpg",
-              "hash": "medium_811_TD_05_72bd5b889c",
-              "mime": "image/jpeg",
-              "name": "medium_811-TD-05.jpg",
-              "path": null,
-              "size": 46.93,
-              "width": 750,
-              "height": 500,
-              "sizeInBytes": 46925,
-              "provider_metadata": {
-                "fileId": "67f38d63432c476416c30cd6"
-              }
-            },
-            "thumbnail": {
-              "ext": ".jpg",
-              "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/thumbnail_811_TD_05_72bd5b889c_a68VO9q4up.jpg",
-              "hash": "thumbnail_811_TD_05_72bd5b889c",
-              "mime": "image/jpeg",
-              "name": "thumbnail_811-TD-05.jpg",
-              "path": null,
-              "size": 7.63,
-              "width": 234,
-              "height": 156,
-              "sizeInBytes": 7626,
-              "provider_metadata": {
-                "fileId": "67f38d63432c476416c30eed"
-              }
-            }
-          },
-          "hash": "811_TD_05_72bd5b889c",
-          "ext": ".jpg",
-          "mime": "image/jpeg",
-          "size": 4734.93,
-          "url": "https://ik.imagekit.io/2cdga3aqf/TasaUploads/811_TD_05_72bd5b889c_2sP5EK74O.jpg",
-          "previewUrl": null,
-          "provider": "strapi-provider-upload-imagekit",
-          "provider_metadata": {
-            "fileId": "67f38c64432c476416bdf86a"
-          },
-          "createdAt": "2025-04-07T14:01:41.644Z",
-          "updatedAt": "2025-04-07T14:01:41.644Z",
-          "publishedAt": "2025-04-07T14:01:41.645Z"
-        }
-      }
-    ]
-  },
-  "meta": {}
+    "meta": {}
 }

@@ -20,7 +20,7 @@ const fetchProjectpageContent = async () => {
 
 async function callFeatureApi(documentedID) {
   try {
-    const apilink = "https://akgswo8ccs0kw8kckg8gg4c8.82.25.90.229.sslip.io/api/featured-ons/${documentedID}?populate=*";
+    const apilink = `https://akgswo8ccs0kw8kckg8gg4c8.82.25.90.229.sslip.io/api/featured-ons/${documentedID}?populate=*`;
     const { data } = await axios.get(apilink);
     let res = {
       src: data.data.ArticalBrandlogo.url,
